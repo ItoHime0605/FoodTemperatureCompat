@@ -10,7 +10,7 @@ public final class ThermalAccumulator {
         double decay = (double) elapsed / DECAY_TICKS_PER_POINT;
         balance = Math.copySign(Math.max(0, Math.abs(balance) - decay), balance);
         if (balance == 0.0) balance = 0.0; // Normalize negative zero for state cleanup.
-        lastTick = tick;
+        if (tick > lastTick) lastTick = tick;
         return balance;
     }
     public synchronized double consume(double tier, long tick) {
