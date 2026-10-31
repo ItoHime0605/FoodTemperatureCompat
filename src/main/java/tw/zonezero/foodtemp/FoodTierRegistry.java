@@ -10,7 +10,7 @@ public final class FoodTierRegistry {
     private static final Pattern ID = Pattern.compile("[a-z0-9_.-]+:[a-z0-9_./-]+");
     private Map<String, Double> tiers = Map.of();
     public synchronized int load(Reader input) throws IOException {
-        Map<String, Integer> next = new HashMap<>();
+        Map<String, Double> next = new HashMap<>();
         try (BufferedReader lines = new BufferedReader(input)) {
             String line;
             int number = 0;
@@ -36,5 +36,5 @@ public final class FoodTierRegistry {
     public double tier(String itemId) { return tiers.getOrDefault(itemId, 0.0); }
     public int size() { return tiers.size(); }
     /** Immutable snapshot for validation after all mods finish registering items. */
-    public Map<String, Integer> entries() { return tiers; }
+    public Map<String, Double> entries() { return tiers; }
 }
