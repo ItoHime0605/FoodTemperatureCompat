@@ -2,6 +2,7 @@ package tw.zonezero.foodtemp;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.UUID;
 
 /**
  * 無需 Minecraft 或測試框架的純 Java 回歸測試。
@@ -54,6 +55,19 @@ public final class FoodTemperatureRegressionTest {
                 "時間倒退不應延長食物體溫效果");
     }
 
+    private static void playerStateCleanup() {
+        PlayerThermalService service = new PlayerThermalService();
+        UUID player = UUID.randomUUID();
+        check(service.trackedPlayers() == 0, "初始不應追蹤玩家");
+        service.onConsumed(player, 2, 100);
+        check(service.trackedPlayers() == 1, "食用後應建立玩家狀態");
+        check(service.current(player, 20000) == 0.0, "長時間後應完全衰減");
+        check(service.trackedPlayers() == 0, "讀取過期狀態時應清除玩家紀錄");
+        service.onConsumed(player, 2, 20000);
+        service.onLogout(player);
+        check(service.trackedPlayers() == 0, "登出時應清除玩家狀態");
+    }
+
     private static void clampTanLevel() {
         check(TemperatureLevelMapper.apply(0, -1) == 0, "低溫邊界溢出");
         check(TemperatureLevelMapper.apply(4, 1) == 4, "高溫邊界溢出");
@@ -65,6 +79,7 @@ public final class FoodTemperatureRegressionTest {
         registryDecimalsAndDuplicates();
         accumulationAndDecay();
         backwardsTickDoesNotRewindClock();
+        playerStateCleanup();
         clampTanLevel();
         System.out.println("飲食冷暖：純 Java 回歸測試通過");
     }
