@@ -8,14 +8,14 @@ import re
 import sys
 import zipfile
 
-PATTERN = re.compile(r"^([a-z0-9_.-]+):([a-z0-9_./-]+)\s*=\s*(-?(?:[0-9]+(?:\\.[0-9]+)?|\\.[0-9]+))$")
+PATTERN = re.compile(r"^([a-z0-9_.-]+):([a-z0-9_./-]+)\s*=\s*(-?(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+))$")
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="飲食冷暖：靜態冷熱設定稽核")
     parser.add_argument("--tiers", type=pathlib.Path, default=pathlib.Path("src/main/resources/food_temperature_tiers.txt"))
     parser.add_argument("--mods", type=pathlib.Path, help="存放模組 JAR 的資料夾（選用）")
     args = parser.parse_args()
-    records: dict[str, tuple[int, int]] = {}
+    records: dict[str, tuple[float, int]] = {}
     errors = []
     for line_no, raw in enumerate(args.tiers.read_text(encoding="utf-8").splitlines(), 1):
         clean = raw.split("#", 1)[0].strip()
