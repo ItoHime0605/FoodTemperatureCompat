@@ -57,3 +57,28 @@
 - 森羅物語 Wiki 廚房：https://kaleidoscope.fandom.com/zh/wiki/森羅物語：廚房
 - 世界名酒 MC 百科：https://www.mcmod.cn/class/25477.html
 - 世界名酒作者發布影片：https://www.bilibili.com/video/BV17Vwxz4EXq/
+
+## 第二輪：公開來源交叉核對（非作者官方中文名）
+以下為 MC 百科等社群公開使用的**中文條目名稱**，不等於作者正式命名；此欄只供查詢、辨識，專案對外正式名稱仍保留作者原文，直到找到作者親自命名的證據。
+
+| 英文名稱 | 社群中文條目名稱 | 來源 |
+|---|---|---|
+| Farmer's Delight | 農夫樂事 | https://www.mcmod.cn/class/2820.html |
+| Farmer's Respite | 農夫暇事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Brewin' And Chewin' | 飲酒作樂 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Ocean's Delight | 海洋樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Cultural Delights | 多元樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Fruits Delight | 果園樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Corn Delight | 玉米樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Pineapple Delight | 鳳梨樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| ExtraDelight | 額外樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Display Delight | 展示樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Festive Delight | 節日樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+| Veggies Delight | 蔬菜樂事 | https://www.mcmod.cn/class/2820.html （關聯模組清單） |
+
+### 本輪修正重點
+- 「農夫小憩」不是上述社群資料所列的 Farmer's Respite 名稱；該站使用「農夫暇事」。
+- 「釀造與品嘗」不是上述社群資料所列的 Brewin' And Chewin' 名稱；該站使用「飲酒作樂」。
+- 「深海樂事」不是上述社群資料所列的 Ocean's Delight 名稱；該站使用「海洋樂事」。
+- 「節慶饗宴｜聖誕節」不是上述社群資料所列的 Festive Delight 名稱；該站使用「節日樂事」。
+- 中文百科和第三方翻譯都不能單獨證明「作者官方中文名」。
