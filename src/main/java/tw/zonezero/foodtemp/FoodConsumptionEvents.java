@@ -44,7 +44,7 @@ public final class FoodConsumptionEvents {
     public void onFinishedUsing(LivingEntityUseItemEvent.Finish event) {
         if (!(event.getEntity() instanceof ServerPlayer player)) return;
         String id = BuiltInRegistries.ITEM.getKey(event.getItem().getItem()).toString();
-        if (!bridge.isConfigured(id)) return;
+        if (!bridge.isConfigured(id) || !event.getItem().has(net.minecraft.core.component.DataComponents.FOOD)) return;
         bridge.consumed(player.getUUID(), id, player.getServer().getTickCount());
     }
     @SubscribeEvent
