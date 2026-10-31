@@ -35,4 +35,6 @@ public final class FoodTierRegistry {
     public boolean contains(String itemId) { return tiers.containsKey(itemId); }
     public int tier(String itemId) { return tiers.getOrDefault(itemId, 0); }
     public int size() { return tiers.size(); }
+    /** Immutable snapshot for validation after all mods finish registering items. */
+    public Map<String, Integer> entries() { return tiers; }
 }
