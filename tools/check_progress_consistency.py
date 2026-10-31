@@ -42,7 +42,10 @@ def main():
     for item_id in sorted(tiers.keys() - progress.keys()):
         errors.append(f"進度表缺少：{item_id}")
     for item_id in sorted(progress.keys() - tiers.keys()):
-        errors.append(f"進度表多出：{item_id}")
+        # 中性食物保留在追蹤表，但不必寫入執行時的非零溫度設定。
+        # 非零值若遺漏設定仍視為錯誤。
+        if progress[item_id] != 0.0:
+            errors.append(f"進度表多出非零設定：{item_id}")
     for item_id in sorted(tiers.keys() & progress.keys()):
         if tiers[item_id] != progress[item_id]:
             errors.append(f"數值不一致：{item_id}（設定 {tiers[item_id]}／進度 {progress[item_id]}）")
