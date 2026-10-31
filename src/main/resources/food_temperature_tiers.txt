@@ -295,3 +295,8 @@ starcatcher_delight:weather_soup=2
 
 # festive_delight / tier 1
 festive_delight:christmas_tea=1
+
+# 森羅物語：酒館 / Kaleidoscope Tavern 1.2.0
+# JAR 模型已確認；冷飲階級為暫定設計，酒精效果仍由原模組處理。
+kaleidoscope_tavern:watermelon_juice=-1
+kaleidoscope_tavern:mojito=-1
