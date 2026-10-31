@@ -12,15 +12,14 @@ public final class ThermalAccumulator {
         lastTick = tick;
         return balance;
     }
-    public synchronized double consume(int tier, long tick) {
-        if (tier < -3 || tier > 3) throw new IllegalArgumentException("tier must be -3..3");
+    public synchronized double consume(double tier, long tick) {
+        if (!Double.isFinite(tier) || tier < -3 || tier > 3) throw new IllegalArgumentException("tier must be finite and within -3..3");
         value(tick);
-        double delta = switch (Math.abs(tier)) {
-            case 1 -> 0.18;
-            case 2 -> 0.52;
-            case 3 -> 0.95;
-            default -> 0;
-        };
+        double strength = Math.abs(tier);
+        // Preserve the previous integer-tier strengths exactly; interpolate fractional tiers.
+        double delta = strength <= 1.0 ? 0.18 * strength
+                : strength <= 2.0 ? 0.18 + (strength - 1.0) * 0.34
+                : 0.52 + (strength - 2.0) * 0.43;
         if (tier != 0 && Math.signum(balance) == Math.signum(tier))
             delta *= 1.0 - Math.min(0.55, Math.abs(balance) / MAX_ABS * 0.55);
         balance = Math.max(-MAX_ABS, Math.min(MAX_ABS, balance + Math.signum(tier) * delta));
