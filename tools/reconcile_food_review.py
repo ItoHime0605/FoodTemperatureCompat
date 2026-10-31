@@ -34,6 +34,7 @@ def main():
         for row in remaining:
             writer.writerow({**row, "處理狀態": "待人工判定" if row["建議溫度階級"].strip() != "0" else "未分類／預設中性"})
     print(f"原始候選：{len(rows)}")
+    print("原始非中性候選：" + str(sum(row["建議溫度階級"].strip() != "0" for row in rows)))
     print(f"候選中已設定：{len(already)}")
     print(f"候選中尚未設定：{len(remaining)}")
     print(f"尚未設定且建議非中性（優先審核）：{len(review_required)}")
