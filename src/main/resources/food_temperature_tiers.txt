@@ -15,3 +15,10 @@ kaleidoscope_world_liquor:cool_tea=-2
 kaleidoscope_world_liquor:cola=-1
 kaleidoscope_world_liquor:tonic_water=-1
 kaleidoscope_world_liquor:sour_plum=-1
+
+# 世界名酒：以冰飲方式供應的調酒（僅影響體溫，不額外疊加酒精效果）
+kaleidoscope_world_liquor:long_island_iced_tea=-1
+kaleidoscope_world_liquor:gin_tonic=-1
+kaleidoscope_world_liquor:highball=-1
+kaleidoscope_world_liquor:pine_colada=-1
+kaleidoscope_world_liquor:cosmopolitan=-1
