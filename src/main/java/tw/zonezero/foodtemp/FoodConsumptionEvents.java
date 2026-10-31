@@ -1,5 +1,7 @@
 package tw.zonezero.foodtemp;
 import net.minecraft.core.registries.BuiltInRegistries;
+import java.util.Map;
+import java.util.TreeMap;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
@@ -21,12 +23,20 @@ public final class FoodConsumptionEvents {
     @SubscribeEvent
     public void onServerStarted(ServerStartedEvent event) {
         int missing = 0;
+        Map<String, int[]> byMod = new TreeMap<>();
         for (String id : registry.entries().keySet()) {
             ResourceLocation key = ResourceLocation.parse(id);
+            int[] stats = byMod.computeIfAbsent(key.getNamespace(), unused -> new int[2]);
+            stats[0]++;
             if (!BuiltInRegistries.ITEM.containsKey(key) || BuiltInRegistries.ITEM.get(key) == Items.AIR) {
                 missing++;
+                stats[1]++;
                 LOGGER.warn("[飲食冷暖] 找不到設定中的物品 ID：{}；此項冷熱效果不會觸發。", id);
             }
+        }
+        for (Map.Entry<String, int[]> entry : byMod.entrySet()) {
+            LOGGER.info("[飲食冷暖] 模組 {}：設定 {} 筆，未註冊 {} 筆。",
+                    entry.getKey(), entry.getValue()[0], entry.getValue()[1]);
         }
         LOGGER.info("[飲食冷暖] 已載入 {} 筆食物溫度設定，{} 筆物品 ID 未註冊。", registry.size(), missing);
     }
