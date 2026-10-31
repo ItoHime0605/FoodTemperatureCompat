@@ -26,6 +26,8 @@ def main():
             continue
         if not math.isfinite(tier) or not -3 <= tier <= 3:
             errors.append(f"設定第 {line_no} 行溫度超出範圍")
+        if tier == 0.0:
+            errors.append(f"設定第 {line_no} 行為中性料理，應只記錄於進度表：{item_id}")
         if item_id in tiers:
             errors.append(f"設定重複 ID：{item_id}")
         tiers[item_id] = tier
