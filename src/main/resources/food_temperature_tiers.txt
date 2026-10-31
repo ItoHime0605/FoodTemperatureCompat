@@ -426,3 +426,34 @@ veggiesdelight:steak_and_broccoli=0.8
 
 # 冷藏甜點：只列明確需冷藏／冷食的甜點；一般蛋糕、起司蛋糕與布丁不自動降溫。
 extradelight:chocolate_mousse=-0.2
+
+# 第四批：從原始中性候選逐項挑選明確熟料理；甜派、一般甜點與原料維持中性。
+extradelight:cinnamon_toast=0.5
+extradelight:french_toast=0.5
+extradelight:toast=0.5
+extradelight:bacon_egg_pie_slice=0.5
+extradelight:meat_pie_slice=0.5
+extradelight:steak_pickled_onion_pie_slice=0.5
+corn_delight:taco=0.5
+delightful:mutton_pie_slice=0.5
+kaleidoscope_cookery:braised_beef=0.6
+kaleidoscope_cookery:braised_beef_with_potatoes=0.6
+kaleidoscope_cookery:meat_pie=0.5
+culturaldelights:beef_burrito=0.5
+culturaldelights:chicken_taco=0.5
+culturaldelights:fish_taco=0.5
+culturaldelights:buttered_toast=0.5
+oceansdelight:braised_sea_pickle=0.6
+brewinandchewin:scarlet_pierogi=0.5
+alexsmobsdelight:braised_kangaroo_meatballs=0.6
+alexsmobsdelight:mantis_shrimp_tempura=0.8
+alexsmobsdelight:crocodile_barbecue_stick=0.8
+alexsmobsdelight:braised_tarantula_hawk_larva=0.6
+alexsmobsdelight:plate_of_mushrooms_braised_with_centipede=0.6
+alexsmobsdelight:tempura=0.8
+alexsmobsdelight:braised_alligator_snapping_turtle=0.6
+alexsmobsdelight:froststalker_meat_skewers=0.8
+farmersdelight:barbecue_stick=0.8
+farmersdelight:shepherds_pie=0.5
+starcatcher_delight:steamed_redscaled_tuna=0.6
+veggiesdelight:turnip_mutton_skewer=0.8
