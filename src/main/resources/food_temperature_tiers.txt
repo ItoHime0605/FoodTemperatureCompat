@@ -300,3 +300,14 @@ festive_delight:christmas_tea=1
 # JAR 模型已確認；冷飲階級為暫定設計，酒精效果仍由原模組處理。
 kaleidoscope_tavern:watermelon_juice=-1
 kaleidoscope_tavern:mojito=-1
+
+# 一般蛋糕、起司蛋糕與餅乾不因甜點名稱而降溫；未設定即為中性。
+# 普通熟食 +0.5；烤製料理 +0.8；熱燉菜／湯仍保留既有設定。
+# 以下為原始中性候選中明確可辨識的熟食，避免覆蓋既有分類。
+extradelight:aglio_e_olio=0.5
+extradelight:bacon_cheeseburger=0.5
+extradelight:bacon_egg_cheese_sandwich=0.5
+extradelight:bacon_egg_sandwich=0.5
+extradelight:beef_bulgogi=0.8
+extradelight:bbq_ribs=0.8
+extradelight:beef_wellington=0.8
