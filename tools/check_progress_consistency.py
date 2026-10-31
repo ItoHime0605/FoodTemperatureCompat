@@ -30,13 +30,19 @@ def main():
             errors.append(f"設定重複 ID：{item_id}")
         tiers[item_id] = tier
     progress = {}
+    neutral = set()
     with args.progress.open(encoding="utf-8-sig", newline="") as handle:
         for row_no, row in enumerate(csv.DictReader(handle), 2):
             item_id = row["物品 ID"].strip()
             if item_id in progress:
                 errors.append(f"進度表重複 ID：{item_id}（第 {row_no} 行）")
             try:
-                progress[item_id] = float(row["設定溫度值"])
+                value = float(row["設定溫度值"])
+                if not math.isfinite(value) or not -3 <= value <= 3:
+                    raise ValueError("out of range")
+                progress[item_id] = value
+                if value == 0.0 and "中性" in row.get("分類狀態", ""):
+                    neutral.add(item_id)
             except (TypeError, ValueError):
                 errors.append(f"進度表第 {row_no} 行溫度無效")
     for item_id in sorted(tiers.keys() - progress.keys()):
@@ -44,8 +50,8 @@ def main():
     for item_id in sorted(progress.keys() - tiers.keys()):
         # 中性食物保留在追蹤表，但不必寫入執行時的非零溫度設定。
         # 非零值若遺漏設定仍視為錯誤。
-        if progress[item_id] != 0.0:
-            errors.append(f"進度表多出非零設定：{item_id}")
+        if item_id not in neutral:
+            errors.append(f"進度表多出未明確標記中性的設定：{item_id}")
     for item_id in sorted(tiers.keys() & progress.keys()):
         if tiers[item_id] != progress[item_id]:
             errors.append(f"數值不一致：{item_id}（設定 {tiers[item_id]}／進度 {progress[item_id]}）")
