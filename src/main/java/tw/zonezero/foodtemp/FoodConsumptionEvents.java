@@ -47,11 +47,13 @@ public final class FoodConsumptionEvents {
         if (!(event.getEntity() instanceof ServerPlayer player)) return;
         String id = BuiltInRegistries.ITEM.getKey(event.getItem().getItem()).toString();
         if (!bridge.isConfigured(id)) return;
-        // Many modded drinks do not expose the vanilla FOOD component.
-        // Only react to a completed edible use or an explicit drinking animation.
+        // Some modded consumables implement a custom use flow without FOOD.
+        // Require an eating/drinking animation for those; never trigger on
+        // arbitrary completed item use such as tools or placeable blocks.
         boolean food = event.getItem().has(DataComponents.FOOD);
-        boolean drink = event.getItem().getUseAnimation() == UseAnim.DRINK;
-        if (!food && !drink) return;
+        UseAnim animation = event.getItem().getUseAnimation();
+        boolean consumingAnimation = animation == UseAnim.EAT || animation == UseAnim.DRINK;
+        if (!food && !consumingAnimation) return;
         bridge.consumed(player.getUUID(), id, player.getServer().getTickCount());
     }
     @SubscribeEvent
