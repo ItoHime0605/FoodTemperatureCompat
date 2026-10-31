@@ -1,0 +1,15 @@
+# 萬象酒類 kaleidoscope_world_liquor 1.1.12 的初步分類
+# 格式：物品 ID = 固定溫度階級（-3 至 +3）
+# 注意：此處只記錄冷熱，不代表酒精濃度或補水值。
+# 未確認飲用方式或溫度的品項暫不列入，避免誤判。
+kaleidoscope_world_liquor:cool_tea=-2
+kaleidoscope_world_liquor:cola=-1
+kaleidoscope_world_liquor:tonic_water=-1
+kaleidoscope_world_liquor:long_island_iced_tea=-1
+kaleidoscope_world_liquor:gin_tonic=-1
+kaleidoscope_world_liquor:highball=-1
+kaleidoscope_world_liquor:pine_colada=-1
+kaleidoscope_world_liquor:cosmopolitan=-1
+kaleidoscope_world_liquor:shrimp_cocktail=0
+kaleidoscope_world_liquor:sour_plum=-1
+# 酒精品項待實際檢查飲用程式與效果後再加入
