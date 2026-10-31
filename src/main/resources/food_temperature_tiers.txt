@@ -8,9 +8,10 @@ minecraft:rabbit_stew=2
 minecraft:suspicious_stew=2
 
 # 森羅物語：世界名酒 / Kaleidoscope World Liquor 1.1.12
-# 僅收錄已從 JAR 物品模型核實 ID 的冷飲；未確認的酒類暫不設定。
+# 已對照上傳 JAR 的 kaleidoscope_world_liquor 物品模型及 zh_cn 語言鍵。
+# 注意：ice_tea 的模型屬於 smc 命名空間，不是 kaleidoscope_world_liquor，故不列入。
+# 未確認的酒類暫不設定。
 kaleidoscope_world_liquor:cool_tea=-2
-kaleidoscope_world_liquor:ice_tea=-2
 kaleidoscope_world_liquor:cola=-1
 kaleidoscope_world_liquor:tonic_water=-1
 kaleidoscope_world_liquor:sour_plum=-1
