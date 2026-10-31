@@ -490,7 +490,7 @@ alexsmobsdelight:handtorn_emu_meat_with_rice=0.5
 alexsmobsdelight:plate_of_beggars_emu=0.8
 alexsmobsdelight:crispy_fish_bone=0.8
 
-# Nomad's Delight 1.0.2：熟食依烹調方式升溫；乾乳酪球及高油脂／高熱量食品少量升溫。
+# Nomad's Delight 1.0.2：熟食依烹調方式升溫；乾乳酪球及高熱量成品少量升溫；奶油等未確認可直接食用的原料不列入。
 # 生肉、生麵糰、冷沙拉、發酵飲料及未明確加熱的飲品維持中性。
 nomads_delight:asip=0.5
 nomads_delight:baursaks=0.8
@@ -517,4 +517,3 @@ nomads_delight:tandoor_bread=0.8
 nomads_delight:qurt=0.5
 nomads_delight:zhent=0.5
 nomads_delight:halva=0.5
-nomads_delight:butter=0.5
