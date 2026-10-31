@@ -311,3 +311,119 @@ extradelight:bacon_egg_sandwich=0.5
 extradelight:beef_bulgogi=0.8
 extradelight:bbq_ribs=0.8
 extradelight:beef_wellington=0.8
+
+# 熟食批次分類：原始候選清單中原先中性的明確熟料理。
+# 普通熟食 +0.5、較溫熱料理 +0.6、烤肉／排餐 +0.8；不改動既有分類。
+
+# extradelight
+extradelight:buttered_pasta=0.5
+extradelight:cheeseburger=0.5
+extradelight:curry_rice=0.5
+extradelight:currywurst=0.5
+extradelight:kiwiburger=0.5
+extradelight:meatloaf_sandwich=0.5
+extradelight:mushroom_burger=0.5
+extradelight:mushroom_risotto=0.5
+extradelight:omelette=0.5
+extradelight:pasta_alfredo=0.5
+extradelight:pasta_tomato=0.5
+extradelight:pork_tenderloin_sandwich=0.5
+extradelight:preserved_lemon_pasta=0.5
+extradelight:pulled_pork_sandwich=0.5
+extradelight:salisbury_steak=0.8
+extradelight:curry=0.6
+extradelight:stewed_apples=0.6
+
+# delightful
+delightful:cheeseburger=0.5
+delightful:coconut_curry=0.5
+delightful:deluxe_cheeseburger=0.5
+delightful:cactus_steak=0.8
+
+# kaleidoscope_cookery
+kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl=0.5
+kaleidoscope_cookery:braised_beef_rice_bowl=0.5
+kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl=0.5
+kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl=0.5
+kaleidoscope_cookery:donkey_burger=0.5
+kaleidoscope_cookery:dumpling=0.5
+kaleidoscope_cookery:beef_noodle=0.5
+kaleidoscope_cookery:hui_noodle=0.5
+kaleidoscope_cookery:udon_noodle=0.5
+kaleidoscope_cookery:hot_dry_noodles=0.5
+
+# culturaldelights
+culturaldelights:mutton_sandwich=0.5
+culturaldelights:eggplant_burger=0.5
+culturaldelights:spicy_curry=0.5
+culturaldelights:cinnamon_mint_curry=0.5
+
+# brewinandchewin
+brewinandchewin:vegetable_omelet=0.5
+brewinandchewin:cheesy_pasta=0.5
+brewinandchewin:horror_lasagna=0.5
+brewinandchewin:pizza_slice=0.5
+brewinandchewin:ham_and_cheese_sandwich=0.5
+
+# alexsmobsdelight
+alexsmobsdelight:smoked_tusklin_sandwich=0.5
+alexsmobsdelight:lobster_pasta=0.5
+alexsmobsdelight:tentacle_sandwich=0.5
+alexsmobsdelight:cheese_seal_burger=0.5
+alexsmobsdelight:seal_sandwich=0.5
+alexsmobsdelight:whale_burger=0.5
+alexsmobsdelight:gongylidia_sandwich=0.5
+alexsmobsdelight:spores_bunfungus_leg_pasta=0.5
+alexsmobsdelight:ghostly_burger=0.5
+
+# vegandelight
+vegandelight:pasta_with_tofuballs=0.5
+vegandelight:tofu_burger=0.5
+
+# farmersdelight
+farmersdelight:egg_sandwich=0.5
+farmersdelight:chicken_sandwich=0.5
+farmersdelight:hamburger=0.5
+farmersdelight:bacon_sandwich=0.5
+farmersdelight:dumplings=0.5
+farmersdelight:pasta_with_meatballs=0.5
+farmersdelight:pasta_with_mutton_chop=0.5
+farmersdelight:vegetable_noodles=0.5
+farmersdelight:squid_ink_pasta=0.5
+farmersdelight:steak_and_potatoes=0.8
+
+# festive_delight
+festive_delight:longevity_noodle=0.5
+
+# starcatcher_delight
+starcatcher_delight:healthy_fish_omelette=0.5
+starcatcher_delight:healthy_fish_omelette_common=0.5
+starcatcher_delight:healthy_fish_omelette_uncommon=0.5
+starcatcher_delight:healthy_fish_omelette_rare=0.5
+starcatcher_delight:healthy_fish_omelette_epic=0.5
+starcatcher_delight:healthy_fish_omelette_legendary=0.5
+
+# collectorsreap
+collectorsreap:carbonara_pasta=0.5
+collectorsreap:clam_pasta=0.5
+collectorsreap:crab_lasagna=0.5
+collectorsreap:crab_noodles=0.5
+collectorsreap:land_and_sea_burger=0.5
+collectorsreap:pink_noodles=0.5
+collectorsreap:portobello_burger=0.5
+collectorsreap:portobello_pasta=0.5
+collectorsreap:portobello_risotto=0.5
+collectorsreap:prawn_noodles=0.5
+collectorsreap:stuffed_pasta_shells=0.5
+
+# veggiesdelight
+veggiesdelight:vegan_pizza_slice=0.5
+veggiesdelight:pasta_with_broccoli=0.5
+veggiesdelight:potato_noodle=0.5
+veggiesdelight:potato_noodles=0.5
+veggiesdelight:lasagna_slice=0.5
+veggiesdelight:vegetarian_burger=0.5
+veggiesdelight:steak_and_broccoli=0.8
+
+# 冷藏甜點：只列明確需冷藏／冷食的甜點；一般蛋糕、起司蛋糕與布丁不自動降溫。
+extradelight:chocolate_mousse=-0.2
