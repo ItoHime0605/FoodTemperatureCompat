@@ -15,3 +15,23 @@
 
 ## 性能原則
 僅在食用完成及 TAN 查詢溫度時處理資料；不逐 tick 掃描背包，不追蹤食物在背包中的冷卻或加熱。
+
+## 第三批模型資源交叉驗證（2026-11-01）
+已直接使用本次工作環境中上傳的 NeoForge JAR，檢查各 `assets/<namespace>/models/item/<item>.json` 的實際存在性，而非僅依據物品名稱推測：
+
+| 命名空間 | 已檢查第三批候選 | 找不到模型 |
+|---|---:|---:|
+| kaleidoscope_cookery | 15 | 0 |
+| alexsmobsdelight | 42 | 0 |
+| delightful | 13 | 0 |
+| starcatcher_delight | 3 | 0 |
+| festive_delight | 1 | 0 |
+| **總計** | **74** | **0** |
+
+注意：同一資源命名空間也可能出現在相容性補丁 JAR 中；此次已確認 `kaleidoscope_cookery` 的 15 個候選模型也存在於廚房主模組 JAR。
+
+此外，`kaleidoscope_tavern` 的 `watermelon_juice`、`mojito` 已從酒館 JAR 模型清單確認並加入候選冷飲。酒精效果與原模組的飲用機制仍需測試，不能僅以模型存在認定生效。
+
+## 靜態設定格式稽核
+已直接核對 GitHub 上本輪修改前的 217 筆設定：**重複 ID 0 筆、格式錯誤 0 筆、階級超界 0 筆**。後續新增酒館 2 筆，完整整合測試時需重新執行稽核工具。
+
