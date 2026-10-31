@@ -1,6 +1,5 @@
 物品 ID,設定溫度值,分類狀態,模型核對狀態,可食用性驗證,食用事件驗證,體溫效果驗證
 minecraft:milk_bucket,-1,已設定,未逐項核實,待驗證,待驗證,待驗證
-minecraft:pumpkin_pie,1,已設定,未逐項核實,待驗證,待驗證,待驗證
 minecraft:beetroot_soup,2,已設定,未逐項核實,待驗證,待驗證,待驗證
 minecraft:mushroom_stew,2,已設定,未逐項核實,待驗證,待驗證,待驗證
 minecraft:rabbit_stew,2,已設定,未逐項核實,待驗證,待驗證,待驗證
