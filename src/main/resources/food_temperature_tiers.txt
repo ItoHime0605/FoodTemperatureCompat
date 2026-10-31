@@ -1,6 +1,5 @@
-# Fixed food temperature tiers: -3 (very cold) to +3 (very hot)
+# 固定食物冷熱值：-3.0 至 +3.0，支援小數；一般餅乾與蛋糕預設中性。
 minecraft:milk_bucket=-1
-minecraft:cookie=1
 minecraft:pumpkin_pie=1
 minecraft:beetroot_soup=2
 minecraft:mushroom_stew=2
