@@ -45,6 +45,15 @@ public final class FoodTemperatureRegressionTest {
         check(cold.levelOffset(0) == 0, "單次 -0.2 不應直接降低 TAN 階級");
     }
 
+    private static void backwardsTickDoesNotRewindClock() {
+        ThermalAccumulator accumulator = new ThermalAccumulator(100);
+        double initial = accumulator.consume(3, 100);
+        accumulator.value(0);
+        double actual = accumulator.value(1300);
+        check(Math.abs(actual - Math.max(0.0, initial - 1.0)) < 1e-9,
+                "時間倒退不應延長食物體溫效果");
+    }
+
     private static void clampTanLevel() {
         check(TemperatureLevelMapper.apply(0, -1) == 0, "低溫邊界溢出");
         check(TemperatureLevelMapper.apply(4, 1) == 4, "高溫邊界溢出");
@@ -55,6 +64,7 @@ public final class FoodTemperatureRegressionTest {
     public static void main(String[] args) throws Exception {
         registryDecimalsAndDuplicates();
         accumulationAndDecay();
+        backwardsTickDoesNotRewindClock();
         clampTanLevel();
         System.out.println("飲食冷暖：純 Java 回歸測試通過");
     }
