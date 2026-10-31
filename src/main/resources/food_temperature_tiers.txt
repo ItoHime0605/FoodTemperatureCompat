@@ -489,3 +489,32 @@ alexsmobsdelight:cheese_mashed_potatoes_with_anaconda=0.5
 alexsmobsdelight:handtorn_emu_meat_with_rice=0.5
 alexsmobsdelight:plate_of_beggars_emu=0.8
 alexsmobsdelight:crispy_fish_bone=0.8
+
+# Nomad's Delight 1.0.2：熟食依烹調方式升溫；乾乳酪球及高油脂／高熱量食品少量升溫。
+# 生肉、生麵糰、冷沙拉、發酵飲料及未明確加熱的飲品維持中性。
+nomads_delight:asip=0.5
+nomads_delight:baursaks=0.8
+nomads_delight:beshbarmak=0.5
+nomads_delight:chicken_samsa=0.8
+nomads_delight:cooked_horse_meat=0.5
+nomads_delight:dimlama=0.6
+nomads_delight:flatbread=0.5
+nomads_delight:kattama=0.5
+nomads_delight:kazan_kebab=0.8
+nomads_delight:kazy=0.5
+nomads_delight:kespe_kozhe=2
+nomads_delight:khanum=0.6
+nomads_delight:kuurdak=0.5
+nomads_delight:laghman=0.5
+nomads_delight:manti=0.6
+nomads_delight:peremech=0.8
+nomads_delight:pilaf=0.5
+nomads_delight:pumpkin_samsa=0.8
+nomads_delight:qarta=0.5
+nomads_delight:samsa=0.8
+nomads_delight:sorpa=2
+nomads_delight:tandoor_bread=0.8
+nomads_delight:qurt=0.5
+nomads_delight:zhent=0.5
+nomads_delight:halva=0.5
+nomads_delight:butter=0.5
