@@ -1,6 +1,5 @@
 # 固定食物冷熱值：-3.0 至 +3.0，支援小數；一般餅乾與蛋糕預設中性。
 minecraft:milk_bucket=-1
-minecraft:pumpkin_pie=1
 minecraft:beetroot_soup=2
 minecraft:mushroom_stew=2
 minecraft:rabbit_stew=2
