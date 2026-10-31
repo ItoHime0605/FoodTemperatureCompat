@@ -49,3 +49,24 @@ brewinandchewin:creamy_onion_soup=2
 
 # 海洋樂事 Ocean's Delight 1.0.4：湯品
 oceansdelight:bowl_of_guardian_soup=2
+
+# 農夫暇事：茶飲及其牛奶／加糖版本；不包含原料、桶裝流體與特殊膿液茶
+# 以 JAR 內 item 模型為依據，暫定熱飲 +1，待飲用機制測試。
+farmersrespite:black_tea=1
+farmersrespite:black_tea_with_milk=1
+farmersrespite:black_tea_with_sugar=1
+farmersrespite:green_tea=1
+farmersrespite:green_tea_with_milk=1
+farmersrespite:green_tea_with_sugar=1
+farmersrespite:yellow_tea=1
+farmersrespite:yellow_tea_with_milk=1
+farmersrespite:yellow_tea_with_sugar=1
+farmersrespite:dandelion_tea=1
+farmersrespite:dandelion_tea_with_milk=1
+farmersrespite:dandelion_tea_with_sugar=1
+farmersrespite:rose_hip_tea=1
+farmersrespite:rose_hip_tea_with_milk=1
+farmersrespite:rose_hip_tea_with_sugar=1
+farmersrespite:gamblers_tea=1
+farmersrespite:gamblers_tea_with_milk=1
+farmersrespite:gamblers_tea_with_sugar=1
