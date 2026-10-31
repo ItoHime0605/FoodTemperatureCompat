@@ -8,7 +8,7 @@ import re
 import sys
 import zipfile
 
-PATTERN = re.compile(r"^([a-z0-9_.-]+):([a-z0-9_./-]+)\s*=\s*(-?[0-9]+)$")
+PATTERN = re.compile(r"^([a-z0-9_.-]+):([a-z0-9_./-]+)\s*=\s*(-?(?:[0-9]+(?:\\.[0-9]+)?|\\.[0-9]+))$")
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="飲食冷暖：靜態冷熱設定稽核")
@@ -27,7 +27,7 @@ def main() -> int:
             continue
         namespace, item, value = match.groups()
         key = f"{namespace}:{item}"
-        tier = int(value)
+        tier = float(value)
         if not -3 <= tier <= 3:
             errors.append(f"第 {line_no} 行：階級超出 -3..3：{key}={tier}")
         if key in records:
