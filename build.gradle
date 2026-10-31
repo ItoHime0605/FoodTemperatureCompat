@@ -26,6 +26,13 @@ dependencies {
     compileOnly 'maven.modrinth:ge1sOdFH:mboAbksk'
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+// Keep mod metadata in sync with gradle.properties during resource processing.
+tasks.named('processResources', ProcessResources) {
+    inputs.property 'mod_version', project.mod_version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand(mod_version: project.mod_version)
+    }
+}
 
 // 可獨立執行的純 Java 回歸測試（不依賴 JUnit）。
 // 執行 ./gradlew check 時也會驗證冷熱小數、累積衰減與 TAN 階級邊界。
