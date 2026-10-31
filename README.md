@@ -1,4 +1,4 @@
-# Food Temperature Compatibility
+# 飲食冷暖（Food Temperature Compatibility）
 
 Minecraft 1.21.1 / NeoForge / Java 21
 
