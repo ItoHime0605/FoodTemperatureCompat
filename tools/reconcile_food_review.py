@@ -2,7 +2,6 @@
 """對照最初的候選 CSV 與目前冷熱設定；只輸出差集，不重複列為新工作。"""
 import argparse
 import csv
-from collections import Counter
 from pathlib import Path
 
 def main():
@@ -17,7 +16,7 @@ def main():
         if not value:
             continue
         item_id, tier = value.split("=", 1)
-        configured[item_id.strip()] = int(tier.strip())
+        configured[item_id.strip()] = float(tier.strip())
     with args.review_csv.open(encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
     ids = [row["物品 ID"] for row in rows]
