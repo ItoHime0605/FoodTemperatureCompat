@@ -4,7 +4,7 @@ license="All Rights Reserved"
 [[mods]]
 modId="foodtemperaturecompat"
 version="0.1.4-alpha"
-displayName="Food Temperature Compatibility"
+displayName="飲食冷暖"
 description='''Food and drink temperature compatibility for Tough As Nails.'''
 [[dependencies.foodtemperaturecompat]]
 modId="neoforge"
