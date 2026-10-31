@@ -26,3 +26,16 @@ dependencies {
     compileOnly 'maven.modrinth:ge1sOdFH:mboAbksk'
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+// 可獨立執行的純 Java 回歸測試（不依賴 JUnit）。
+// 執行 ./gradlew check 時也會驗證冷熱小數、累積衰減與 TAN 階級邊界。
+tasks.register('foodTemperatureRegression', JavaExec) {
+    group = 'verification'
+    description = '執行飲食冷暖核心計算回歸測試'
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'tw.zonezero.foodtemp.FoodTemperatureRegressionTest'
+}
+tasks.named('check') {
+    dependsOn tasks.named('foodTemperatureRegression')
+}
