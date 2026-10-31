@@ -23,3 +23,29 @@ kaleidoscope_world_liquor:gin_tonic=-1
 kaleidoscope_world_liquor:highball=-1
 kaleidoscope_world_liquor:pine_colada=-1
 kaleidoscope_world_liquor:cosmopolitan=-1
+
+# 農夫樂事 Farmer's Delight 1.3.4：湯品與熱可可
+# 已核對 JAR 內 item 語言鍵與模型路徑；冷熱值為本模組的固定設計值。
+farmersdelight:hot_cocoa=2
+farmersdelight:beef_stew=2
+farmersdelight:chicken_soup=2
+farmersdelight:vegetable_soup=2
+farmersdelight:fish_stew=2
+farmersdelight:pumpkin_soup=2
+farmersdelight:baked_cod_stew=2
+farmersdelight:noodle_soup=2
+farmersdelight:onion_soup=2
+farmersdelight:bone_broth=2
+
+# 農夫暇事 Farmer's Respite 3.0.1：明確的熱飲與咖啡
+farmersrespite:hot_cocoa_with_milk=2
+farmersrespite:hot_cocoa_with_sugar=2
+farmersrespite:coffee=2
+farmersrespite:coffee_with_milk=2
+farmersrespite:coffee_with_sugar=2
+
+# 飲酒作樂 Brewin' And Chewin' 4.5.0：湯品
+brewinandchewin:creamy_onion_soup=2
+
+# 海洋樂事 Ocean's Delight 1.0.4：湯品
+oceansdelight:bowl_of_guardian_soup=2
