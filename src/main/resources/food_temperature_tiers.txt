@@ -1,0 +1,8 @@
+# Fixed food temperature tiers: -3 (very cold) to +3 (very hot)
+minecraft:milk_bucket=-1
+minecraft:cookie=1
+minecraft:pumpkin_pie=1
+minecraft:beetroot_soup=2
+minecraft:mushroom_stew=2
+minecraft:rabbit_stew=2
+minecraft:suspicious_stew=2
