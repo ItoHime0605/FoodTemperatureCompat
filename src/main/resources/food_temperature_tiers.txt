@@ -517,3 +517,8 @@ nomads_delight:tandoor_bread=0.8
 nomads_delight:qurt=0.5
 nomads_delight:zhent=0.5
 nomads_delight:halva=0.5
+
+# Nomad's Delight：烘烤穀物與高能量即食穀物製品；尚需實際驗證食用事件。
+nomads_delight:roasted_millet=0.5
+nomads_delight:maysok=0.5
+nomads_delight:ready_made_talkan=0.5
