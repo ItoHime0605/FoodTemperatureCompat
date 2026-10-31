@@ -4,6 +4,7 @@
 # 注意：此處只記錄冷熱，不代表酒精濃度或補水值。
 # 未確認飲用方式或溫度的品項暫不列入，避免誤判。
 kaleidoscope_world_liquor:cool_tea=-2
+kaleidoscope_world_liquor:ice_tea=-2
 kaleidoscope_world_liquor:cola=-1
 kaleidoscope_world_liquor:tonic_water=-1
 kaleidoscope_world_liquor:long_island_iced_tea=-1
@@ -14,3 +15,7 @@ kaleidoscope_world_liquor:cosmopolitan=-1
 kaleidoscope_world_liquor:shrimp_cocktail=0
 kaleidoscope_world_liquor:sour_plum=-1
 # 酒精品項待實際檢查飲用程式與效果後再加入
+
+# 2026-11-01 直接核對原始 JAR：ice_tea.json 位於 assets/kaleidoscope_world_liquor/models/item/，先前排除判定有誤，已恢復。
+# pina_colada（馬利寶椰子蘭姆酒）與 pine_colada（椰林飄香）為兩個不同 ID，不得混淆。
+# 物品模型存在只能確認資源路徑，不能單憑模型保證已註冊、可飲用或會觸發食用完成事件；待遊戲內驗證。
