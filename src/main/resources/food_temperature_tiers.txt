@@ -70,3 +70,127 @@ farmersrespite:rose_hip_tea_with_sugar=1
 farmersrespite:gamblers_tea=1
 farmersrespite:gamblers_tea_with_milk=1
 farmersrespite:gamblers_tea_with_sugar=1
+
+# 第二批跨模組冷熱分類：依使用者提供的 JAR item 模型路徑選取。
+# 這些是暫定冷熱設計值，模型存在不代表物品已註冊或確實可食用；伺服器啟動驗證會檢查 ID。
+
+# extradelight: 熱食／熱飲
+extradelight:cactus_soup=2
+extradelight:carrot_soup=2
+extradelight:chicken_stew=2
+extradelight:fish_soup=2
+extradelight:hazelnut_soup=2
+extradelight:lamb_stew=2
+extradelight:miso_soup=2
+extradelight:mulligatawny_soup=2
+extradelight:onion_soup=2
+extradelight:oxtail_soup=2
+extradelight:pork_stew=2
+extradelight:potato_soup=2
+extradelight:gourmet_hot_chocolate=2
+extradelight:coffee=2
+extradelight:dalgona_coffee=2
+extradelight:green_coffee=2
+
+# extradelight: 冰品
+extradelight:apple_ice_cream=-2
+extradelight:apple_popsicle=-2
+extradelight:caramel_popsicle=-2
+extradelight:chocolate_ice_cream=-2
+extradelight:cinnamon_popsicle=-2
+extradelight:cookie_dough_ice_cream=-2
+extradelight:fudge_popsicle=-2
+extradelight:glow_berry_ice_cream=-2
+extradelight:glow_berry_popsicle=-2
+extradelight:grapefruit_sorbet=-2
+extradelight:honey_ice_cream=-2
+extradelight:honey_popsicle=-2
+extradelight:ice_cream=-2
+extradelight:mint_chip_ice_cream=-2
+extradelight:nut_butter_ice_cream=-2
+extradelight:pumpkin_ice_cream=-2
+
+# extradelight: 冷飲
+extradelight:apple_milkshake=-1
+extradelight:cactus_juice=-1
+extradelight:chocolate_milkshake=-1
+extradelight:glow_berry_juice=-1
+extradelight:glow_berry_milkshake=-1
+extradelight:grapefruit_juice=-1
+extradelight:lemon_juice=-1
+extradelight:lime_juice=-1
+extradelight:milkshake=-1
+extradelight:orange_juice=-1
+extradelight:pickle_juice=-1
+
+# fruitsdelight: 熱食／熱飲
+fruitsdelight:bayberry_soup=2
+fruitsdelight:fig_chicken_stew=2
+
+# fruitsdelight: 冰品
+fruitsdelight:hamimelon_popsicle=-2
+fruitsdelight:kiwi_popsicle=-2
+
+# fruitsdelight: 冷飲
+fruitsdelight:hamimelon_juice=-1
+fruitsdelight:hawberry_tea=-1
+fruitsdelight:kiwi_juice=-1
+fruitsdelight:lemon_juice=-1
+fruitsdelight:lychee_cherry_tea=-1
+fruitsdelight:mango_milkshake=-1
+fruitsdelight:mango_tea=-1
+fruitsdelight:mangosteen_tea=-1
+fruitsdelight:orange_juice=-1
+fruitsdelight:peach_tea=-1
+fruitsdelight:pear_juice=-1
+
+# veggiesdelight: 熱食／熱飲
+veggiesdelight:broccoli_soup=2
+veggiesdelight:cauliflower_soup=2
+veggiesdelight:garlic_chicken_stew=2
+veggiesdelight:turnip_beef_stew=2
+
+# veggiesdelight: 冷飲
+veggiesdelight:carrot_juice=-1
+veggiesdelight:dandelion_juice=-1
+
+# collectorsreap: 熱食／熱飲
+collectorsreap:clam_meatball_stew=2
+collectorsreap:clam_meatball_stew_cup=2
+collectorsreap:dragon_stew=2
+collectorsreap:dragon_stew_cup=2
+collectorsreap:platinum_bass_stew=2
+collectorsreap:platinum_bass_stew_cup=2
+collectorsreap:portobello_rice_soup=2
+collectorsreap:portobello_rice_soup_cup=2
+collectorsreap:prawn_stew=2
+collectorsreap:prawn_stew_cup=2
+
+# collectorsreap: 冰品
+collectorsreap:lime_ice_cream=-2
+collectorsreap:lime_popsicle=-2
+collectorsreap:lucuma_ice_cream=-2
+collectorsreap:pink_dragon_fruit_ice_cream=-2
+collectorsreap:pomegranate_ice_cream=-2
+collectorsreap:sunny_ice_cream=-2
+
+# collectorsreap: 冷飲
+collectorsreap:lime_green_tea=-1
+collectorsreap:lime_milkshake=-1
+collectorsreap:lucuma_milkshake=-1
+collectorsreap:pink_dragon_fruit_milkshake=-1
+collectorsreap:pomegranate_black_tea=-1
+collectorsreap:pomegranate_milkshake=-1
+collectorsreap:pomegranate_smoothie=-1
+
+# pineapple_delight: 冰品
+pineapple_delight:pineapple_ice_cream=-2
+
+# pineapple_delight: 冷飲
+pineapple_delight:pineapple_juice=-1
+
+# corn_delight: 熱食／熱飲
+corn_delight:corn_soup=2
+
+# corn_delight: 冰品
+corn_delight:corn_popsicle=-2
