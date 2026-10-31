@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="foodtemperaturecompat"
+version="0.1.4-alpha"
+displayName="Food Temperature Compatibility"
+description='''Food and drink temperature compatibility for Tough As Nails.'''
+[[dependencies.foodtemperaturecompat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.foodtemperaturecompat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.foodtemperaturecompat]]
+modId="toughasnails"
+type="required"
+versionRange="[10.1.0.13,)"
+ordering="AFTER"
+side="BOTH"
