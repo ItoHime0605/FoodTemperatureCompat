@@ -3,7 +3,7 @@ loaderVersion="[1,)"
 license="All Rights Reserved"
 [[mods]]
 modId="foodtemperaturecompat"
-version="0.1.4-alpha"
+version="${mod_version}"
 displayName="飲食冷暖"
 description='''Food and drink temperature compatibility for Tough As Nails.'''
 [[dependencies.foodtemperaturecompat]]
