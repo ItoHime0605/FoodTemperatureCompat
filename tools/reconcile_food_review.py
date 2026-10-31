@@ -11,12 +11,18 @@ def main():
     parser.add_argument("--output", type=Path, default=Path("compatibility/review_remaining.csv"))
     args = parser.parse_args()
     configured = {}
+    duplicates = set()
     for line in args.tiers.read_text(encoding="utf-8").splitlines():
         value = line.split("#", 1)[0].strip()
         if not value:
             continue
         item_id, tier = value.split("=", 1)
-        configured[item_id.strip()] = float(tier.strip())
+        item_id = item_id.strip()
+        if item_id in configured:
+            duplicates.add(item_id)
+        configured[item_id] = float(tier.strip())
+    if duplicates:
+        raise ValueError(f"冷熱設定含重複物品 ID：{sorted(duplicates)}")
     with args.review_csv.open(encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
     ids = [row["物品 ID"] for row in rows]
@@ -35,6 +41,8 @@ def main():
     print(f"原始候選：{len(rows)}")
     print("原始非中性候選：" + str(sum(row["建議溫度階級"].strip() != "0" for row in rows)))
     print(f"候選中已設定：{len(already)}")
+    print(f"候選中已設定且原建議非中性：{sum(row[\"建議溫度階級\"].strip() != \"0\" for row in already)}")
+    print(f"候選中已設定且原建議中性：{sum(row[\"建議溫度階級\"].strip() == \"0\" for row in already)}")
     print(f"候選中尚未設定：{len(remaining)}")
     print(f"尚未設定且建議非中性（優先審核）：{len(review_required)}")
     print(f"尚未設定且建議中性（不應自動當成待做）：{len(neutral)}")
