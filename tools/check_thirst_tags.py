@@ -14,6 +14,7 @@ GROUPS = {
     "soup": (("thirst/2_thirst_drinks.json", "hydration/30_hydration_drinks.json")),
     "drink": (("thirst/4_thirst_drinks.json", "hydration/50_hydration_drinks.json")),
     "dessert": (("thirst/1_thirst_drinks.json", "hydration/10_hydration_drinks.json")),
+    "neutral_salad": (("thirst/3_thirst_drinks.json", "hydration/20_hydration_drinks.json")),
 }
 
 def main():
