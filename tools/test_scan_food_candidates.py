@@ -13,6 +13,8 @@ with tempfile.TemporaryDirectory() as tmp:
     jar = folder / "sample.jar"
     output = folder / "candidates.csv"
     with zipfile.ZipFile(jar, "w") as archive:
+        archive.writestr("assets/example/items/berry_juice.json", '{"model":{"type":"minecraft:model","model":"example:item/berry_juice"}}')
+        archive.writestr("assets/example/items/pear_juice.json", '{"model":{"type":"minecraft:model","model":"example:item/pear_juice"}}')
         archive.writestr("assets/example/models/item/berry_juice.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/iron_sword.json", '{"parent":"item/handheld"}')
         archive.writestr("assets/example/models/item/tomato_salad.json", '{"parent":"item/generated"}')
@@ -25,8 +27,10 @@ with tempfile.TemporaryDirectory() as tmp:
     subprocess.run([sys.executable, str(ROOT / "tools/scan_food_candidates.py"), str(jar), "--output", str(output)], cwd=ROOT, check=True)
     with output.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
-    assert {row["候選物品 ID"] for row in rows} == {"example:berry_juice", "example:tomato_salad", "example:coconut_pudding"}
+    assert {row["候選物品 ID"] for row in rows} == {"example:berry_juice", "example:pear_juice", "example:tomato_salad", "example:coconut_pudding"}
     assert next(row["可能分類"] for row in rows if row["候選物品 ID"] == "example:coconut_pudding") == "高含水料理"
+    assert next(row for row in rows if row["候選物品 ID"] == "example:berry_juice")["物品定義檔"] == "存在"
+    assert next(row for row in rows if row["候選物品 ID"] == "example:pear_juice")["物品模型"] == "未找到"
     assert all(row["可食用性"] == "未確認" for row in rows)
     assert all(row["TAN 原生補水"] == "未確認" for row in rows)
 print("候選掃描器測試通過")
