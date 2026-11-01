@@ -66,7 +66,11 @@ public final class FoodConsumptionEvents {
         UseAnim animation = event.getItem().getUseAnimation();
         boolean consumingAnimation = animation == UseAnim.EAT || animation == UseAnim.DRINK;
         if (!food && !consumingAnimation) return;
-        bridge.consumed(player.getUUID(), id, player.getServer().getTickCount());
+        // Detached/fake server players may complete item use without a server.
+        // Match the TAN modifier guard and avoid dereferencing a null server.
+        var server = player.getServer();
+        if (server == null) return;
+        bridge.consumed(player.getUUID(), id, server.getTickCount());
     }
     @SubscribeEvent
     public void onServerStopped(ServerStoppedEvent event) { bridge.clear(); }
