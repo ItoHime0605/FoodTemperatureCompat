@@ -31,10 +31,10 @@ minecraft:baked_potato,中性候選,待確認,熟馬鈴薯水分與生馬鈴薯�
 minecraft:dried_kelp,中性候選,暫不補水,乾燥海帶含水量低；不因為是海藻就補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:pumpkin_pie,中性候選,暫不補水,烘焙點心不因南瓜原料自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:honey_bottle,中性候選,待確認,蜂蜜瓶可飲用但高糖不等於大量補水；需核對 TAN,原版可飲用物品；補水效果待驗證,待核對 TAN JAR
-minecraft:beetroot_soup,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:mushroom_stew,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:rabbit_stew,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:suspicious_stew,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:beetroot_soup,已設定升溫,已設定少量補水,Minecraft 1.21.1 原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未包含此物品；加入 thirst 2、hydration 30；遊戲內補水待驗證,原版已知可食用物品（遊戲內待驗證）,已核對 TAN 10.1.0.13 JAR：未重複
+minecraft:mushroom_stew,已設定升溫,已設定少量補水,Minecraft 1.21.1 原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未包含此物品；加入 thirst 2、hydration 30；遊戲內補水待驗證,原版已知可食用物品（遊戲內待驗證）,已核對 TAN 10.1.0.13 JAR：未重複
+minecraft:rabbit_stew,已設定升溫,已設定少量補水,Minecraft 1.21.1 原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未包含此物品；加入 thirst 2、hydration 30；遊戲內補水待驗證,原版已知可食用物品（遊戲內待驗證）,已核對 TAN 10.1.0.13 JAR：未重複
+minecraft:suspicious_stew,已設定升溫,已設定少量補水,Minecraft 1.21.1 原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未包含此物品；加入 thirst 2、hydration 30；遊戲內補水待驗證,原版已知可食用物品（遊戲內待驗證）,已核對 TAN 10.1.0.13 JAR：未重複
 veggiesdelight:broccoli_salad,中性,已設定少量補水,花椰菜沙拉：已從 Veggies Delight 1.9.3 ModItems 位元碼核對註冊時使用 ModFoods 的 FoodProperties；依蔬菜含水量採用 thirst 3、hydration 20；TAN 原生標籤未涵蓋，遊戲內補水待驗證,已核對 JAR 物品註冊與 FoodProperties,已核對 TAN JAR：未重複
 veggiesdelight:cesar_salad,中性,已設定少量補水,凱薩沙拉：已從 Veggies Delight 1.9.3 ModItems 位元碼核對註冊時使用 ModFoods 的 FoodProperties；依蔬菜含水量採用 thirst 3、hydration 20；TAN 原生標籤未涵蓋，遊戲內補水待驗證,已核對 JAR 物品註冊與 FoodProperties,已核對 TAN JAR：未重複
 veggiesdelight:coleslaw,中性,已設定少量補水,高麗菜沙拉：已從 Veggies Delight 1.9.3 ModItems 位元碼核對註冊時使用 ModFoods 的 FoodProperties；依蔬菜含水量採用 thirst 3、hydration 20；TAN 原生標籤未涵蓋，遊戲內補水待驗證,已核對 JAR 物品註冊與 FoodProperties,已核對 TAN JAR：未重複
