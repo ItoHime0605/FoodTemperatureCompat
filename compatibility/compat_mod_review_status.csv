@@ -1,0 +1,24 @@
+模組名稱,modid,版本,來源 JAR／程式碼核對情形,冷熱設定筆數,補水設定筆數,已列入審查表筆數,可食用性已核對數（保守估計）,TAN 原生重疊檢查,CI 狀態,判定狀態,未驗證事項,最近參考提交 SHA,審查日期
+alexsmobsdelight,alexsmobsdelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,67,41,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+brewinandchewin,brewinandchewin,待核對,部分來源曾核對；本輪未取得完整原始 JAR,7,1,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+collectorsreap,collectorsreap,待核對,部分來源曾核對；本輪未取得完整原始 JAR,34,23,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+corn_delight,corn_delight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,3,2,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+culturaldelights,culturaldelights,待核對,部分來源曾核對；本輪未取得完整原始 JAR,8,0,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+delightful,delightful,待核對,部分來源曾核對；本輪未取得完整原始 JAR,18,13,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+extradelight,extradelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,93,43,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Farmer's Delight,farmersdelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,22,10,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Farmer's Respite,farmersrespite,待核對,部分來源曾核對；本輪未取得完整原始 JAR,23,23,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+festive_delight,festive_delight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,2,1,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Fruits Delight,fruitsdelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,15,15,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+kaleidoscope_cookery,kaleidoscope_cookery,待核對,部分來源曾核對；本輪未取得完整原始 JAR,31,15,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+kaleidoscope_tavern,kaleidoscope_tavern,待核對,部分來源曾核對；本輪未取得完整原始 JAR,2,0,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+kaleidoscope_world_liquor,kaleidoscope_world_liquor,待核對,部分來源曾核對；本輪未取得完整原始 JAR,10,0,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Minecraft 原版,minecraft,待核對,部分來源曾核對；本輪未取得完整原始 JAR,5,11,18,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+My Nether's Delight,mynethersdelight,1.10.4.1,部分來源曾核對；本輪未取得完整原始 JAR,37,7,18,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Nomad's Delight,nomads_delight,1.0.2,部分來源曾核對；本輪未取得完整原始 JAR,28,2,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+oceansdelight,oceansdelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,2,1,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+pineapple_delight,pineapple_delight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,2,2,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Rustic Delight,rusticdelight,1.7.1,部分來源曾核對；本輪未取得完整原始 JAR,67,10,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+starcatcher_delight,starcatcher_delight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,10,3,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+vegandelight,vegandelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,2,0,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Veggies Delight,veggiesdelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,14,17,11,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最新 main 待確認,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
