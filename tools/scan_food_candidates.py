@@ -29,6 +29,9 @@ def matches_food_keyword(item, keyword):
     return keyword in item
 
 def classify_food_candidate(item):
+    # 咖啡作為燉肉調味時不屬飲品候選。
+    if "coffee_braised" in item:
+        return None
     return next(
         (category for category, words in CATEGORIES.items()
          if any(matches_food_keyword(item, word) for word in words)),
