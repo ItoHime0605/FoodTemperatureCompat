@@ -26,6 +26,16 @@ def main():
     with Path("compatibility/food_item_progress.csv").open(encoding="utf-8-sig", newline="") as handle:
         progress = {row["物品 ID"].strip(): row for row in csv.DictReader(handle)}
     known |= set(progress)
+    review_path = Path("compatibility/neutral_hydration_review.csv")
+    with review_path.open(encoding="utf-8-sig", newline="") as handle:
+        reviewed = list(csv.DictReader(handle))
+    review_ids = [row["物品 ID"].strip() for row in reviewed]
+    if len(review_ids) != len(set(review_ids)):
+        errors.append("中性補水審查表存在重複物品 ID")
+    for item in review_ids:
+        if not PATTERN.fullmatch(item):
+            errors.append(f"中性補水審查表 ID 格式錯誤：{item}")
+    known |= set(review_ids)
     all_ids = set()
     for group, paths in GROUPS.items():
         members = []
@@ -53,6 +63,11 @@ def main():
             errors.append(f"{group}: 跨分類重複：{sorted(overlap)}")
         all_ids |= members[0]
         print(f"{group}: {len(members[0])} 個補水物品")
+    for row in reviewed:
+        item = row["物品 ID"].strip()
+        if row["補水判定"] == "暫不補水" and item in all_ids:
+            errors.append(f"中性補水審查表標記暫不補水，但已被補水標籤包含：{item}")
+    print(f"中性／未分類補水審查 {len(review_ids)} 筆")
     native = set()
     if args.tan_jar:
         with zipfile.ZipFile(args.tan_jar) as jar:
