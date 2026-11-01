@@ -1,6 +1,7 @@
 package tw.zonezero.foodtemp;
 import net.minecraft.core.registries.BuiltInRegistries;
 import java.util.Map;
+import net.neoforged.fml.ModList;
 import java.util.TreeMap;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
@@ -25,12 +26,19 @@ public final class FoodConsumptionEvents {
     @SubscribeEvent
     public void onServerStarted(ServerStartedEvent event) {
         int missing = 0;
+        int optionalUnavailable = 0;
         int needsConsumptionVerification = 0;
         Map<String, int[]> byMod = new TreeMap<>();
         for (String id : registry.entries().keySet()) {
             ResourceLocation key = ResourceLocation.parse(id);
-            int[] stats = byMod.computeIfAbsent(key.getNamespace(), unused -> new int[2]);
+            int[] stats = byMod.computeIfAbsent(key.getNamespace(), unused -> new int[3]);
             stats[0]++;
+            // Optional integrations must not be reported as broken when the mod is absent.
+            if (!key.getNamespace().equals("minecraft") && !ModList.get().isLoaded(key.getNamespace())) {
+                optionalUnavailable++;
+                stats[2]++;
+                continue;
+            }
             if (!BuiltInRegistries.ITEM.containsKey(key) || BuiltInRegistries.ITEM.get(key) == Items.AIR) {
                 missing++;
                 stats[1]++;
@@ -48,11 +56,11 @@ public final class FoodConsumptionEvents {
             }
         }
         for (Map.Entry<String, int[]> entry : byMod.entrySet()) {
-            LOGGER.info("[飲食冷暖] 模組 {}：設定 {} 筆，未註冊 {} 筆。",
-                    entry.getKey(), entry.getValue()[0], entry.getValue()[1]);
+            LOGGER.info("[飲食冷暖] 模組 {}：設定 {} 筆，未安裝選用模組 {} 筆，已安裝但未註冊 {} 筆。",
+                    entry.getKey(), entry.getValue()[0], entry.getValue()[2], entry.getValue()[1]);
         }
-        LOGGER.info("[飲食冷暖] 已載入 {} 筆食物溫度設定，{} 筆物品 ID 未註冊，{} 筆需進一步確認食用流程。",
-                registry.size(), missing, needsConsumptionVerification);
+        LOGGER.info("[飲食冷暖] 已載入 {} 筆食物溫度設定，{} 筆屬未安裝的選用模組，{} 筆已安裝模組的物品 ID 未註冊，{} 筆需確認食用流程。",
+                registry.size(), optionalUnavailable, missing, needsConsumptionVerification);
     }
     @SubscribeEvent
     public void onFinishedUsing(LivingEntityUseItemEvent.Finish event) {
