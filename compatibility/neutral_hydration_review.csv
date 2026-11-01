@@ -1,7 +1,7 @@
 物品 ID,溫度分類,補水判定,理由,可食用性驗證,原生 TAN 重疊檢查
 mynethersdelight:magma_cake_slice,中性,暫不補水,蛋糕類不因含水原料自動補水,待驗證,待驗證
 mynethersdelight:bleeding_tartar,中性,暫不補水,肉類料理不自動視為飲品,待驗證,待驗證
-mynethersdelight:ghast_salad,中性,已設定少量補水,已由原模組 JAR 的 MNDItems 位元碼確認使用 ConsumableItem 與 GHAST_SALAD FoodProperties；仍需遊戲內測試,已核對 JAR 註冊程式,待驗證
+mynethersdelight:ghast_salad,中性,已設定少量補水,已由原模組 JAR 的 MNDItems 位元碼確認使用 ConsumableItem 與 GHAST_SALAD FoodProperties；已比對 TAN 10.1.0.13 原生 thirst/hydration 標籤均未涵蓋此 ID；遊戲內效果待測,已核對 JAR 註冊程式,已核對 TAN 10.1.0.13 JAR：未重複
 mynethersdelight:cold_striderloaf,冷食名稱但未列冷熱設定,暫不補水,肉類冷盤不是飲品；須確認食物組件,待驗證,待驗證
 mynethersdelight:ghasta_with_cream,未列冷熱設定,暫不補水,奶油料理不等於可恢復口渴,待驗證,待驗證
 mynethersdelight:bread_loaf,未列冷熱設定,暫不補水,麵包類不預設補水,待驗證,待驗證
@@ -9,7 +9,7 @@ mynethersdelight:slices_of_bread,未列冷熱設定,暫不補水,麵包片不預
 mynethersdelight:burnt_roll,未列冷熱設定,暫不補水,烘焙食品不預設補水,待驗證,待驗證
 mynethersdelight:hoglin_sausage,未列冷熱設定,暫不補水,香腸類不預設補水,待驗證,待驗證
 mynethersdelight:blue_tenderloin_steak,未列冷熱設定,暫不補水,肉類不預設補水,待驗證,待驗證
-mynethersdelight:bullet_pepper,中性（尚未列冷熱設定）,暫不補水,已以 MyNethersDelight 1.10.4.1 JAR 的 MNDItems lambda$static$81 位元碼核對 ItemNameBlockItem 註冊包含 MNDFoodValues.BULLET_PEPPER 食物屬性；辣椒不因屬蔬菜就自動補水,已核對 JAR 註冊程式,待驗證
+mynethersdelight:bullet_pepper,中性（尚未列冷熱設定）,暫不補水,已以 MyNethersDelight 1.10.4.1 JAR 的 MNDItems lambda$static$81 位元碼核對 ItemNameBlockItem 註冊包含 MNDFoodValues.BULLET_PEPPER 食物屬性；辣椒不因屬蔬菜就自動補水；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤均未涵蓋此 ID,已核對 JAR 註冊程式,已核對 TAN 10.1.0.13 JAR：未重複
 mynethersdelight:ghasmati,未列冷熱設定,待確認,名稱不足以確認食物與含水量,待驗證,待驗證
 mynethersdelight:golden_egg,未列冷熱設定,暫不補水,蛋類不預設補水,待驗證,待驗證
 mynethersdelight:enchanted_golden_egg,未列冷熱設定,暫不補水,特殊蛋類不預設補水,待驗證,待驗證
