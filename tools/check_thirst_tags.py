@@ -13,8 +13,8 @@ PATTERN = re.compile(r"^[a-z0-9_.-]+:[a-z0-9_./-]+$")
 GROUPS = {
     "soup": (("thirst/2_thirst_drinks.json", "hydration/30_hydration_drinks.json")),
     "drink": (("thirst/4_thirst_drinks.json", "hydration/50_hydration_drinks.json")),
-    "dessert": (("thirst/1_thirst_drinks.json", "hydration/10_hydration_drinks.json")),
-    "neutral_salad": (("thirst/3_thirst_drinks.json", "hydration/20_hydration_drinks.json")),
+    "low_hydration": (("thirst/1_thirst_drinks.json", "hydration/10_hydration_drinks.json")),
+    "neutral_food": (("thirst/3_thirst_drinks.json", "hydration/20_hydration_drinks.json")),
 }
 
 def main():
@@ -89,8 +89,8 @@ def main():
                 errors.append(f"中性食物已補水但缺少可食用性確認：{item}")
             if item not in all_ids:
                 errors.append(f"中性食物標記已補水但缺少標籤：{item}")
-            elif assigned_groups.get(item) != "neutral_salad":
-                errors.append(f"中性食物應使用獨立補水分類：{item} ({assigned_groups.get(item)})")
+            elif assigned_groups.get(item) not in ("neutral_food", "low_hydration"):
+                errors.append(f"中性食物應使用中低補水分類：{item} ({assigned_groups.get(item)})")
         if row["補水判定"] == "待確認" and item in all_ids:
             errors.append(f"中性食物尚未完成確認卻已加入補水標籤：{item}")
         if row["補水判定"] == "暫不補水" and item in all_ids:
