@@ -31,6 +31,14 @@ def main():
     with review_path.open(encoding="utf-8-sig", newline="") as handle:
         reviewed = list(csv.DictReader(handle))
     review_ids = [row["物品 ID"].strip() for row in reviewed]
+    valid_statuses = {"待確認", "暫不補水", "已設定少量補水"}
+    for row in reviewed:
+        item = row["物品 ID"].strip()
+        status = row["補水判定"].strip()
+        if status not in valid_statuses:
+            errors.append(f"中性補水審查狀態無效：{item} ({status})")
+        if not row["理由"].strip():
+            errors.append(f"中性補水審查缺少判定理由：{item}")
     if len(review_ids) != len(set(review_ids)):
         errors.append("中性補水審查表存在重複物品 ID")
     for item in review_ids:
