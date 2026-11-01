@@ -36,7 +36,14 @@ def main():
     for item in review_ids:
         if not PATTERN.fullmatch(item):
             errors.append(f"中性補水審查表 ID 格式錯誤：{item}")
-    known |= set(review_ids)
+    # 審查候選不等於已核准：待確認物品不得僅憑 CSV 存在就通過檢查。
+    review_by_id = {row["物品 ID"].strip(): row for row in reviewed}
+    allowed_review_ids = {
+        item for item, row in review_by_id.items()
+        if row["補水判定"] == "已設定少量補水"
+        and row["可食用性驗證"] not in ("", "待驗證")
+    }
+    known |= allowed_review_ids
     all_ids = set()
     assigned_groups = {}
     for group, paths in GROUPS.items():
@@ -70,6 +77,8 @@ def main():
     for row in reviewed:
         item = row["物品 ID"].strip()
         if row["補水判定"] == "已設定少量補水":
+            if item not in allowed_review_ids:
+                errors.append(f"中性食物已補水但缺少可食用性確認：{item}")
             if item not in all_ids:
                 errors.append(f"中性食物標記已補水但缺少標籤：{item}")
             elif assigned_groups.get(item) != "neutral_salad":
