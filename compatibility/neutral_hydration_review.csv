@@ -30,7 +30,7 @@ minecraft:golden_carrot,中性候選,暫不補水,原版可食用但為特殊加
 minecraft:baked_potato,中性候選,暫不補水,原版可食用熟馬鈴薯；考量烘烤料理與生鮮蔬菜不同而保守不補水,原版可食物品；遊戲內效果待驗證,無新增標籤（原生重疊待查）
 minecraft:dried_kelp,中性候選,暫不補水,乾燥海帶含水量低；不因為是海藻就補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:pumpkin_pie,中性候選,暫不補水,烘焙點心不因南瓜原料自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:honey_bottle,中性候選,待確認,蜂蜜瓶可飲用但高糖不等於大量補水；需核對 TAN,原版可飲用物品；補水效果待驗證,待核對 TAN JAR
+minecraft:honey_bottle,中性候選,暫不補水,蜂蜜瓶可飲用但屬高糖濃稠食品；基於保守補水平衡不額外新增 TAN 補水標籤；不宣稱 TAN 原生是否已有補水效果,原版可飲用物品；遊戲內效果待驗證,未新增自訂標籤；TAN 原生重疊尚待核對
 minecraft:beetroot_soup,已設定升溫,已設定湯品補水,原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未涵蓋；加入 thirst 2 與 hydration 30；遊戲內效果待驗證,原版 FOOD 食物；補水效果待實機驗證,已核對 TAN 10.1.0.13 JAR：未重複
 minecraft:mushroom_stew,已設定升溫,已設定湯品補水,原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未涵蓋；加入 thirst 2 與 hydration 30；遊戲內效果待驗證,原版 FOOD 食物；補水效果待實機驗證,已核對 TAN 10.1.0.13 JAR：未重複
 minecraft:rabbit_stew,已設定升溫,已設定湯品補水,原版可食用湯品；TAN 10.1.0.13 原生 thirst/hydration 標籤未涵蓋；加入 thirst 2 與 hydration 30；遊戲內效果待驗證,原版 FOOD 食物；補水效果待實機驗證,已核對 TAN 10.1.0.13 JAR：未重複
