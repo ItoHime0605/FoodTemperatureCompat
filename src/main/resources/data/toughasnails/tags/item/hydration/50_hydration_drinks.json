@@ -1,0 +1,265 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:hot_cocoa",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:green_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:yellow_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:gamblers_tea",
+      "required": false
+    },
+    {
+      "id": "extradelight:coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:dalgona_coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:green_coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:grapefruit_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:lemon_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:lime_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:orange_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:pickle_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hamimelon_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hawberry_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:kiwi_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lemon_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lychee_cherry_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mango_milkshake",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mango_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mangosteen_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:orange_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:peach_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:pear_juice",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:carrot_juice",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:dandelion_juice",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_green_tea",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lucuma_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pink_dragon_fruit_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_black_tea",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_smoothie",
+      "required": false
+    },
+    {
+      "id": "pineapple_delight:pineapple_juice",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:mystery_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:barley_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:flower_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:butter_tea",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:acacia_blossom_milkshake",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mungal_spores_milkshake",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:detoxify_tea",
+      "required": false
+    },
+    {
+      "id": "delightful:long_prickly_pear_juice",
+      "required": false
+    },
+    {
+      "id": "delightful:matcha_milkshake",
+      "required": false
+    },
+    {
+      "id": "delightful:prickly_pear_juice",
+      "required": false
+    },
+    {
+      "id": "delightful:salmonberry_milkshake",
+      "required": false
+    },
+    {
+      "id": "delightful:azalea_tea",
+      "required": false
+    },
+    {
+      "id": "delightful:lavender_tea",
+      "required": false
+    },
+    {
+      "id": "festive_delight:christmas_tea",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:dark_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:milk_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:honey_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:chocolate_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:cherry_blossom_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:pumpkin_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:syrup_coffee",
+      "required": false
+    }
+  ]
+}
