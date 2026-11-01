@@ -3,6 +3,8 @@
 import json
 import csv
 import re
+import argparse
+import zipfile
 from pathlib import Path
 
 ROOT = Path("src/main/resources/data/toughasnails/tags/item")
@@ -15,6 +17,9 @@ GROUPS = {
 }
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--tan-jar", type=Path, help="選填：Tough As Nails 原始 JAR，檢查原生補水標籤重疊")
+    args = parser.parse_args()
     known = {line.split("=", 1)[0].strip() for line in TIERS.read_text(encoding="utf-8").splitlines() if "=" in line and not line.lstrip().startswith("#")}
     errors = []
     # 補水不依賴冷熱值；允許 CSV 中明確記錄的中性料理。
@@ -48,6 +53,22 @@ def main():
             errors.append(f"{group}: 跨分類重複：{sorted(overlap)}")
         all_ids |= members[0]
         print(f"{group}: {len(members[0])} 個補水物品")
+    native = set()
+    if args.tan_jar:
+        with zipfile.ZipFile(args.tan_jar) as jar:
+            for filename in jar.namelist():
+                if not filename.startswith("data/toughasnails/tags/item/") or not filename.endswith(".json"):
+                    continue
+                if "/thirst/" not in filename and "/hydration/" not in filename:
+                    continue
+                for entry in json.loads(jar.read(filename)).get("values", []):
+                    native.add(entry if isinstance(entry, str) else entry.get("id", ""))
+        for item in sorted(native & all_ids):
+            errors.append(f"TAN 原生補水標籤已涵蓋，請避免重複：{item}")
+        print(f"TAN 原生標籤 {len(native)} 個物品；與本模組重疊 {len(native & all_ids)} 個")
+    for item in sorted(all_ids):
+        if item.startswith("toughasnails:"):
+            errors.append(f"TAN 原生物品不應重複設定：{item}")
     print(f"補水設定總計 {len(all_ids)} 個物品；錯誤 {len(errors)} 筆")
     for error in errors:
         print("錯誤：" + error)
