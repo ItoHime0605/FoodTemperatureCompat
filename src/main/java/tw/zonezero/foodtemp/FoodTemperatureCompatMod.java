@@ -17,5 +17,6 @@ public final class FoodTemperatureCompatMod {
         } catch (IOException ex) { throw new IllegalStateException("Failed to load food tiers", ex); }
         TanTemperatureAdapter.register(BRIDGE);
         NeoForge.EVENT_BUS.register(new FoodConsumptionEvents(BRIDGE, REGISTRY));
+        NeoForge.EVENT_BUS.register(new FoodTemperatureTooltip(REGISTRY));
     }
 }
