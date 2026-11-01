@@ -22,15 +22,47 @@
       "required": false
     },
     {
-      "id": "minecraft:sweet_berries",
+      "id": "veggiesdelight:broccoli_salad",
       "required": false
     },
     {
-      "id": "minecraft:glow_berries",
+      "id": "veggiesdelight:cesar_salad",
       "required": false
     },
     {
-      "id": "minecraft:chorus_fruit",
+      "id": "veggiesdelight:coleslaw",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:turnip_salad",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:bellpepper",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:broccoli",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cauliflower",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cauliflower_floret",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:turnip",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:zucchini",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:zucchini_slice",
       "required": false
     }
   ]
