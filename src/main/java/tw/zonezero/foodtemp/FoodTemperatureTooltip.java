@@ -22,11 +22,11 @@ public final class FoodTemperatureTooltip {
         if (tier == 0.0) return;
         String value = java.math.BigDecimal.valueOf(Math.abs(tier)).stripTrailingZeros().toPlainString();
         boolean warming = tier > 0;
-        MutableComponent label = Component.literal(warming ? "升溫食物" : "降溫食物")
+        MutableComponent label = Component.translatable(warming ? "tooltip.foodtemperaturecompat.warming" : "tooltip.foodtemperaturecompat.cooling")
                 .withStyle(warming ? ChatFormatting.GOLD : ChatFormatting.AQUA);
         event.getToolTip().add(Component.literal("❖ ").withStyle(ChatFormatting.GRAY)
                 .append(label)
-                .append(Component.literal("（" + (warming ? "+" : "-") + value + " 冷熱值）")
+                .append(Component.translatable("tooltip.foodtemperaturecompat.value", (warming ? "+" : "-") + value)
                         .withStyle(ChatFormatting.GRAY)));
     }
 }
