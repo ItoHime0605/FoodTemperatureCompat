@@ -1,7 +1,7 @@
 物品 ID,溫度分類,補水判定,理由,可食用性驗證,原生 TAN 重疊檢查
 mynethersdelight:magma_cake_slice,中性,暫不補水,蛋糕類不因含水原料自動補水,待驗證,待驗證
 mynethersdelight:bleeding_tartar,中性,暫不補水,肉類料理不自動視為飲品,待驗證,待驗證
-mynethersdelight:ghast_salad,中性,待確認,沙拉可能含水但需確認原模組食用機制與 TAN 既有標籤,待驗證,待驗證
+mynethersdelight:ghast_salad,中性,已設定少量補水,已由原模組 JAR 的 MNDItems 位元碼確認使用 ConsumableItem 與 GHAST_SALAD FoodProperties；仍需遊戲內測試,已核對 JAR 註冊程式,待驗證
 mynethersdelight:cold_striderloaf,冷食名稱但未列冷熱設定,暫不補水,肉類冷盤不是飲品；須確認食物組件,待驗證,待驗證
 mynethersdelight:ghasta_with_cream,未列冷熱設定,暫不補水,奶油料理不等於可恢復口渴,待驗證,待驗證
 mynethersdelight:bread_loaf,未列冷熱設定,暫不補水,麵包類不預設補水,待驗證,待驗證
