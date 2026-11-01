@@ -64,6 +64,14 @@
     {
       "id": "veggiesdelight:zucchini_slice",
       "required": false
+    },
+    {
+      "id": "rusticdelight:potato_salad",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:sweet_salad",
+      "required": false
     }
   ]
 }
