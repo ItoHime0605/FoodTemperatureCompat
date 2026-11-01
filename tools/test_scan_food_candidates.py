@@ -23,6 +23,11 @@ with tempfile.TemporaryDirectory() as tmp:
         archive.writestr("assets/example/models/item/array_juice.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/null_juice.json", "null")
         archive.writestr("assets/example/models/item/berry_juice.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/steak_and_potatoes.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/steamed_fish.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/coffee_braised_beef.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/iced_tea.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/chicken_stew.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/iron_sword.json", '{"parent":"item/handheld"}')
         archive.writestr("assets/example/models/item/tomato_salad.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/coconut_pudding.json", '{"parent":"item/generated"}')
@@ -34,7 +39,7 @@ with tempfile.TemporaryDirectory() as tmp:
     subprocess.run([sys.executable, str(ROOT / "tools/scan_food_candidates.py"), str(jar), "--output", str(output)], cwd=ROOT, check=True)
     with output.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
-    assert {row["候選物品 ID"] for row in rows} == {"example:berry_juice", "example:pear_juice", "example:tomato_salad", "example:coconut_pudding"}
+    assert {row["候選物品 ID"] for row in rows} == {"example:berry_juice", "example:pear_juice", "example:tomato_salad", "example:coconut_pudding", "example:iced_tea", "example:chicken_stew"}
     assert next(row["可能分類"] for row in rows if row["候選物品 ID"] == "example:coconut_pudding") == "高含水料理"
     assert next(row for row in rows if row["候選物品 ID"] == "example:berry_juice")["物品定義檔"] == "存在"
     assert next(row for row in rows if row["候選物品 ID"] == "example:pear_juice")["物品模型"] == "未找到"
