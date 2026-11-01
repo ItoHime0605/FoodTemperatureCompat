@@ -18,6 +18,10 @@ with tempfile.TemporaryDirectory() as tmp:
         archive.writestr("assets/example/models/item/tomato_salad.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/coconut_pudding.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/invalid_juice.json", "{bad json")
+        archive.writestr("assets/example/models/item/water_bucket.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/tomato_seeds.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/fruit_crate.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/models/item/variants/berry_juice.json", '{"parent":"item/generated"}')
     subprocess.run([sys.executable, str(ROOT / "tools/scan_food_candidates.py"), str(jar), "--output", str(output)], cwd=ROOT, check=True)
     with output.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
