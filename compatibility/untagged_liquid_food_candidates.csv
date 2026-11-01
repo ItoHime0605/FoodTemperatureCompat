@@ -31,3 +31,14 @@ extradelight:apple_milkshake,疑似飲品,待核對,蘋果奶昔；已存在冷�
 extradelight:chocolate_milkshake,疑似飲品,待核對,巧克力奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
 extradelight:glow_berry_milkshake,疑似飲品,待核對,發光莓奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
 extradelight:milkshake,疑似飲品,待核對,奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:pasta_tomato,名稱含高含水食材或料理,不依名稱新增補水,番茄義大利麵；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+extradelight:preserved_lemon_pasta,名稱含高含水食材或料理,不依名稱新增補水,醃檸檬義大利麵；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+extradelight:melon_lime_glazed_chicken,名稱含高含水食材或料理,不依名稱新增補水,瓜果萊姆醬雞肉；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+extradelight:orange_chicken,名稱含高含水食材或料理,不依名稱新增補水,柳橙雞肉；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+rusticdelight:roasted_bell_pepper_orange,名稱含高含水食材或料理,不依名稱新增補水,橘色烤甜椒；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+rusticdelight:roasted_bell_pepper_slice_orange,名稱含高含水食材或料理,不依名稱新增補水,橘色烤甜椒片；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+rusticdelight:stuffed_bell_pepper_orange,名稱含高含水食材或料理,不依名稱新增補水,橘色鑲甜椒；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+rusticdelight:bell_pepper_roll_orange,名稱含高含水食材或料理,不依名稱新增補水,橘色甜椒捲；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+mynethersdelight:hotdog_with_mixed_salad,名稱含高含水食材或料理,不依名稱新增補水,綜合沙拉熱狗；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+mynethersdelight:hotdog_with_nether_salad,名稱含高含水食材或料理,不依名稱新增補水,下界沙拉熱狗；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
+mynethersdelight:sizzling_pudding,名稱含高含水食材或料理,不依名稱新增補水,熱布丁；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
