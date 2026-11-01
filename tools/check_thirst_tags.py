@@ -66,6 +66,10 @@ def main():
         print(f"{group}: {len(members[0])} 個補水物品")
     for row in reviewed:
         item = row["物品 ID"].strip()
+        if row["補水判定"] == "已設定少量補水" and item not in all_ids:
+            errors.append(f"中性食物標記已補水但缺少標籤：{item}")
+        if row["補水判定"] == "待確認" and item in all_ids:
+            errors.append(f"中性食物尚未完成確認卻已加入補水標籤：{item}")
         if row["補水判定"] == "暫不補水" and item in all_ids:
             errors.append(f"中性補水審查表標記暫不補水，但已被補水標籤包含：{item}")
     print(f"中性／未分類補水審查 {len(review_ids)} 筆")
