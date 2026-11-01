@@ -13,3 +13,21 @@ veggiesdelight:steak_and_broccoli,非飲品關鍵字誤判,不依名稱新增補
 extradelight:steak_pickled_onion_pie_slice,非飲品關鍵字誤判,不依名稱新增補水,steak 是派餡名稱的一部分而非飲品,名稱初篩,待驗證
 starcatcher_delight:steamed_redscaled_tuna,非飲品關鍵字誤判,不依名稱新增補水,steamed 表示蒸煮而非 stew 湯品,名稱初篩,待驗證
 rusticdelight:coffee_braised_beef,非飲品關鍵字誤判,不依名稱新增補水,咖啡燉牛肉為料理而非咖啡飲料,名稱初篩,待驗證
+kaleidoscope_world_liquor:cola,疑似飲品,待核對,可樂；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:tonic_water,疑似飲品,待核對,通寧水；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:sour_plum,疑似飲品,待核對,酸梅飲；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:gin_tonic,疑似飲品,待核對,琴通寧；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:highball,疑似飲品,待核對,Highball 調酒；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:pine_colada,疑似飲品,待核對,鳳梨可樂達；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:cosmopolitan,疑似飲品,待核對,柯夢波丹調酒；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:cactus_juice,疑似飲品,待核對,仙人掌汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:glow_berry_juice,疑似飲品,待核對,發光莓汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:grapefruit_juice,疑似飲品,待核對,葡萄柚汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:lemon_juice,疑似飲品,待核對,檸檬汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:lime_juice,疑似飲品,待核對,萊姆汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:orange_juice,疑似飲品,待核對,柳橙汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:pickle_juice,疑似飲品,待核對,醃黃瓜汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:apple_milkshake,疑似飲品,待核對,蘋果奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:chocolate_milkshake,疑似飲品,待核對,巧克力奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:glow_berry_milkshake,疑似飲品,待核對,發光莓奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:milkshake,疑似飲品,待核對,奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
