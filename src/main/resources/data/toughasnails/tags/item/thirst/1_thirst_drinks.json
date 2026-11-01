@@ -1,0 +1,149 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extradelight:apple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:caramel_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:cinnamon_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:cookie_dough_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:fudge_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:grapefruit_sorbet",
+      "required": false
+    },
+    {
+      "id": "extradelight:honey_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:honey_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:mint_chip_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:nut_butter_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:pumpkin_ice_cream",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hamimelon_popsicle",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:kiwi_popsicle",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_popsicle",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lucuma_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pink_dragon_fruit_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:sunny_ice_cream",
+      "required": false
+    },
+    {
+      "id": "pineapple_delight:pineapple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "corn_delight:corn_popsicle",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:acacia_blossom_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:banana_slug_slime_popsicle",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mungal_spores_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:rainbow_popsicle",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:spit_popsicle",
+      "required": false
+    },
+    {
+      "id": "delightful:cantaloupe_popsicle",
+      "required": false
+    },
+    {
+      "id": "delightful:matcha_ice_cream",
+      "required": false
+    },
+    {
+      "id": "delightful:salmonberry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_mousse",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:tear_popsicle",
+      "required": false
+    }
+  ]
+}
