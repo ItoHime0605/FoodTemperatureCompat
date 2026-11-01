@@ -71,17 +71,33 @@ def main():
     print(f"中性／未分類補水審查 {len(review_ids)} 筆")
     native = set()
     if args.tan_jar:
+        # 展開 TAN 原生標籤的 #巢狀參照，避免僅比對直接列出的物品而漏報。
         with zipfile.ZipFile(args.tan_jar) as jar:
+            prefix = "data/toughasnails/tags/item/"
+            tags = {}
             for filename in jar.namelist():
-                if not filename.startswith("data/toughasnails/tags/item/") or not filename.endswith(".json"):
+                if not filename.startswith(prefix) or not filename.endswith(".json"):
                     continue
-                if "/thirst/" not in filename and "/hydration/" not in filename:
-                    continue
-                for entry in json.loads(jar.read(filename)).get("values", []):
-                    native.add(entry if isinstance(entry, str) else entry.get("id", ""))
+                key = "toughasnails:" + filename[len(prefix):-5]
+                tags[key] = json.loads(jar.read(filename)).get("values", [])
+            def expand(tag, seen):
+                if tag in seen:
+                    errors.append(f"TAN 原生標籤循環參照：{tag}")
+                    return set()
+                result = set()
+                for entry in tags.get(tag, []):
+                    item = entry if isinstance(entry, str) else entry.get("id", "")
+                    if item.startswith("#"):
+                        result |= expand(item[1:], seen | {tag})
+                    elif PATTERN.fullmatch(item):
+                        result.add(item)
+                return result
+            for tag in tags:
+                if tag.startswith("toughasnails:thirst/") or tag.startswith("toughasnails:hydration/"):
+                    native |= expand(tag, set())
         for item in sorted(native & all_ids):
             errors.append(f"TAN 原生補水標籤已涵蓋，請避免重複：{item}")
-        print(f"TAN 原生標籤 {len(native)} 個物品；與本模組重疊 {len(native & all_ids)} 個")
+        print(f"TAN 原生標籤展開後 {len(native)} 個物品；與本模組重疊 {len(native & all_ids)} 個")
     for item in sorted(all_ids):
         if item.startswith("toughasnails:"):
             errors.append(f"TAN 原生物品不應重複設定：{item}")
