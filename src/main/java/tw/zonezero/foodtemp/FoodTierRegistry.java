@@ -8,7 +8,8 @@ import java.util.Map;
 import java.util.regex.Pattern;
 public final class FoodTierRegistry {
     private static final Pattern ID = Pattern.compile("[a-z0-9_.-]+:[a-z0-9_./-]+");
-    private Map<String, Double> tiers = Map.of();
+    // Published atomically after a successful reload; event handlers may read concurrently.
+    private volatile Map<String, Double> tiers = Map.of();
     public synchronized int load(Reader input) throws IOException {
         Map<String, Double> next = new HashMap<>();
         try (BufferedReader lines = new BufferedReader(input)) {
