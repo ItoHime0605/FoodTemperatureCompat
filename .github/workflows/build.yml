@@ -1,6 +1,9 @@
 name: NeoForge 1.21.1 Build
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
 permissions:
   contents: read
 jobs:
@@ -18,8 +21,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.2.1'
-      - name: Build
-        run: gradle build --stacktrace --no-daemon
+      - name: Audit food temperature settings
+        run: python3 tools/check_progress_consistency.py
+      - name: Build and run regression checks
+        run: gradle clean build check --stacktrace --no-daemon
       - name: Upload JAR
         if: success()
         uses: actions/upload-artifact@v4
