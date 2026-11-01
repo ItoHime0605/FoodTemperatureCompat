@@ -1,0 +1,4 @@
+物品 ID,溫度分類,補水判定,理由,可食用性驗證,原生 TAN 重疊檢查
+mynethersdelight:magma_cake_slice,中性,暫不補水,蛋糕類不因含水原料自動補水,待驗證,待驗證
+mynethersdelight:bleeding_tartar,中性,暫不補水,肉類料理不自動視為飲品,待驗證,待驗證
+mynethersdelight:ghast_salad,中性,待確認,沙拉可能含水但需確認原模組食用機制與 TAN 既有標籤,待驗證,待驗證
