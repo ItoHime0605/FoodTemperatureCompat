@@ -2,6 +2,8 @@ package tw.zonezero.foodtemp;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 
 /**
@@ -35,6 +37,24 @@ public final class FoodTemperatureRegressionTest {
             throw new AssertionError("重複 ID 應遭拒絕");
         } catch (IOException expected) {
             check(registry.size() == 2, "讀取失敗不可破壞原設定");
+        }
+    }
+
+
+    private static void packagedFoodSettings() throws Exception {
+        // Validate the actual resource shipped in the mod, not only synthetic fixtures.
+        try (var resource = FoodTemperatureRegressionTest.class.getResourceAsStream("/food_temperature_tiers.txt")) {
+            check(resource != null, "JAR 缺少食物溫度設定檔");
+            FoodTierRegistry registry = new FoodTierRegistry();
+            int count = registry.load(new InputStreamReader(resource, StandardCharsets.UTF_8));
+            check(count >= 400, "正式食物設定數量異常，可能遺漏資源");
+            check(registry.tier("minecraft:mushroom_stew") == 2.0, "原版熱湯設定錯誤");
+            check(registry.tier("farmersdelight:chicken_soup") == 2.0, "農夫樂事熱湯設定錯誤");
+            check(registry.tier("rusticdelight:coffee_braised_beef") == 0.6, "鄉村樂事燉煮小數設定錯誤");
+            check(registry.tier("rusticdelight:fried_chicken") == 0.8, "鄉村樂事炸物小數設定錯誤");
+            check(registry.tier("extradelight:chocolate_mousse") == -0.2, "冷藏甜點小數設定錯誤");
+            check(registry.tier("extradelight:chocolate_ice_cream") == -2.0, "冰品降溫設定錯誤");
+            check(registry.tier("farmersdelight:chicken_sandwich") == 0.5, "一般熟食小數設定錯誤");
         }
     }
 
@@ -83,6 +103,7 @@ public final class FoodTemperatureRegressionTest {
 
     public static void main(String[] args) throws Exception {
         registryDecimalsAndDuplicates();
+        packagedFoodSettings();
         accumulationAndDecay();
         backwardsTickDoesNotRewindClock();
         playerStateCleanup();
