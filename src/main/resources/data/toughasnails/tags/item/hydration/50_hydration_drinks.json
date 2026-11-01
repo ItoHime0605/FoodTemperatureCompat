@@ -260,6 +260,70 @@
     {
       "id": "rusticdelight:syrup_coffee",
       "required": false
+    },
+    {
+      "id": "farmersrespite:hot_cocoa_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:hot_cocoa_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:green_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:green_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:yellow_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:yellow_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:gamblers_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:gamblers_tea_with_sugar",
+      "required": false
     }
   ]
 }
