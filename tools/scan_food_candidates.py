@@ -50,8 +50,12 @@ def main():
                 category = next((cat for cat, words in CATEGORIES.items() if any(word in item for word in words)), None)
                 if not category:
                     continue
+                # 同一物品的所有現存資源檔均須可解析，避免有效舊模型掩蓋損壞的新版定義檔。
+                resource_paths = (f"assets/{namespace}/items/{item}.json", f"assets/{namespace}/models/item/{item}.json")
                 try:
-                    json.loads(jar.read(name))
+                    for resource_path in resource_paths:
+                        if resource_path in names:
+                            json.loads(jar.read(resource_path))
                 except (ValueError, UnicodeDecodeError):
                     continue
                 identifier = f"{namespace}:{item}"
