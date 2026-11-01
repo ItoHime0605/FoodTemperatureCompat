@@ -16,6 +16,9 @@ CATEGORIES = {
     "冰品": ("ice_cream", "popsicle", "sorbet", "gelato"),
     "高含水料理": ("jelly", "pudding", "custard", "yogurt", "yoghurt", "tofu", "coconut", "watermelon", "gazpacho"),
 }
+# 模型名稱中的食物關鍵字不代表該物品可以食用；先排除明顯的容器與裝飾模型。
+NONFOOD_SUFFIXES = ("_bucket", "_bottle_empty", "_bottle_block", "_crate", "_block", "_seeds", "_seed", "_sapling", "_leaves", "_log", "_planks", "_door", "_trapdoor", "_sign", "_hanging_sign", "_candle", "_wall", "_stairs", "_slab", "_fence", "_fence_gate", "_spawn_egg", "_knife", "_sword", "_axe", "_pickaxe", "_shovel", "_hoe")
+NONFOOD_PREFIXES = ("empty_", "raw_material_")
 MODEL = re.compile(r"^assets/([a-z0-9_.-]+)/models/item/([a-z0-9_./-]+)\.json$")
 def main():
     parser = argparse.ArgumentParser()
@@ -36,6 +39,9 @@ def main():
                 if not match:
                     continue
                 namespace, item = match.groups()
+                # 僅辨識頂層物品模型；子目錄可能是材質變體、GUI 或非註冊物品。
+                if "/" in item or item.endswith(NONFOOD_SUFFIXES) or item.startswith(NONFOOD_PREFIXES):
+                    continue
                 category = next((cat for cat, words in CATEGORIES.items() if any(word in item for word in words)), None)
                 if not category:
                     continue
