@@ -9,7 +9,7 @@ mynethersdelight:slices_of_bread,未列冷熱設定,暫不補水,麵包片不預
 mynethersdelight:burnt_roll,未列冷熱設定,暫不補水,烘焙食品不預設補水,待驗證,待驗證
 mynethersdelight:hoglin_sausage,未列冷熱設定,暫不補水,香腸類不預設補水,待驗證,待驗證
 mynethersdelight:blue_tenderloin_steak,未列冷熱設定,暫不補水,肉類不預設補水,待驗證,待驗證
-mynethersdelight:bullet_pepper,未列冷熱設定,待確認,蔬菜是否可食及補水需核對實際物品,待驗證,待驗證
+mynethersdelight:bullet_pepper,中性（尚未列冷熱設定）,暫不補水,已以 MyNethersDelight 1.10.4.1 JAR 的 MNDItems lambda$static$81 位元碼核對 ItemNameBlockItem 註冊包含 MNDFoodValues.BULLET_PEPPER 食物屬性；辣椒不因屬蔬菜就自動補水,已核對 JAR 註冊程式,待驗證
 mynethersdelight:ghasmati,未列冷熱設定,待確認,名稱不足以確認食物與含水量,待驗證,待驗證
 mynethersdelight:golden_egg,未列冷熱設定,暫不補水,蛋類不預設補水,待驗證,待驗證
 mynethersdelight:enchanted_golden_egg,未列冷熱設定,暫不補水,特殊蛋類不預設補水,待驗證,待驗證
