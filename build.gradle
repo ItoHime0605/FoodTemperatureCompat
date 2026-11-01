@@ -46,3 +46,10 @@ tasks.register('foodTemperatureRegression', JavaExec) {
 tasks.named('check') {
     dependsOn tasks.named('foodTemperatureRegression')
 }
+
+// Regression cases use a plain Java main(), not JUnit/TestNG.
+// Disable only the unused framework-based test task; `check` still runs
+// foodTemperatureRegression and fails when any assertion fails.
+tasks.named('test', Test) {
+    enabled = false
+}
