@@ -109,15 +109,15 @@ extradelight:nut_butter_ice_cream=-2
 extradelight:pumpkin_ice_cream=-2
 
 # extradelight: 冷飲
-extradelight:apple_milkshake=-1
+extradelight:apple_milkshake=-2
 extradelight:cactus_juice=-1
-extradelight:chocolate_milkshake=-1
+extradelight:chocolate_milkshake=-2
 extradelight:glow_berry_juice=-1
-extradelight:glow_berry_milkshake=-1
+extradelight:glow_berry_milkshake=-2
 extradelight:grapefruit_juice=-1
 extradelight:lemon_juice=-1
 extradelight:lime_juice=-1
-extradelight:milkshake=-1
+extradelight:milkshake=-2
 extradelight:orange_juice=-1
 extradelight:pickle_juice=-1
 
@@ -135,7 +135,7 @@ fruitsdelight:hawberry_tea=-1
 fruitsdelight:kiwi_juice=-1
 fruitsdelight:lemon_juice=-1
 fruitsdelight:lychee_cherry_tea=-1
-fruitsdelight:mango_milkshake=-1
+fruitsdelight:mango_milkshake=-2
 fruitsdelight:mango_tea=-1
 fruitsdelight:mangosteen_tea=-1
 fruitsdelight:orange_juice=-1
@@ -174,11 +174,11 @@ collectorsreap:sunny_ice_cream=-2
 
 # collectorsreap: 冷飲
 collectorsreap:lime_green_tea=-1
-collectorsreap:lime_milkshake=-1
-collectorsreap:lucuma_milkshake=-1
-collectorsreap:pink_dragon_fruit_milkshake=-1
+collectorsreap:lime_milkshake=-2
+collectorsreap:lucuma_milkshake=-2
+collectorsreap:pink_dragon_fruit_milkshake=-2
 collectorsreap:pomegranate_black_tea=-1
-collectorsreap:pomegranate_milkshake=-1
+collectorsreap:pomegranate_milkshake=-2
 collectorsreap:pomegranate_smoothie=-1
 
 # pineapple_delight: 冰品
@@ -259,8 +259,8 @@ alexsmobsdelight:rainbow_popsicle=-2
 alexsmobsdelight:spit_popsicle=-2
 
 # alexsmobsdelight / tier -1
-alexsmobsdelight:acacia_blossom_milkshake=-1
-alexsmobsdelight:mungal_spores_milkshake=-1
+alexsmobsdelight:acacia_blossom_milkshake=-2
+alexsmobsdelight:mungal_spores_milkshake=-2
 
 # alexsmobsdelight / tier 1
 alexsmobsdelight:detoxify_tea=1
@@ -278,9 +278,9 @@ delightful:salmonberry_ice_cream=-2
 
 # delightful / tier -1
 delightful:long_prickly_pear_juice=-1
-delightful:matcha_milkshake=-1
+delightful:matcha_milkshake=-2
 delightful:prickly_pear_juice=-1
-delightful:salmonberry_milkshake=-1
+delightful:salmonberry_milkshake=-2
 
 # delightful / tier 1
 delightful:azalea_tea=1
