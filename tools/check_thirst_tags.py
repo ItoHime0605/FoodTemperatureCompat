@@ -38,6 +38,7 @@ def main():
             errors.append(f"中性補水審查表 ID 格式錯誤：{item}")
     known |= set(review_ids)
     all_ids = set()
+    assigned_groups = {}
     for group, paths in GROUPS.items():
         members = []
         for rel in paths:
@@ -63,16 +64,26 @@ def main():
         if overlap:
             errors.append(f"{group}: 跨分類重複：{sorted(overlap)}")
         all_ids |= members[0]
+        for item in members[0]:
+            assigned_groups[item] = group
         print(f"{group}: {len(members[0])} 個補水物品")
     for row in reviewed:
         item = row["物品 ID"].strip()
-        if row["補水判定"] == "已設定少量補水" and item not in all_ids:
-            errors.append(f"中性食物標記已補水但缺少標籤：{item}")
+        if row["補水判定"] == "已設定少量補水":
+            if item not in all_ids:
+                errors.append(f"中性食物標記已補水但缺少標籤：{item}")
+            elif assigned_groups.get(item) != "neutral_salad":
+                errors.append(f"中性食物應使用獨立補水分類：{item} ({assigned_groups.get(item)})")
         if row["補水判定"] == "待確認" and item in all_ids:
             errors.append(f"中性食物尚未完成確認卻已加入補水標籤：{item}")
         if row["補水判定"] == "暫不補水" and item in all_ids:
             errors.append(f"中性補水審查表標記暫不補水，但已被補水標籤包含：{item}")
     print(f"中性／未分類補水審查 {len(review_ids)} 筆")
+    # 審查表應與已知冷熱設定分離；明確標記中性者不得同時有非零冷熱值。
+    for row in reviewed:
+        item = row["物品 ID"].strip()
+        if row["溫度分類"] == "中性" and item in {line.split("=", 1)[0].strip() for line in TIERS.read_text(encoding="utf-8").splitlines() if "=" in line and not line.lstrip().startswith("#")}:
+            errors.append(f"中性食物意外出現在冷熱設定表：{item}")
     native = set()
     if args.tan_jar:
         # 展開 TAN 原生標籤的 #巢狀參照，避免僅比對直接列出的物品而漏報。
