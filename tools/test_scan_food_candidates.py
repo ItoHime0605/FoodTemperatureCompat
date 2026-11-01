@@ -40,4 +40,19 @@ with tempfile.TemporaryDirectory() as tmp:
     assert next(row for row in rows if row["候選物品 ID"] == "example:pear_juice")["物品模型"] == "未找到"
     assert all(row["可食用性"] == "未確認" for row in rows)
     assert all(row["TAN 原生補水"] == "未確認" for row in rows)
+    # 不同資料夾中的同名 JAR 不可因檔名相同而漏掉候選。
+    first_dir = folder / "first"
+    second_dir = folder / "second"
+    first_dir.mkdir()
+    second_dir.mkdir()
+    first_jar = first_dir / "same.jar"
+    second_jar = second_dir / "same.jar"
+    for target in (first_jar, second_jar):
+        with zipfile.ZipFile(target, "w") as archive:
+            archive.writestr("assets/example/items/pear_juice.json", '{"model":{"type":"minecraft:model","model":"example:item/pear_juice"}}')
+    subprocess.run([sys.executable, str(ROOT / "tools/scan_food_candidates.py"), str(first_jar), str(second_jar), "--output", str(output)], cwd=ROOT, check=True)
+    with output.open(encoding="utf-8-sig", newline="") as handle:
+        duplicate_name_rows = list(csv.DictReader(handle))
+    assert len(duplicate_name_rows) == 2
+    assert all(row["候選物品 ID"] == "example:pear_juice" for row in duplicate_name_rows)
 print("候選掃描器測試通過")
