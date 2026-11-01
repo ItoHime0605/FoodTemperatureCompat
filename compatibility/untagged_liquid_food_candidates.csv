@@ -20,17 +20,17 @@ kaleidoscope_world_liquor:gin_tonic,疑似飲品,待核對,琴通寧；已存在
 kaleidoscope_world_liquor:highball,疑似飲品,待核對,Highball 調酒；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
 kaleidoscope_world_liquor:pine_colada,疑似飲品,待核對,鳳梨可樂達；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
 kaleidoscope_world_liquor:cosmopolitan,疑似飲品,待核對,柯夢波丹調酒；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:cactus_juice,疑似飲品,待核對,仙人掌汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:glow_berry_juice,疑似飲品,待核對,發光莓汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:grapefruit_juice,疑似飲品,待核對,葡萄柚汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:lemon_juice,疑似飲品,待核對,檸檬汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:lime_juice,疑似飲品,待核對,萊姆汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:orange_juice,疑似飲品,待核對,柳橙汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:pickle_juice,疑似飲品,待核對,醃黃瓜汁；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:apple_milkshake,疑似飲品,待核對,蘋果奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:chocolate_milkshake,疑似飲品,待核對,巧克力奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:glow_berry_milkshake,疑似飲品,待核對,發光莓奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
-extradelight:milkshake,疑似飲品,待核對,奶昔；已存在冷熱設定但未加入補水標籤；需核對原始 JAR FoodProperties 與 TAN 原生標籤,待驗證,待驗證
+extradelight:cactus_juice,疑似飲品,已確認重疊待調整,官方 1.21 原始碼內建 TAN thirst 標籤且本模組亦有相同物品 thirst 標籤；須先核對版本及 hydration 配套,官方來源碼已核對（非指定 JAR）,待驗證
+extradelight:glow_berry_juice,疑似飲品,已確認重疊待調整,官方 1.21 原始碼內建 TAN thirst 標籤且本模組亦有相同物品 thirst 標籤；須先核對版本及 hydration 配套,官方來源碼已核對（非指定 JAR）,待驗證
+extradelight:grapefruit_juice,疑似飲品,已有本模組補水標籤,本模組 thirst 與 hydration 標籤已包含此物品；先前誤列為未加入補水,本模組設定已核對（原始 JAR 待驗證）,待驗證
+extradelight:lemon_juice,疑似飲品,已有本模組補水標籤,本模組 thirst 與 hydration 標籤已包含此物品；先前誤列為未加入補水,本模組設定已核對（原始 JAR 待驗證）,待驗證
+extradelight:lime_juice,疑似飲品,已有本模組補水標籤,本模組 thirst 與 hydration 標籤已包含此物品；先前誤列為未加入補水,本模組設定已核對（原始 JAR 待驗證）,待驗證
+extradelight:orange_juice,疑似飲品,已有本模組補水標籤,本模組 thirst 與 hydration 標籤已包含此物品；先前誤列為未加入補水,本模組設定已核對（原始 JAR 待驗證）,待驗證
+extradelight:pickle_juice,疑似飲品,已有本模組補水標籤,本模組 thirst 與 hydration 標籤已包含此物品；先前誤列為未加入補水,本模組設定已核對（原始 JAR 待驗證）,待驗證
+extradelight:apple_milkshake,疑似飲品,已確認重疊待調整,官方 1.21 原始碼內建 TAN thirst 標籤且本模組亦有相同物品 thirst 標籤；須先核對版本及 hydration 配套,官方來源碼已核對（非指定 JAR）,待驗證
+extradelight:chocolate_milkshake,疑似飲品,已確認重疊待調整,官方 1.21 原始碼內建 TAN thirst 標籤且本模組亦有相同物品 thirst 標籤；須先核對版本及 hydration 配套,官方來源碼已核對（非指定 JAR）,待驗證
+extradelight:glow_berry_milkshake,疑似飲品,已確認重疊待調整,官方 1.21 原始碼內建 TAN thirst 標籤且本模組亦有相同物品 thirst 標籤；須先核對版本及 hydration 配套,官方來源碼已核對（非指定 JAR）,待驗證
+extradelight:milkshake,疑似飲品,已確認重疊待調整,官方 1.21 原始碼內建 TAN thirst 標籤且本模組亦有相同物品 thirst 標籤；須先核對版本及 hydration 配套,官方來源碼已核對（非指定 JAR）,待驗證
 extradelight:pasta_tomato,名稱含高含水食材或料理,不依名稱新增補水,番茄義大利麵；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
 extradelight:preserved_lemon_pasta,名稱含高含水食材或料理,不依名稱新增補水,醃檸檬義大利麵；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
 extradelight:melon_lime_glazed_chicken,名稱含高含水食材或料理,不依名稱新增補水,瓜果萊姆醬雞肉；名稱可能表示口味 配料或顏色而非食物含水量；須核對 JAR FoodProperties 與實際食用方式,待驗證,待驗證
