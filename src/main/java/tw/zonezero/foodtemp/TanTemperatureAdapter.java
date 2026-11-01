@@ -10,7 +10,9 @@ public final class TanTemperatureAdapter implements IPlayerTemperatureModifier {
         TemperatureHelper.registerPlayerTemperatureModifier(new TanTemperatureAdapter(bridge));
     }
     @Override public TemperatureLevel modify(Player player, TemperatureLevel current) {
-        if (player.level().isClientSide()) return current;
+        // Some integrations query temperature for fake or detached players.
+        // They may have no active server; do not crash temperature queries.
+        if (player.level().isClientSide() || player.getServer() == null) return current;
         int offset = bridge.temperatureOffset(player.getUUID(), player.getServer().getTickCount());
         // TAN 10.1.0.13 exposes increment(int), which clamps to ICY..HOT.
         // Delegate level bounds to TAN rather than relying on enum ordinals.
