@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """稽核 TAN 10.1.0.13 補水標籤：ID、重複、冷熱設定來源與可選模組。"""
 import json
+import csv
 import re
 from pathlib import Path
 
@@ -16,6 +17,10 @@ GROUPS = {
 def main():
     known = {line.split("=", 1)[0].strip() for line in TIERS.read_text(encoding="utf-8").splitlines() if "=" in line and not line.lstrip().startswith("#")}
     errors = []
+    # 補水不依賴冷熱值；允許 CSV 中明確記錄的中性料理。
+    with Path("compatibility/food_item_progress.csv").open(encoding="utf-8-sig", newline="") as handle:
+        progress = {row["物品 ID"].strip(): row for row in csv.DictReader(handle)}
+    known |= set(progress)
     all_ids = set()
     for group, paths in GROUPS.items():
         members = []
@@ -31,7 +36,7 @@ def main():
                     continue
                 item = entry.get("id", "")
                 if not PATTERN.fullmatch(item) or item not in known:
-                    errors.append(f"{path}: ID 不存在於冷熱設定或格式錯誤：{item}")
+                    errors.append(f"{path}: ID 不存在於冷熱設定／中性食物進度表或格式錯誤：{item}")
                 if item in ids:
                     errors.append(f"{path}: 重複 ID：{item}")
                 ids.append(item)
