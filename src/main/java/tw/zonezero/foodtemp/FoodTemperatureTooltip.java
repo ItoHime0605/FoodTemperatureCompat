@@ -1,0 +1,32 @@
+package tw.zonezero.foodtemp;
+
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.ChatFormatting;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
+
+/** 在物品提示中顯示固定冷熱方向，不將小數值誤稱為 TAN 體溫階級。 */
+public final class FoodTemperatureTooltip {
+    private final FoodTierRegistry registry;
+
+    public FoodTemperatureTooltip(FoodTierRegistry registry) {
+        this.registry = registry;
+    }
+
+    @SubscribeEvent
+    public void onTooltip(ItemTooltipEvent event) {
+        String id = BuiltInRegistries.ITEM.getKey(event.getItemStack().getItem()).toString();
+        double tier = registry.tier(id);
+        if (tier == 0.0) return;
+        String value = java.math.BigDecimal.valueOf(Math.abs(tier)).stripTrailingZeros().toPlainString();
+        boolean warming = tier > 0;
+        MutableComponent label = Component.literal(warming ? "升溫食物" : "降溫食物")
+                .withStyle(warming ? ChatFormatting.GOLD : ChatFormatting.AQUA);
+        event.getToolTip().add(Component.literal("❖ ").withStyle(ChatFormatting.GRAY)
+                .append(label)
+                .append(Component.literal("（" + (warming ? "+" : "-") + value + " 冷熱值）")
+                        .withStyle(ChatFormatting.GRAY)));
+    }
+}
