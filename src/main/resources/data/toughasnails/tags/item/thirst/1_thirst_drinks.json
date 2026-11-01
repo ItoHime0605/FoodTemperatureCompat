@@ -144,10 +144,6 @@
     {
       "id": "mynethersdelight:tear_popsicle",
       "required": false
-    },
-    {
-      "id": "mynethersdelight:ghast_salad",
-      "required": false
     }
   ]
 }
