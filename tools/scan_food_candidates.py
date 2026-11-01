@@ -14,6 +14,7 @@ CATEGORIES = {
     "飲品": ("juice", "drink", "tea", "coffee", "milkshake", "smoothie", "water", "lemonade"),
     "湯品": ("soup", "broth", "stew", "porridge", "congee"),
     "冰品": ("ice_cream", "popsicle", "sorbet", "gelato"),
+    "高含水料理": ("jelly", "pudding", "custard", "yogurt", "yoghurt", "tofu", "coconut", "watermelon", "gazpacho"),
 }
 MODEL = re.compile(r"^assets/([a-z0-9_.-]+)/models/item/([a-z0-9_./-]+)\.json$")
 def main():
@@ -27,6 +28,7 @@ def main():
             with source.open(encoding="utf-8-sig", newline="") as f:
                 known.update(row["物品 ID"].strip() for row in csv.DictReader(f))
     rows = []
+    seen = set()
     for jar_path in args.jars:
         with zipfile.ZipFile(jar_path) as jar:
             for name in sorted(jar.namelist()):
@@ -42,12 +44,17 @@ def main():
                 except (ValueError, UnicodeDecodeError):
                     continue
                 identifier = f"{namespace}:{item}"
+                # 不將同一 JAR 中重複的模型路徑計算成不同物品。
+                if (jar_path.name, identifier) in seen:
+                    continue
+                seen.add((jar_path.name, identifier))
                 rows.append({
                     "來源 JAR": jar_path.name, "候選物品 ID": identifier, "可能分類": category,
                     "既有進度紀錄": "已有" if identifier in known else "未收錄",
                     "可食用性": "未確認", "TAN 原生補水": "未確認",
                     "建議": "僅供審查，禁止自動加入補水標籤",
                 })
+    rows.sort(key=lambda row: (row["來源 JAR"], row["候選物品 ID"]))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=["來源 JAR", "候選物品 ID", "可能分類", "既有進度紀錄", "可食用性", "TAN 原生補水", "建議"])
