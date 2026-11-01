@@ -64,9 +64,9 @@ def main():
                 has_definition = f"assets/{namespace}/items/{item}.json" in names
                 has_model = f"assets/{namespace}/models/item/{item}.json" in names
                 # 不將同一 JAR 中重複的模型路徑計算成不同物品。
-                if (jar_path.name, identifier) in seen:
+                if (jar_path.resolve(), identifier) in seen:
                     continue
-                seen.add((jar_path.name, identifier))
+                seen.add((jar_path.resolve(), identifier))
                 rows.append({
                     "來源 JAR": jar_path.name, "候選物品 ID": identifier, "可能分類": category,
                     "既有進度紀錄": "已有" if identifier in known else "未收錄",
