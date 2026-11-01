@@ -17,13 +17,13 @@ mynethersdelight:ghast_sourdough,未列冷熱設定,暫不補水,酸種麵包不
 mynethersdelight:striderloaf,未列冷熱設定,暫不補水,肉捲類不預設補水,待驗證,待驗證
 mynethersdelight:plate_of_cold_striderloaf,未列冷熱設定,暫不補水,盤裝冷肉類不預設補水,待驗證,待驗證
 mynethersdelight:hot_wings_bucket,未列冷熱設定,暫不補水,容器模型可能非可直接食用物品,待驗證,待驗證
-minecraft:melon_slice,中性候選,待確認,原版西瓜片含水量高；需先確認 TAN 是否已賦予補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:apple,中性候選,待確認,原版蘋果具水分；需確認 TAN 原生補水設定,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:carrot,中性候選,待確認,原版胡蘿蔔可食；補水量需依 TAN 平衡確認,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:beetroot,中性候選,待確認,原版甜菜根可食；需確認 TAN 原生補水設定,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:sweet_berries,中性候選,待確認,原版甜莓可食；需確認原生補水標籤,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:glow_berries,中性候選,待確認,原版發光莓可食；需確認原生補水標籤,原版可食物品；補水效果待驗證,待核對 TAN JAR
-minecraft:chorus_fruit,中性候選,待確認,原版歌萊果可食；需確認 TAN 與傳送食用效果,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:melon_slice,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
+minecraft:apple,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
+minecraft:carrot,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
+minecraft:beetroot,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
+minecraft:sweet_berries,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
+minecraft:glow_berries,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
+minecraft:chorus_fruit,中性候選,已設定少量補水,原版可食用；已核對 TAN 10.1.0.13 原生 thirst/hydration 標籤無此物品；新增 thirst 3、hydration 20,原版 FOOD 食物（待實機驗證補水）,已核對 TAN JAR：未重複
 minecraft:potato,中性候選,待確認,原版馬鈴薯可食；不因是蔬菜就自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:poisonous_potato,中性候選,待確認,原版毒馬鈴薯可食但有負面效果；不自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:golden_carrot,中性候選,待確認,原版可食用且為胡蘿蔔加工品；需比對 TAN 原生標籤,原版可食物品；補水效果待驗證,待核對 TAN JAR
