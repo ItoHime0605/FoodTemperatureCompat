@@ -19,6 +19,23 @@ CATEGORIES = {
 # 模型名稱中的食物關鍵字不代表該物品可以食用；先排除明顯的容器與裝飾模型。
 NONFOOD_SUFFIXES = ("_bucket", "_bottle_empty", "_bottle_block", "_crate", "_block", "_seeds", "_seed", "_sapling", "_leaves", "_log", "_planks", "_door", "_trapdoor", "_sign", "_hanging_sign", "_candle", "_wall", "_stairs", "_slab", "_fence", "_fence_gate", "_spawn_egg", "_knife", "_sword", "_axe", "_pickaxe", "_shovel", "_hoe")
 NONFOOD_PREFIXES = ("empty_", "raw_material_")
+# 短詞必須對齊底線分隔的完整詞，避免 steak 命中 tea、steamed 命中 stew。
+# 複合詞如 iced_tea、fruit_juice 仍能正確辨識。
+BOUNDARY_KEYWORDS = {"tea", "stew", "water", "drink", "fruit", "apple", "pear", "lime", "melon", "pepper", "milkshake", "coffee"}
+
+def matches_food_keyword(item, keyword):
+    if keyword in BOUNDARY_KEYWORDS:
+        return keyword in item.split("_")
+    return keyword in item
+
+def classify_food_candidate(item):
+    return next(
+        (category for category, words in CATEGORIES.items()
+         if any(matches_food_keyword(item, word) for word in words)),
+        None,
+    )
+
+
 MODEL = re.compile(r"^assets/([a-z0-9_.-]+)/models/item/([a-z0-9_./-]+)\.json$")
 ITEM_DEF = re.compile(r"^assets/([a-z0-9_.-]+)/items/([a-z0-9_.-]+)\.json$")
 def main():
@@ -47,7 +64,7 @@ def main():
                 # 僅辨識頂層物品模型；子目錄可能是材質變體、GUI 或非註冊物品。
                 if "/" in item or item.endswith(NONFOOD_SUFFIXES) or item.startswith(NONFOOD_PREFIXES):
                     continue
-                category = next((cat for cat, words in CATEGORIES.items() if any(word in item for word in words)), None)
+                category = classify_food_candidate(item)
                 if not category:
                     continue
                 # 同一物品的所有現存資源檔均須可解析，避免有效舊模型掩蓋損壞的新版定義檔。
