@@ -2,7 +2,7 @@
 kaleidoscope_world_liquor:cool_tea,疑似飲品,待核對,名稱為茶飲但尚未核對物品可飲用性與 TAN 原生標籤,待驗證,待驗證
 kaleidoscope_world_liquor:ice_tea,疑似飲品,待核對,名稱為冰茶但尚未核對物品可飲用性與 TAN 原生標籤,待驗證,待驗證
 kaleidoscope_world_liquor:long_island_iced_tea,疑似飲品,待核對,名稱為調酒但尚未核對物品可飲用性與 TAN 原生標籤；不以名稱推定補水,待驗證,待驗證
-kaleidoscope_tavern:watermelon_juice,疑似飲品,待核對,名稱為西瓜汁但尚未核對物品可飲用性與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_tavern:watermelon_juice,疑似飲品,已依高含水特性設定補水,西瓜汁屬高含水飲品；新增 thirst 4 hydration 50；屬設計推論，原始 JAR 與 TAN 原生重疊待核對,待驗證,待驗證
 alexsmobsdelight:crocodile_stewed_with_catfish,疑似燉煮料理,待核對,stewed 不等於湯品；須核對 FoodProperties 與物品類型,待驗證,待驗證
 alexsmobsdelight:whale_meat_stewed_with_pork,疑似燉煮料理,待核對,stewed 不等於湯品；須核對 FoodProperties 與物品類型,待驗證,待驗證
 extradelight:stewed_apples,疑似燉煮料理,待核對,可能是水果料理而非湯品；須核對 FoodProperties,待驗證,待驗證
