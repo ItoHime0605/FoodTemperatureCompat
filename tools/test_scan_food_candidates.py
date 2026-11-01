@@ -15,6 +15,10 @@ with tempfile.TemporaryDirectory() as tmp:
     with zipfile.ZipFile(jar, "w") as archive:
         archive.writestr("assets/example/items/berry_juice.json", '{"model":{"type":"minecraft:model","model":"example:item/berry_juice"}}')
         archive.writestr("assets/example/items/pear_juice.json", '{"model":{"type":"minecraft:model","model":"example:item/pear_juice"}}')
+        archive.writestr("assets/example/items/broken_juice.json", "{bad json")
+        archive.writestr("assets/example/models/item/broken_juice.json", '{"parent":"item/generated"}')
+        archive.writestr("assets/example/items/broken_model_juice.json", '{"model":{"type":"minecraft:model","model":"example:item/broken_model_juice"}}')
+        archive.writestr("assets/example/models/item/broken_model_juice.json", "{bad json")
         archive.writestr("assets/example/models/item/berry_juice.json", '{"parent":"item/generated"}')
         archive.writestr("assets/example/models/item/iron_sword.json", '{"parent":"item/handheld"}')
         archive.writestr("assets/example/models/item/tomato_salad.json", '{"parent":"item/generated"}')
