@@ -25,6 +25,12 @@ public final class FoodTemperatureRegressionTest {
         check(registry.tier("example:chilled_mousse") == -0.2, "負小數讀取錯誤");
         check(registry.tier("example:neutral") == 0.0, "未設定物品應中性");
         try {
+            registry.load(new StringReader("example:neutral=0\n"));
+            throw new AssertionError("中性料理不應出現在執行設定");
+        } catch (IOException expected) {
+            check(registry.size() == 2, "中性設定失敗不可破壞原設定");
+        }
+        try {
             registry.load(new StringReader("example:duplicate=1\nexample:duplicate=2\n"));
             throw new AssertionError("重複 ID 應遭拒絕");
         } catch (IOException expected) {
