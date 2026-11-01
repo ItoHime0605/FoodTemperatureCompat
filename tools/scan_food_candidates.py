@@ -55,7 +55,9 @@ def main():
                 try:
                     for resource_path in resource_paths:
                         if resource_path in names:
-                            json.loads(jar.read(resource_path))
+                            resource = json.loads(jar.read(resource_path))
+                            if not isinstance(resource, dict):
+                                raise ValueError(f"物品資源必須為 JSON 物件：{resource_path}")
                 except (ValueError, UnicodeDecodeError):
                     continue
                 identifier = f"{namespace}:{item}"
