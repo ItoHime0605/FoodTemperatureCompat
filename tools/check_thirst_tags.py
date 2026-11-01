@@ -91,6 +91,13 @@ def main():
                 errors.append(f"中性食物標記已補水但缺少標籤：{item}")
             elif assigned_groups.get(item) not in (("soup",) if row["溫度分類"] == "已設定升溫" else ("neutral_food", "low_hydration")):
                 errors.append(f"中性食物應使用中低補水分類：{item} ({assigned_groups.get(item)})")
+        if row["補水判定"] == "已設定湯品補水":
+            if item not in allowed_review_ids:
+                errors.append(f"湯品已標記補水但缺少可食用性確認：{item}")
+            if item not in all_ids:
+                errors.append(f"湯品標記已補水但缺少標籤：{item}")
+            elif assigned_groups.get(item) != "soup":
+                errors.append(f"湯品應使用 soup 補水分類：{item} ({assigned_groups.get(item)})")
         if row["補水判定"] == "待確認" and item in all_ids:
             errors.append(f"中性食物尚未完成確認卻已加入補水標籤：{item}")
         if row["補水判定"] == "暫不補水" and item in all_ids:
