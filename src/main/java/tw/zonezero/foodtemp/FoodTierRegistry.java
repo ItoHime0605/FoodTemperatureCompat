@@ -26,6 +26,7 @@ public final class FoodTierRegistry {
                 try { tier = Double.parseDouble(clean.substring(equals + 1).trim()); }
                 catch (NumberFormatException e) { throw new IOException("Invalid tier on line " + number, e); }
                 if (!Double.isFinite(tier) || tier < -3 || tier > 3) throw new IOException("Tier outside -3..3 on line " + number);
+                if (tier == 0.0) throw new IOException("Neutral item must be tracked only in progress CSV on line " + number);
                 if (next.putIfAbsent(id, tier) != null) throw new IOException("Duplicate item ID on line " + number);
             }
         }
