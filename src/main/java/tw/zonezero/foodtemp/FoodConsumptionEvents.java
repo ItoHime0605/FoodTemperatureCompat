@@ -25,6 +25,7 @@ public final class FoodConsumptionEvents {
     @SubscribeEvent
     public void onServerStarted(ServerStartedEvent event) {
         int missing = 0;
+        int needsConsumptionVerification = 0;
         Map<String, int[]> byMod = new TreeMap<>();
         for (String id : registry.entries().keySet()) {
             ResourceLocation key = ResourceLocation.parse(id);
@@ -34,13 +35,24 @@ public final class FoodConsumptionEvents {
                 missing++;
                 stats[1]++;
                 LOGGER.warn("[飲食冷暖] 找不到設定中的物品 ID：{}；此項冷熱效果不會觸發。", id);
+            } else {
+                // Default stacks provide only a preliminary check. Custom items may
+                // add food components or consumption animations dynamically.
+                var stack = BuiltInRegistries.ITEM.get(key).getDefaultInstance();
+                UseAnim animation = stack.getUseAnimation();
+                if (!stack.has(DataComponents.FOOD)
+                        && animation != UseAnim.EAT && animation != UseAnim.DRINK) {
+                    needsConsumptionVerification++;
+                    LOGGER.warn("[飲食冷暖] 物品 {} 預設狀態沒有 FOOD 或飲食動畫；需確認其自訂食用流程，不能直接認定可食用。", id);
+                }
             }
         }
         for (Map.Entry<String, int[]> entry : byMod.entrySet()) {
             LOGGER.info("[飲食冷暖] 模組 {}：設定 {} 筆，未註冊 {} 筆。",
                     entry.getKey(), entry.getValue()[0], entry.getValue()[1]);
         }
-        LOGGER.info("[飲食冷暖] 已載入 {} 筆食物溫度設定，{} 筆物品 ID 未註冊。", registry.size(), missing);
+        LOGGER.info("[飲食冷暖] 已載入 {} 筆食物溫度設定，{} 筆物品 ID 未註冊，{} 筆需進一步確認食用流程。",
+                registry.size(), missing, needsConsumptionVerification);
     }
     @SubscribeEvent
     public void onFinishedUsing(LivingEntityUseItemEvent.Finish event) {
