@@ -22,7 +22,9 @@ jobs:
         with:
           gradle-version: '9.2.1'
       - name: Audit food temperature settings
-        run: python3 tools/check_progress_consistency.py
+        run: |
+          python3 tools/check_progress_consistency.py
+          python3 tools/check_thirst_tags.py
       - name: Build and run regression checks
         run: gradle clean build check --stacktrace --no-daemon
       - name: Upload JAR
