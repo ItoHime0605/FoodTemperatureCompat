@@ -1,0 +1,5 @@
+{
+  "tooltip.foodtemperaturecompat.warming": "升溫食物",
+  "tooltip.foodtemperaturecompat.cooling": "降溫食物",
+  "tooltip.foodtemperaturecompat.value": "（%s 冷熱值）"
+}
