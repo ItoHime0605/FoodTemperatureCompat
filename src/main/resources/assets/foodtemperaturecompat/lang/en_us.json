@@ -1,0 +1,5 @@
+{
+  "tooltip.foodtemperaturecompat.warming": "Warming food",
+  "tooltip.foodtemperaturecompat.cooling": "Cooling food",
+  "tooltip.foodtemperaturecompat.value": " (%s thermal value)"
+}
