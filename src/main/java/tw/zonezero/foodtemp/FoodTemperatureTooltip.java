@@ -17,6 +17,7 @@ public final class FoodTemperatureTooltip {
 
     @SubscribeEvent
     public void onTooltip(ItemTooltipEvent event) {
+        if (event.getItemStack().isEmpty()) return;
         String id = BuiltInRegistries.ITEM.getKey(event.getItemStack().getItem()).toString();
         double tier = registry.tier(id);
         if (tier == 0.0) return;
