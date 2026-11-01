@@ -26,3 +26,12 @@ minecraft:glow_berries,中性候選,待確認,原版發光莓可食；需確認�
 minecraft:chorus_fruit,中性候選,待確認,原版歌萊果可食；需確認 TAN 與傳送食用效果,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:potato,中性候選,待確認,原版馬鈴薯可食；不因是蔬菜就自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
 minecraft:poisonous_potato,中性候選,待確認,原版毒馬鈴薯可食但有負面效果；不自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:golden_carrot,中性候選,待確認,原版可食用且為胡蘿蔔加工品；需比對 TAN 原生標籤,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:baked_potato,中性候選,待確認,熟馬鈴薯水分與生馬鈴薯不同；不直接套用補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:dried_kelp,中性候選,暫不補水,乾燥海帶含水量低；不因為是海藻就補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:pumpkin_pie,中性候選,暫不補水,烘焙點心不因南瓜原料自動補水,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:honey_bottle,中性候選,待確認,蜂蜜瓶可飲用但高糖不等於大量補水；需核對 TAN,原版可飲用物品；補水效果待驗證,待核對 TAN JAR
+minecraft:beetroot_soup,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:mushroom_stew,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:rabbit_stew,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
+minecraft:suspicious_stew,已設定升溫,待確認,已有溫度設定；需核對 TAN 原生補水避免重複,原版可食物品；補水效果待驗證,待核對 TAN JAR
