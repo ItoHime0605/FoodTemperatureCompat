@@ -1,0 +1,15 @@
+物品 ID,初步分類,本輪處置,理由,來源驗證,實機驗證
+kaleidoscope_world_liquor:cool_tea,疑似飲品,待核對,名稱為茶飲但尚未核對物品可飲用性與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:ice_tea,疑似飲品,待核對,名稱為冰茶但尚未核對物品可飲用性與 TAN 原生標籤,待驗證,待驗證
+kaleidoscope_world_liquor:long_island_iced_tea,疑似飲品,待核對,名稱為調酒但尚未核對物品可飲用性與 TAN 原生標籤；不以名稱推定補水,待驗證,待驗證
+kaleidoscope_tavern:watermelon_juice,疑似飲品,待核對,名稱為西瓜汁但尚未核對物品可飲用性與 TAN 原生標籤,待驗證,待驗證
+alexsmobsdelight:crocodile_stewed_with_catfish,疑似燉煮料理,待核對,stewed 不等於湯品；須核對 FoodProperties 與物品類型,待驗證,待驗證
+alexsmobsdelight:whale_meat_stewed_with_pork,疑似燉煮料理,待核對,stewed 不等於湯品；須核對 FoodProperties 與物品類型,待驗證,待驗證
+extradelight:stewed_apples,疑似燉煮料理,待核對,可能是水果料理而非湯品；須核對 FoodProperties,待驗證,待驗證
+extradelight:salisbury_steak,非飲品關鍵字誤判,不依名稱新增補水,steak 是牛排而非茶飲或湯品,名稱初篩,待驗證
+delightful:cactus_steak,非飲品關鍵字誤判,不依名稱新增補水,steak 是排餐而非茶飲或湯品,名稱初篩,待驗證
+farmersdelight:steak_and_potatoes,非飲品關鍵字誤判,不依名稱新增補水,steak 是排餐而非茶飲或湯品,名稱初篩,待驗證
+veggiesdelight:steak_and_broccoli,非飲品關鍵字誤判,不依名稱新增補水,steak 是排餐而非茶飲或湯品,名稱初篩,待驗證
+extradelight:steak_pickled_onion_pie_slice,非飲品關鍵字誤判,不依名稱新增補水,steak 是派餡名稱的一部分而非飲品,名稱初篩,待驗證
+starcatcher_delight:steamed_redscaled_tuna,非飲品關鍵字誤判,不依名稱新增補水,steamed 表示蒸煮而非 stew 湯品,名稱初篩,待驗證
+rusticdelight:coffee_braised_beef,非飲品關鍵字誤判,不依名稱新增補水,咖啡燉牛肉為料理而非咖啡飲料,名稱初篩,待驗證
