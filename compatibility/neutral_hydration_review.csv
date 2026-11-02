@@ -48,3 +48,4 @@ veggiesdelight:zucchini,中性,已設定少量補水,櫛瓜：已從 Veggies Del
 veggiesdelight:zucchini_slice,中性,已設定少量補水,櫛瓜片：已從 Veggies Delight 1.9.3 ModItems 位元碼核對註冊時使用 ModFoods 的 FoodProperties；依蔬菜含水量採用 thirst 3、hydration 20；TAN 原生標籤未涵蓋，遊戲內補水待驗證,已核對 JAR 物品註冊與 FoodProperties,已核對 TAN JAR：未重複
 rusticdelight:potato_salad,中性,已設定少量補水,馬鈴薯沙拉；已核對 Rustic Delight 1.7.1 ModItems 位元碼註冊為 ConsumableItem 並帶 FoodValues FOOD 屬性；TAN 10.1.0.13 原生補水標籤未包含此 ID；採 thirst 3 hydration 20；遊戲內效果待驗證,已核對 JAR 註冊程式與 FoodProperties,已核對 TAN 10.1.0.13 JAR：未重複
 rusticdelight:sweet_salad,中性,已設定少量補水,甜味沙拉；已核對 Rustic Delight 1.7.1 ModItems 位元碼註冊為 ConsumableItem 並帶 FoodValues FOOD 屬性；TAN 10.1.0.13 原生補水標籤未包含此 ID；採 thirst 3 hydration 20；遊戲內效果待驗證,已核對 JAR 註冊程式與 FoodProperties,已核對 TAN 10.1.0.13 JAR：未重複
+extradelight:stewed_apples,中性（燉煮水果）,已設定少量補水,官方 Extra Delight 1.21 來源確認為 ToolTipConsumableItem 且帶 EDFoods.STEWED_APPLES；燉煮蘋果含水但非湯飲；設 thirst3 hydration20,已核對官方來源碼（指定 JAR 與實機待驗證）,官方 1.21 分支 thirst 標籤未列入此 ID（指定 JAR 待核對）
