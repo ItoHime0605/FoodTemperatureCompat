@@ -108,6 +108,82 @@
     {
       "id": "extradelight:beet_mint_salad",
       "required": false
+    },
+    {
+      "id": "extradelight:apple_slaw",
+      "required": false
+    },
+    {
+      "id": "extradelight:cream_corn",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_white",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_orange",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_magenta",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_light_blue",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_yellow",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_lime",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_pink",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_grey",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_light_grey",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_cyan",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_purple",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_blue",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_brown",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_green",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_red",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_black",
+      "required": false
     }
   ]
 }
