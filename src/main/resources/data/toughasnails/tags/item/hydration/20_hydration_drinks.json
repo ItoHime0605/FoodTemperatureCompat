@@ -72,6 +72,10 @@
     {
       "id": "rusticdelight:sweet_salad",
       "required": false
+    },
+    {
+      "id": "extradelight:stewed_apples",
+      "required": false
     }
   ]
 }
