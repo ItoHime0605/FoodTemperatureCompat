@@ -5,7 +5,7 @@ kaleidoscope_world_liquor:long_island_iced_tea,疑似飲品,待核對,名稱為�
 kaleidoscope_tavern:watermelon_juice,疑似飲品,已依高含水特性設定補水,西瓜汁屬高含水飲品；新增 thirst 4 hydration 50；屬設計推論，原始 JAR 與 TAN 原生重疊待核對,待驗證,待驗證
 alexsmobsdelight:crocodile_stewed_with_catfish,疑似燉煮料理,待核對,stewed 不等於湯品；須核對 FoodProperties 與物品類型,待驗證,待驗證
 alexsmobsdelight:whale_meat_stewed_with_pork,疑似燉煮料理,待核對,stewed 不等於湯品；須核對 FoodProperties 與物品類型,待驗證,待驗證
-extradelight:stewed_apples,疑似燉煮料理,待核對,可能是水果料理而非湯品；須核對 FoodProperties,待驗證,待驗證
+extradelight:stewed_apples,疑似燉煮料理,已新增少量補水,燉煮蘋果保留水果含水特性；依份量設 thirst3 hydration20；官方 1.21 分支註冊為可食用碗裝食品,官方來源碼已核對（指定版本 JAR 待驗證）,待驗證
 extradelight:salisbury_steak,非飲品關鍵字誤判,不依名稱新增補水,steak 是牛排而非茶飲或湯品,名稱初篩,待驗證
 delightful:cactus_steak,非飲品關鍵字誤判,不依名稱新增補水,steak 是排餐而非茶飲或湯品,名稱初篩,待驗證
 farmersdelight:steak_and_potatoes,非飲品關鍵字誤判,不依名稱新增補水,steak 是排餐而非茶飲或湯品,名稱初篩,待驗證
