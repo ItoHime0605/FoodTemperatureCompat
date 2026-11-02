@@ -1,0 +1,1137 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobsdelight:acacia_blossom_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:acacia_blossom_milkshake",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:banana_slug_slime_popsicle",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:bowl_of_wild_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:bunfungus_ear_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:catfish_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:cave_centipede_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:cave_centipede_soup_cup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:cockroach_protein_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:cockroach_protein_soup_cup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:cod_and_turtle_meat_congee",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:detoxify_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:detoxify_soup_cup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:detoxify_tea",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:devils_hole_pupfish_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:fish_bone_algae_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:flying_fish_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:frontier_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:froststalker_meat_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:gongylidia_cream_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:kangaroo_meat_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:lobster_head_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:maggot_cream_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:moose_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mosquito_repellent_stew_cup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mudskipper_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mungal_spores_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mungal_spores_milkshake",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mushroom_cream_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:mushroom_fresh_meat_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:orcas_leap_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:rainbow_popsicle",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:sea_bear_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:seagull_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:seal_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:skelewag_eye_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:spit_popsicle",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:swamp_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:turtle_soup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:whale_skin_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:wild_stew",
+      "required": false
+    },
+    {
+      "id": "brewinandchewin:creamy_onion_soup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:clam_meatball_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:clam_meatball_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:dragon_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:dragon_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_green_tea",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lime_popsicle",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lucuma_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:lucuma_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pink_dragon_fruit_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pink_dragon_fruit_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:platinum_bass_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:platinum_bass_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_black_tea",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_milkshake",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:pomegranate_smoothie",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:portobello_rice_soup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:portobello_rice_soup_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:prawn_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:prawn_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:sunny_ice_cream",
+      "required": false
+    },
+    {
+      "id": "corn_delight:corn_popsicle",
+      "required": false
+    },
+    {
+      "id": "corn_delight:corn_soup",
+      "required": false
+    },
+    {
+      "id": "delightful:azalea_tea",
+      "required": false
+    },
+    {
+      "id": "delightful:cactus_soup",
+      "required": false
+    },
+    {
+      "id": "delightful:cactus_soup_cup",
+      "required": false
+    },
+    {
+      "id": "delightful:cantaloupe_popsicle",
+      "required": false
+    },
+    {
+      "id": "delightful:lavender_tea",
+      "required": false
+    },
+    {
+      "id": "delightful:long_prickly_pear_juice",
+      "required": false
+    },
+    {
+      "id": "delightful:matcha_ice_cream",
+      "required": false
+    },
+    {
+      "id": "delightful:matcha_milkshake",
+      "required": false
+    },
+    {
+      "id": "delightful:prickly_pear_juice",
+      "required": false
+    },
+    {
+      "id": "delightful:salmonberry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "delightful:salmonberry_milkshake",
+      "required": false
+    },
+    {
+      "id": "delightful:venison_stew",
+      "required": false
+    },
+    {
+      "id": "delightful:venison_stew_cup",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_sauce",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_slaw",
+      "required": false
+    },
+    {
+      "id": "extradelight:beet_mint_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:borscht",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:caramel_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:carrot_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:carrot_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:chicken_stew",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_mousse",
+      "required": false
+    },
+    {
+      "id": "extradelight:cinnamon_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:congee",
+      "required": false
+    },
+    {
+      "id": "extradelight:cooked_cactus",
+      "required": false
+    },
+    {
+      "id": "extradelight:cookie_dough_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:cream_corn",
+      "required": false
+    },
+    {
+      "id": "extradelight:dalgona_coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:egg_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:fish_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:fish_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:fudge_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:glazed_carrot",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:glow_berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:grapefruit_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:grapefruit_sorbet",
+      "required": false
+    },
+    {
+      "id": "extradelight:grated_carrot",
+      "required": false
+    },
+    {
+      "id": "extradelight:green_coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:hazelnut_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:honey_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:honey_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_black",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_blue",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_brown",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_cyan",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_green",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_grey",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_light_blue",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_light_grey",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_lime",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_magenta",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_orange",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_pink",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_purple",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_red",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_white",
+      "required": false
+    },
+    {
+      "id": "extradelight:jelly_yellow",
+      "required": false
+    },
+    {
+      "id": "extradelight:lamb_stew",
+      "required": false
+    },
+    {
+      "id": "extradelight:lemon_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:lime_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:milkshake",
+      "required": false
+    },
+    {
+      "id": "extradelight:mint_chip_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:miso_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:mulligatawny_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:nut_butter_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:onion_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:orange_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:oxtail_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:pickle_juice",
+      "required": false
+    },
+    {
+      "id": "extradelight:pork_stew",
+      "required": false
+    },
+    {
+      "id": "extradelight:potato_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:potato_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:pumpkin_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:roasted_apple",
+      "required": false
+    },
+    {
+      "id": "extradelight:salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:seaweed_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:sliced_apple",
+      "required": false
+    },
+    {
+      "id": "extradelight:sliced_onion",
+      "required": false
+    },
+    {
+      "id": "extradelight:sliced_tomato",
+      "required": false
+    },
+    {
+      "id": "extradelight:stewed_apples",
+      "required": false
+    },
+    {
+      "id": "extradelight:sweet_berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:tomato_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:baked_cod_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:beef_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bone_broth",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chicken_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:fish_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:hot_cocoa",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:noodle_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onion_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pumpkin_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:vegetable_soup",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:gamblers_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:gamblers_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:gamblers_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:green_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:green_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:green_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:hot_cocoa_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:hot_cocoa_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:yellow_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:yellow_tea_with_milk",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:yellow_tea_with_sugar",
+      "required": false
+    },
+    {
+      "id": "festive_delight:christmas_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:bayberry_soup",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:fig_chicken_stew",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hamimelon_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hamimelon_popsicle",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hawberry_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:kiwi_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:kiwi_popsicle",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lemon_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lychee_cherry_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mango_milkshake",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mango_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mangosteen_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:orange_juice",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:peach_tea",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:pear_juice",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:barley_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:beef_meatball_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:butter_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:chicken_and_mushroom_stew",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:dough_drop_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:fearsome_thick_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:flower_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:four_joy_meatball_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:lamb_and_radish_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:mystery_tea",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:pork_bone_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:pufferfish_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:seafood_miso_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:spicy_blood_stew",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:wild_mushroom_rabbit_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_tavern:watermelon_juice",
+      "required": false
+    },
+    {
+      "id": "minecraft:apple",
+      "required": false
+    },
+    {
+      "id": "minecraft:beetroot",
+      "required": false
+    },
+    {
+      "id": "minecraft:beetroot_soup",
+      "required": false
+    },
+    {
+      "id": "minecraft:carrot",
+      "required": false
+    },
+    {
+      "id": "minecraft:chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "minecraft:glow_berries",
+      "required": false
+    },
+    {
+      "id": "minecraft:melon_slice",
+      "required": false
+    },
+    {
+      "id": "minecraft:mushroom_stew",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit_stew",
+      "required": false
+    },
+    {
+      "id": "minecraft:suspicious_stew",
+      "required": false
+    },
+    {
+      "id": "minecraft:sweet_berries",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:egg_soup",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:ghast_salad",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:rock_soup",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:spicy_hoglin_stew",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:spicy_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:strider_stew",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:tear_popsicle",
+      "required": false
+    },
+    {
+      "id": "nomads_delight:kespe_kozhe",
+      "required": false
+    },
+    {
+      "id": "nomads_delight:sorpa",
+      "required": false
+    },
+    {
+      "id": "oceansdelight:bowl_of_guardian_soup",
+      "required": false
+    },
+    {
+      "id": "pineapple_delight:pineapple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "pineapple_delight:pineapple_juice",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:bell_pepper_soup",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:calamari_soup",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:cherry_blossom_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:chocolate_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:dark_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:honey_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:milk_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:potato_salad",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:pumpkin_coffee",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:sweet_salad",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:syrup_coffee",
+      "required": false
+    },
+    {
+      "id": "starcatcher_delight:cactifish_stew",
+      "required": false
+    },
+    {
+      "id": "starcatcher_delight:sludge_stew",
+      "required": false
+    },
+    {
+      "id": "starcatcher_delight:weather_soup",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:bellpepper",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:broccoli",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:broccoli_salad",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:broccoli_soup",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:carrot_juice",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cauliflower",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cauliflower_floret",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cauliflower_soup",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cesar_salad",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:coleslaw",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:dandelion_juice",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:garlic_chicken_stew",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:turnip",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:turnip_beef_stew",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:turnip_salad",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:zucchini",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:zucchini_slice",
+      "required": false
+    }
+  ]
+}
