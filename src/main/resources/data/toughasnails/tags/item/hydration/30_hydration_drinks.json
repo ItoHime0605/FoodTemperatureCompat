@@ -416,6 +416,22 @@
     {
       "id": "minecraft:suspicious_stew",
       "required": false
+    },
+    {
+      "id": "extradelight:tomato_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:borscht",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:sweet_berry_popsicle",
+      "required": false
     }
   ]
 }
