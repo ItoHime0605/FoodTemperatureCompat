@@ -76,6 +76,30 @@
     {
       "id": "extradelight:stewed_apples",
       "required": false
+    },
+    {
+      "id": "extradelight:sliced_tomato",
+      "required": false
+    },
+    {
+      "id": "extradelight:sliced_apple",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_sauce",
+      "required": false
+    },
+    {
+      "id": "extradelight:seaweed_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:cactus_salad",
+      "required": false
     }
   ]
 }
