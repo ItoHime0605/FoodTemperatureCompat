@@ -49,3 +49,9 @@ veggiesdelight:zucchini_slice,中性,已設定少量補水,櫛瓜片：已從 Ve
 rusticdelight:potato_salad,中性,已設定少量補水,馬鈴薯沙拉；已核對 Rustic Delight 1.7.1 ModItems 位元碼註冊為 ConsumableItem 並帶 FoodValues FOOD 屬性；TAN 10.1.0.13 原生補水標籤未包含此 ID；採 thirst 3 hydration 20；遊戲內效果待驗證,已核對 JAR 註冊程式與 FoodProperties,已核對 TAN 10.1.0.13 JAR：未重複
 rusticdelight:sweet_salad,中性,已設定少量補水,甜味沙拉；已核對 Rustic Delight 1.7.1 ModItems 位元碼註冊為 ConsumableItem 並帶 FoodValues FOOD 屬性；TAN 10.1.0.13 原生補水標籤未包含此 ID；採 thirst 3 hydration 20；遊戲內效果待驗證,已核對 JAR 註冊程式與 FoodProperties,已核對 TAN 10.1.0.13 JAR：未重複
 extradelight:stewed_apples,中性（燉煮水果）,已設定少量補水,官方 Extra Delight 1.21 來源確認為 ToolTipConsumableItem 且帶 EDFoods.STEWED_APPLES；燉煮蘋果含水但非湯飲；設 thirst3 hydration20,已核對官方來源碼（指定 JAR 與實機待驗證）,官方 1.21 分支 thirst 標籤未列入此 ID（指定 JAR 待核對）
+extradelight:sliced_tomato,中性,已設定少量補水,切片番茄本身含水量高；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
+extradelight:sliced_apple,中性,已設定少量補水,蘋果片保留鮮果水分；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
+extradelight:apple_sauce,中性,已設定少量補水,蘋果泥含水但非完整飲品；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
+extradelight:seaweed_salad,中性,已設定少量補水,海藻沙拉屬濕潤蔬菜料理；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
+extradelight:salad,中性,已設定少量補水,蔬菜沙拉含新鮮蔬菜水分；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
+extradelight:cactus_salad,中性,已設定少量補水,仙人掌沙拉的多汁植物食材；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
