@@ -55,3 +55,5 @@ extradelight:apple_sauce,中性,已設定少量補水,蘋果泥含水但非完�
 extradelight:seaweed_salad,中性,已設定少量補水,海藻沙拉屬濕潤蔬菜料理；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
 extradelight:salad,中性,已設定少量補水,蔬菜沙拉含新鮮蔬菜水分；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
 extradelight:cactus_salad,中性,已設定少量補水,仙人掌沙拉的多汁植物食材；官方 Extra Delight 1.21 分支已確認 FOOD 食物屬性或 ConsumableItem；設定 thirst3 hydration20,已核對官方來源碼（指定版本 JAR 與實機待驗證）,官方 1.21 分支 TAN thirst 標籤未列此 ID（指定 JAR 待核對）
+extradelight:carrot_salad,中性,已設定少量補水,官方配方為刨絲胡蘿蔔兩份加蘋果一份及美乃滋；鮮蔬果水分較高，少量補水；TAN thirst3 hydration20,官方 1.21 分支食物註冊與配方已核對（指定版本 JAR／實機待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
+extradelight:beet_mint_salad,中性,已設定少量補水,官方配方為甜菜根兩份加薄荷、糖、油及醋；甜菜根含水，調味油不額外計水；TAN thirst3 hydration20,官方 1.21 分支食物註冊與配方已核對（指定版本 JAR／實機待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
