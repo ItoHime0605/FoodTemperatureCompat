@@ -156,6 +156,22 @@
     {
       "id": "minecraft:chorus_fruit",
       "required": false
+    },
+    {
+      "id": "extradelight:roasted_apple",
+      "required": false
+    },
+    {
+      "id": "extradelight:potato_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:sliced_onion",
+      "required": false
+    },
+    {
+      "id": "extradelight:grated_carrot",
+      "required": false
     }
   ]
 }
