@@ -29,7 +29,7 @@ extradelight:scrambled_eggs,帶 FoodProperties 的料理／食材,已有既定�
 extradelight:boiled_egg,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:quiche_slice,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:egg_in_the_basket,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:egg_salad,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:egg_salad,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:bbq_jar_item,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:ketchup_jar_item,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:mayo_jar_item,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
@@ -44,7 +44,7 @@ extradelight:hashbrowns,帶 FoodProperties 的料理／食材,新發現候選，
 extradelight:french_fries,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:grated_carrot,帶 FoodProperties 的料理／食材,本批新增補水，已列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:roasted_carrot,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:glazed_carrot,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:glazed_carrot,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:carrot_salad,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:sliced_apple,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:roasted_apple,帶 FoodProperties 的料理／食材,本批新增補水，已列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
@@ -93,22 +93,22 @@ extradelight:rack_lamb,帶 FoodProperties 的料理／食材,新發現候選，�
 extradelight:stirfry,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:beef_wellington,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:haggis,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_white,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_orange,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_magenta,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_light_blue,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_yellow,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_lime,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_pink,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_grey,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_light_grey,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_cyan,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_purple,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_blue,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_brown,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_green,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_red,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:jelly_black,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_white,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_orange,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_magenta,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_light_blue,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_yellow,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_lime,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_pink,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_grey,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_light_grey,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_cyan,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_purple,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_blue,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_brown,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_green,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_red,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:jelly_black,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:jerky,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:bread_slice,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:toast,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
@@ -136,19 +136,19 @@ extradelight:cheeseburger,帶 FoodProperties 的料理／食材,已有既定追�
 extradelight:bacon_cheeseburger,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:riceball,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:riceball_filled,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:fish_salad,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:fish_salad,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:fish_salad_sandwich,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:cooked_pasta,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:buttered_pasta,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:bad_food,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:cactus,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:cooked_cactus,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:cactus,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:cooked_cactus,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:cactus_eggs,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:cactus_soup,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:cactus_salad,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:stuffed_cactus,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:corn_chowder,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:cream_corn,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:cream_corn,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:corn_fritters,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:popcorn,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:grilled_corn_on_cob,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
@@ -278,7 +278,7 @@ extradelight:candy_cane_red,帶 FoodProperties 的料理／食材,新發現候�
 extradelight:candy_cane_green,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:candy_cane_blue,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:french_toast,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:congee,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:congee,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:lugaw,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:muffin_ginger,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:muffin_cinnamon,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
@@ -388,7 +388,7 @@ extradelight:hazelnuts,帶 FoodProperties 的料理／食材,新發現候選，�
 extradelight:roasted_hazelnuts,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:peanut_butter_jelly,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:rombosse,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
-extradelight:apple_slaw,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
+extradelight:apple_slaw,帶 FoodProperties 的料理／食材,本輪已新增補水並列入追蹤（指定版本 JAR 待驗證）,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:pork_and_apples,帶 FoodProperties 的料理／食材,已有既定追蹤,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:apple_chips,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
 extradelight:stuffed_apple,帶 FoodProperties 的料理／食材,新發現候選，指定 JAR 待驗證,,,待驗證（官方 1.21 分支非指定 JAR）,待驗證
