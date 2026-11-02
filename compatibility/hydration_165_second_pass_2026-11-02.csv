@@ -1,0 +1,166 @@
+物品 ID,既有初篩類別,目前 thirst 階級,目前 hydration 階級,第二輪判定,來源與佐證,本輪動作／下一步,食材判斷理由
+extradelight:alfredo_sauce,濕潤甜點／濃稠料理,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:apple_chips,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:apple_crisp,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:apple_fritters,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:apple_slaw,鮮果蔬／濕潤沙拉候選,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方拌製配方含蘋果切片和高麗菜；採中等以下補水
+extradelight:beef_stew_rice,湯品／高含水料理,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+extradelight:blood_chocolate_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_chips,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_apple_slice,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_bacon,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_coffee_bean,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_glow_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_graham_cracker,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_marshmallow,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_dipped_sweet_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_filled_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:blood_chocolate_truffle,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:cactus,鮮果蔬／濕潤沙拉候選,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方註冊鮮仙人掌食物屬性；多汁植物
+extradelight:cactus_eggs,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:candy_apple,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:candy_bar_salad,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:candy_golden_apple,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:candy_lime,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:candy_orange,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:caramel_apple,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:caramel_golden_apple,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:chicken_stew_rice,湯品／高含水料理,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+extradelight:chocolate_cake,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:chocolate_cheesecake_slice,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:chocolate_chip_cookie_dough,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:chocolate_cookie,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:chocolate_cookie_dough,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:chocolate_milk,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:christmas_pudding,濕潤甜點／濃稠料理,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:coffee_beans,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:coffee_cake_slice,飲品／液體候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:congee,湯品／高含水料理,2,30,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方烹煮配方含米與薑；粥類富含水分
+extradelight:cooked_cactus,鮮果蔬／濕潤沙拉候選,1,10,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方註冊熟仙人掌食物屬性；經烹煮後低補水
+extradelight:cookie_dough_milkshake,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:corn_pudding,濕潤甜點／濃稠料理,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:cream_corn,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方烹煮配方含玉米、牛奶和奶油；濃稠非清湯
+extradelight:dark_chocolate_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_chips,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_apple_slice,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_bacon,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_coffee_bean,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_glow_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_graham_cracker,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_marshmallow,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_dipped_sweet_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_filled_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:dark_chocolate_truffle,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:egg_salad,鮮果蔬／濕潤沙拉候選,1,10,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方配方是水煮蛋與美乃滋；保守給低補水
+extradelight:fish_salad,鮮果蔬／濕潤沙拉候選,1,10,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方配方是熟魚與美乃滋；保守給低補水
+extradelight:fish_stew_rice,湯品／高含水料理,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+extradelight:frosting_lime,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:frosting_orange,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:glazed_carrot,鮮果蔬／濕潤沙拉候選,1,10,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方配方是胡蘿蔔加奶油與甜味料；熟製後低補水
+extradelight:gourmet_hot_chocolate,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/4,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:honey_milkshake,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:horchata,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/4,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:jelly_black,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_blue,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_brown,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_cyan,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_green,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_grey,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_light_blue,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_light_grey,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_lime,鮮果蔬／濕潤沙拉候選,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_magenta,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_orange,鮮果蔬／濕潤沙拉候選,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_pink,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_purple,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_red,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_white,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:jelly_yellow,濕潤甜點／濃稠料理,3,20,本輪已新增補水,官方 1.21 分支已核對食物註冊與適用配方,已有配對 TAN thirst／hydration；待實際安裝版本與實機確認,官方冰鎮配方以明膠、莓果與打發鮮奶油製作；僅碗裝果凍，不含方塊
+extradelight:kiwiburger,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:lamb_stew_rice,湯品／高含水料理,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+extradelight:milk_chocolate_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_chips,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_apple_slice,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_bacon,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_coffee_bean,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_glow_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_graham_cracker,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_marshmallow,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_dipped_sweet_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_filled_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:milk_chocolate_truffle,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:mint_chip_milkshake,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:mint_jelly,濕潤甜點／濃稠料理,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:muffin_apple,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:muffin_sweet_berry,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:nut_butter_milkshake,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:pasta_tomato,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:peanut_butter_jelly,濕潤甜點／濃稠料理,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:peppermint_bark,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:pork_and_apples,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:pork_stew_rice,湯品／高含水料理,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+extradelight:pumpkin_milkshake,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:rabbit_stew_rice,湯品／高含水料理,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+extradelight:sticky_toffee_pudding_slice,濕潤甜點／濃稠料理,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:stuffed_apple,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:stuffed_apple_ice_cream,冰品／含水甜點,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:stuffed_cactus,鮮果蔬／濕潤沙拉候選,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:sweet_berry_ice_cream,冰品／含水甜點,,,待官方配方逐項核對,Extra Delight 官方 1.21 分支的食物註冊初篩；名稱不等於配方,候選尚未判定補水值，按含水比例、份量、溫度與原生 TAN 標籤查證,可能含水但仍需確認液體占比與食用方式
+extradelight:sweet_berry_juice,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/6,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:sweet_berry_milkshake,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/2,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:tea,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/4,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:tomato_juice,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/6,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+extradelight:white_chocolate_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_chips,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_apple_slice,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_bacon,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_coffee_bean,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_glow_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_graham_cracker,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_marshmallow,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_dipped_sweet_berry,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_filled_bar,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:white_chocolate_truffle,飲品／液體候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+extradelight:xocolati,飲品／液體候選,,,官方已有 TAN 口渴標籤，待核對補水,官方 Extra Delight 1.21 分支原生 thirst/5,不重複新增自訂 thirst；須核對該版 hydration 實際生成與 TAN 行為,飲品含水但既有來源的 thirst 層級不應被新標籤覆蓋
+kaleidoscope_cookery:scramble_egg_with_tomatoes,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+kaleidoscope_world_liquor:cola,飲品／液體候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+kaleidoscope_world_liquor:cool_tea,飲品／液體候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+kaleidoscope_world_liquor:ice_tea,飲品／液體候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+kaleidoscope_world_liquor:sour_plum,飲品／液體候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+kaleidoscope_world_liquor:tonic_water,飲品／液體候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+minecraft:golden_carrot,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+minecraft:milk_bucket,飲品／液體候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:bullet_pepper,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:ghasta_with_cream,濕潤甜點／濃稠料理,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:hot_cream,濕潤甜點／濃稠料理,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:hot_cream_cone,濕潤甜點／濃稠料理,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:hotdog_with_mixed_salad,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:hotdog_with_nether_salad,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:sizzling_pudding,濕潤甜點／濃稠料理,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+mynethersdelight:stuffed_pepper,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+oceansdelight:braised_sea_pickle,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:bell_pepper_medley,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:bell_pepper_pasta,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_black,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_blue,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_green,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_pink,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_purple,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_red,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_white,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:bell_pepper_roll_yellow,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
+rusticdelight:dark_bell_pepper_medley,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:fruit_beignet,鮮果蔬／濕潤沙拉候選,,,依配方／性質暫不增加補水,官方分支可確認部分已註冊為食品；名稱與質地屬糖脂或乾燥類,若配方證明有明顯液態主體再調整,巧克力、糖霜、乾果片或烘焙甜點不因水果口味自動補水
+rusticdelight:pale_bell_pepper_medley,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_black,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_blue,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_green,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_orange,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_pink,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_purple,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_red,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_white,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+rusticdelight:stuffed_bell_pepper_yellow,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+veggiesdelight:pasta_with_broccoli,鮮果蔬／濕潤沙拉候選,,,待指定版本 JAR 及食用屬性核對,目前依既有設定／名稱初篩；來源 JAR 尚未本輪逐項核對,優先確認實際可食用性與 TAN 原生標籤，未確認前不直接改設定,涉及非 Extra Delight 模組，不能以外部模組來源推定物品
+veggiesdelight:turnip_mutton_skewer,鮮果蔬／濕潤沙拉候選,,,待核對料理含水比例,官方來源／既有進度候選,若湯汁占比高才加少量補水，不依水果或燉菜名稱自動加入,含果蔬或醬汁的主食，可能以米飯、麵食、肉為主要份量
