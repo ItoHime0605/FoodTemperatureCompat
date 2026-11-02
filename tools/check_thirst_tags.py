@@ -31,7 +31,7 @@ def main():
     with review_path.open(encoding="utf-8-sig", newline="") as handle:
         reviewed = list(csv.DictReader(handle))
     review_ids = [row["物品 ID"].strip() for row in reviewed]
-    valid_statuses = {"待確認", "暫不補水", "已設定少量補水", "已設定湯品補水"}
+    valid_statuses = {"待確認", "暫不補水", "已設定少量補水", "已設定中等補水", "已設定湯品補水"}
     for row in reviewed:
         item = row["物品 ID"].strip()
         status = row["補水判定"].strip()
@@ -48,7 +48,7 @@ def main():
     review_by_id = {row["物品 ID"].strip(): row for row in reviewed}
     allowed_review_ids = {
         item for item, row in review_by_id.items()
-        if row["補水判定"] in ("已設定少量補水", "已設定湯品補水")
+        if row["補水判定"] in ("已設定少量補水", "已設定中等補水", "已設定湯品補水")
         and row["可食用性驗證"] not in ("", "待驗證")
     }
     known |= allowed_review_ids
@@ -91,6 +91,13 @@ def main():
                 errors.append(f"中性食物標記已補水但缺少標籤：{item}")
             elif assigned_groups.get(item) not in (("soup",) if row["溫度分類"] == "已設定升溫" else ("neutral_food", "low_hydration")):
                 errors.append(f"中性食物應使用中低補水分類：{item} ({assigned_groups.get(item)})")
+        if row["補水判定"] == "已設定中等補水":
+            if item not in allowed_review_ids:
+                errors.append(f"中等補水但缺少可食用性確認：{item}")
+            if item not in all_ids:
+                errors.append(f"中等補水但缺少標籤：{item}")
+            elif assigned_groups.get(item) != "soup":
+                errors.append(f"中等補水應使用 thirst 2／hydration 30：{item} ({assigned_groups.get(item)})")
         if row["補水判定"] == "已設定湯品補水":
             if item not in allowed_review_ids:
                 errors.append(f"湯品已標記補水但缺少可食用性確認：{item}")
