@@ -168,6 +168,22 @@
     {
       "id": "extradelight:grated_carrot",
       "required": false
+    },
+    {
+      "id": "extradelight:egg_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:fish_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:cooked_cactus",
+      "required": false
+    },
+    {
+      "id": "extradelight:glazed_carrot",
+      "required": false
     }
   ]
 }
