@@ -100,6 +100,14 @@
     {
       "id": "extradelight:cactus_salad",
       "required": false
+    },
+    {
+      "id": "extradelight:carrot_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:beet_mint_salad",
+      "required": false
     }
   ]
 }
