@@ -6,10 +6,6 @@
       "required": false
     },
     {
-      "id": "extradelight:apple_popsicle",
-      "required": false
-    },
-    {
       "id": "extradelight:caramel_popsicle",
       "required": false
     },
