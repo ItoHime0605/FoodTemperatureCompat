@@ -432,6 +432,10 @@
     {
       "id": "extradelight:sweet_berry_popsicle",
       "required": false
+    },
+    {
+      "id": "extradelight:congee",
+      "required": false
     }
   ]
 }
