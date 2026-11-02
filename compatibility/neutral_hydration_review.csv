@@ -63,5 +63,5 @@ extradelight:sliced_onion,依原材料與料理方式判定,已設定少量補�
 extradelight:grated_carrot,依原材料與料理方式判定,已設定少量補水,刨絲胡蘿蔔含水但屬小份量配料；thirst1 hydration10,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
 extradelight:tomato_soup,依原材料與料理方式判定,已設定湯品補水,官方配方含兩份番茄、洋蔥、高湯與牛奶；thirst2 hydration30；原模組已有 TAN 加熱標籤，本輪不另外新增冷熱值,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
 extradelight:borscht,依原材料與料理方式判定,已設定湯品補水,官方配方含高湯、甜菜根、胡蘿蔔、高麗菜、馬鈴薯與番茄；thirst2 hydration30；原模組已有 TAN 加熱標籤，本輪不另外新增冷熱值,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
-extradelight:apple_popsicle,依原材料與料理方式判定,已設定湯品補水,官方註冊帶 FoodProperties 且標為 isColdFood；冰棒含水，但單份不當成完整飲料；thirst2 hydration30；原模組已有 TAN 冷卻標籤,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
-extradelight:sweet_berry_popsicle,依原材料與料理方式判定,已設定湯品補水,官方註冊帶 FoodProperties 且標為 isColdFood；莓果冰棒以中等補水處理 thirst2 hydration30；原模組已有 TAN 冷卻標籤,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
+extradelight:apple_popsicle,依原材料與料理方式判定,已設定中等補水,官方註冊帶 FoodProperties 且標為 isColdFood；冰棒含水，但單份不當成完整飲料；thirst2 hydration30；原模組已有 TAN 冷卻標籤,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
+extradelight:sweet_berry_popsicle,依原材料與料理方式判定,已設定中等補水,官方註冊帶 FoodProperties 且標為 isColdFood；莓果冰棒以中等補水處理 thirst2 hydration30；原模組已有 TAN 冷卻標籤,官方 Extra Delight 1.21 分支註冊或原始配方已核對（實際安裝 JAR 待驗證）,官方 1.21 分支 TAN thirst 標籤未含此 ID（指定 JAR 待核對）
