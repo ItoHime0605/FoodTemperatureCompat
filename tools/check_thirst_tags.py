@@ -82,6 +82,29 @@ def main():
         for item in members[0]:
             assigned_groups[item] = group
         print(f"{group}: {len(members[0])} 個補水物品")
+    # TAN 1.21.1 的 LivingEntityUseItemEvent.Finish 只處理
+    # toughasnails:drinks 標籤；單獨列入 thirst/hydration 不會恢復口渴。
+    drinks_path = ROOT / "drinks.json"
+    drinks_data = json.loads(drinks_path.read_text(encoding="utf-8"))
+    if drinks_data.get("replace") is not False:
+        errors.append("toughasnails:drinks 必須 replace=false，以保留其他模組及 TAN 原生飲品")
+    drink_list = []
+    for entry in drinks_data.get("values", []):
+        if not isinstance(entry, dict) or entry.get("required") is not False:
+            errors.append(f"drinks.json 的可選條目必須 required=false：{entry}")
+            continue
+        item = entry.get("id", "")
+        if not PATTERN.fullmatch(item):
+            errors.append(f"drinks.json 物品 ID 無效：{item}")
+        drink_list.append(item)
+    if len(drink_list) != len(set(drink_list)):
+        errors.append("drinks.json 物品 ID 重複")
+    drink_set = set(drink_list)
+    for item in sorted(all_ids - drink_set):
+        errors.append(f"補水設定缺少 toughasnails:drinks 事件入口：{item}")
+    for item in sorted(drink_set - all_ids):
+        errors.append(f"drinks.json 含未指定補水值的多餘物品：{item}")
+    print(f"TAN drinks 事件入口：{len(drink_set)} 個物品（應與補水設定一致）")
     for row in reviewed:
         item = row["物品 ID"].strip()
         if row["補水判定"] == "已設定少量補水":
