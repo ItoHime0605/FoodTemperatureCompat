@@ -148,7 +148,7 @@ extradelight:apple_crisp,Extra Delight 官方來源新候選,,未另設非零冷
 extradelight:apple_fritters,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,鮮果蔬／濕潤沙拉候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:apple_ice_cream,專案既有追蹤,-2,已有數值；依原料與烹調方式覆核,1,10,冰品／含水甜點,已列入補水，待 JAR/TAN 重疊與實機核驗,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,冰品可能含水或乳脂，不能一律當作滿額補水
 extradelight:apple_milkshake,專案既有追蹤,-1,已有數值；依原料與烹調方式覆核,4,50,飲品／液體候選,已列入補水，待 JAR/TAN 重疊與實機核驗,飲品物品,2,20,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
-extradelight:apple_popsicle,專案既有追蹤,-2,已有數值；依原料與烹調方式覆核,1,10,冰品／含水甜點,已列入補水，待 JAR/TAN 重疊與實機核驗,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,冰品可能含水或乳脂，不能一律當作滿額補水
+extradelight:apple_popsicle,專案既有追蹤,-2,已有數值；依原料與烹調方式覆核,2,30,冰品／含水甜點,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,冰品可能含水或乳脂，不能一律當作滿額補水
 extradelight:apple_sauce,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,3,20,鮮果蔬／濕潤沙拉候選,已列入補水，待 JAR/TAN 重疊與實機核驗,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:apple_slaw,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,鮮果蔬／濕潤沙拉候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:bacon_cheeseburger,專案既有追蹤,0.5,已有數值；依原料與烹調方式覆核,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
@@ -176,7 +176,7 @@ extradelight:blood_chocolate_dipped_sweet_berry,Extra Delight 官方來源新候
 extradelight:blood_chocolate_filled_bar,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
 extradelight:blood_chocolate_truffle,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
 extradelight:boiled_egg,專案既有追蹤,0.5,已有數值；依原料與烹調方式覆核,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
-extradelight:borscht,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,湯品／高含水料理,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,湯汁通常較多；先確認食物可食用與配方
+extradelight:borscht,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,2,30,湯品／高含水料理,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,湯汁通常較多；先確認食物可食用與配方
 extradelight:bread_slice,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
 extradelight:brownie,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:bruschetta,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
@@ -360,7 +360,7 @@ extradelight:graham_cracker,Extra Delight 官方來源新候選,,未另設非零
 extradelight:grapefruit_juice,專案既有追蹤,-1,已有數值；依原料與烹調方式覆核,4,50,飲品／液體候選,已列入補水，待 JAR/TAN 重疊與實機核驗,,,,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
 extradelight:grapefruit_sorbet,專案既有追蹤,-2,已有數值；依原料與烹調方式覆核,1,10,冰品／含水甜點,已列入補水，待 JAR/TAN 重疊與實機核驗,,,,實際安裝 JAR 與實機效果尚未逐項驗證,冰品可能含水或乳脂，不能一律當作滿額補水
 extradelight:grasshopper_pie_slice,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
-extradelight:grated_carrot,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,鮮果蔬／濕潤沙拉候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
+extradelight:grated_carrot,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,1,10,鮮果蔬／濕潤沙拉候選,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:grated_garlic,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:grated_ginger,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,酒精類／調酒,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,酒類配方或效果特殊；先核對原模組機制，不直接給予解渴效果
 extradelight:grated_potato,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
@@ -484,7 +484,7 @@ extradelight:pork_tenderloin,專案既有追蹤,0.8,已有數值；依原料與�
 extradelight:pork_tenderloin_sandwich,專案既有追蹤,0.5,已有數值；依原料與烹調方式覆核,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:potato_au_gratin,專案既有追蹤,0.8,已有數值；依原料與烹調方式覆核,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:potato_chips,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
-extradelight:potato_salad,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,鮮果蔬／濕潤沙拉候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
+extradelight:potato_salad,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,1,10,鮮果蔬／濕潤沙拉候選,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:potato_soup,專案既有追蹤,2,已有數值；依原料與烹調方式覆核,2,30,湯品／高含水料理,已列入補水，待 JAR/TAN 重疊與實機核驗,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,湯汁通常較多；先確認食物可食用與配方
 extradelight:potato_sticks,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:potroast,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
@@ -519,7 +519,7 @@ extradelight:raw_sugar_cookie_sword,Extra Delight 官方來源新候選,,未另�
 extradelight:raw_sugar_cookie_villager,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
 extradelight:riceball,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:riceball_filled,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
-extradelight:roasted_apple,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
+extradelight:roasted_apple,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,1,10,偏乾或加熱加工食品,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
 extradelight:roasted_carrot,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
 extradelight:roasted_cocoa_beans,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
 extradelight:roasted_garlic,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,偏乾或加熱加工食品,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,不因水果／蔬菜口味就補水；若證實有湯汁再複核
@@ -539,7 +539,7 @@ extradelight:seaweed_salad,專案既有追蹤,,未另設非零冷熱（不一定
 extradelight:sliced_apple,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,3,20,鮮果蔬／濕潤沙拉候選,已列入補水，待 JAR/TAN 重疊與實機核驗,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:sliced_chili,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:sliced_ginger,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,酒精類／調酒,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,酒類配方或效果特殊；先核對原模組機制，不直接給予解渴效果
-extradelight:sliced_onion,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
+extradelight:sliced_onion,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,1,10,其他料理／食材,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:sliced_potato,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:sliced_tomato,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,3,20,鮮果蔬／濕潤沙拉候選,已列入補水，待 JAR/TAN 重疊與實機核驗,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 extradelight:smore,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
@@ -570,13 +570,13 @@ extradelight:sweet_berry_ice_cream,Extra Delight 官方來源新候選,,未另�
 extradelight:sweet_berry_juice,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,飲品物品,6,20,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
 extradelight:sweet_berry_milkshake,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,飲品物品,2,20,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
 extradelight:sweet_berry_pie_slice,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,含果蔬配料的主食／甜點,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,主要是料理而非直接食用水果，不能用配料名稱推定補水
-extradelight:sweet_berry_popsicle,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,冰品／含水甜點,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,冰品可能含水或乳脂，不能一律當作滿額補水
+extradelight:sweet_berry_popsicle,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,2,30,冰品／含水甜點,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,冰品可能含水或乳脂，不能一律當作滿額補水
 extradelight:tarte_tatin_slice,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:tea,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,飲品物品,4,20,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
 extradelight:toast,專案既有追蹤,0.5,已有數值；依原料與烹調方式覆核,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:toffee,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:tomato_juice,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,飲品物品,6,30,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
-extradelight:tomato_soup,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,湯品／高含水料理,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,湯汁通常較多；先確認食物可食用與配方
+extradelight:tomato_soup,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,2,30,湯品／高含水料理,已設定補水，待實際版本／TAN 原生與實機驗證,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,湯汁通常較多；先確認食物可食用與配方
 extradelight:trail_mix,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:white_chili,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,其他料理／食材,暫不新增補水，視原始配方複核,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 extradelight:white_chocolate_bar,Extra Delight 官方來源新候選,,未另設非零冷熱（不一定是缺漏）,,,飲品／液體候選,待核對可食用性及配方，確定後分級補水,帶 FoodProperties 的料理／食材,,,實際安裝 JAR 與實機效果尚未逐項驗證,飲料含液體，依份量與配方調整且注意 TAN 原生標籤
