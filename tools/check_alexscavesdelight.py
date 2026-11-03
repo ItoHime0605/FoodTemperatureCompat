@@ -14,7 +14,7 @@ ROOT = Path("src/main/resources")
 DATA = ROOT / "data/toughasnails/tags/item"
 RULES = Path("compatibility/alexscavesdelight_1.0.28_food_rules.json")
 PREFIX = "alexscavesdelight:"
-EXPECTED_REGISTRY_SHA256 = "f35beb9b24f97639afdb4d6c7e9c05caa3707429c2b1a020611b4d7a989e7d4b"
+EXPECTED_REGISTRY_SHA256 = "1b5cce4f2a66186c9cf4bec26cae2587491e779da2274ca9d40a5a9b6e867a4b"
 LEVELS = {
     "soup": ("thirst/2_thirst_drinks.json", "hydration/30_hydration_drinks.json", 2, 30),
     "drink": ("thirst/4_thirst_drinks.json", "hydration/50_hydration_drinks.json", 4, 50),
