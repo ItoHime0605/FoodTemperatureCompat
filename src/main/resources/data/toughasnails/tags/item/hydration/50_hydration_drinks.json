@@ -328,6 +328,30 @@
     {
       "id": "kaleidoscope_tavern:watermelon_juice",
       "required": false
+    },
+    {
+      "id": "alexscavesdelight:ferrouslime_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:licoroot_juice",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:pewen_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:spelunkie_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sulfur_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:tree_star_juice",
+      "required": false
     }
   ]
 }
