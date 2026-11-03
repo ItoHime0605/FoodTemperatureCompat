@@ -33,7 +33,7 @@ def main():
     thirst, hydration = {}, {}
     root = ROOT / "data/toughasnails/tags/item"
     for category, levels, out in (
-        ("thirst", (1, 2, 3, 4), thirst),
+        ("thirst", (1, 2, 3, 4, 6), thirst),
         ("hydration", (10, 20, 30, 50), hydration),
     ):
         for level in levels:
