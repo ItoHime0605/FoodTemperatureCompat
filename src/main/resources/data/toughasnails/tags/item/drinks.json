@@ -1132,6 +1132,90 @@
     {
       "id": "veggiesdelight:zucchini_slice",
       "required": false
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_custard",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:caramel_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:chocolate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:ferrouslime_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:lanternfish_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:licoroot_juice",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:mussel_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:pewen_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:primal_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:relicheirus_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sea_pig_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:spelunkie_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sulfur_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sweet_puff_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sweetberry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:toxic_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:tree_star_juice",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:tripodfish_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:vanilla_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:mix_gelatin_pumpkin",
+      "required": false
     }
   ]
 }
