@@ -19,12 +19,22 @@ public final class FoodConsumptionEvents {
     private static final Logger LOGGER = LoggerFactory.getLogger("foodtemperaturecompat");
     private final ConsumptionBridge bridge;
     private final FoodTierRegistry registry;
+    private boolean tanTemperatureRegistered;
     public FoodConsumptionEvents(ConsumptionBridge bridge, FoodTierRegistry registry) {
         this.bridge = bridge;
         this.registry = registry;
     }
     @SubscribeEvent
     public void onServerStarted(ServerStartedEvent event) {
+        // TAN's API implementation may still be null during @Mod construction.
+        // Register only after all mods have initialized, and never register twice.
+        if (!tanTemperatureRegistered) {
+            if (toughasnails.api.temperature.TemperatureHelper.Impl.INSTANCE == null) {
+                throw new IllegalStateException("Tough As Nails temperature API not initialized at server startup");
+            }
+            TanTemperatureAdapter.register(bridge);
+            tanTemperatureRegistered = true;
+        }
         int missing = 0;
         int optionalUnavailable = 0;
         int needsConsumptionVerification = 0;
