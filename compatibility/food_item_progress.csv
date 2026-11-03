@@ -504,3 +504,84 @@ mynethersdelight:bacon-wrapped_sausage_on_a_stick,0.8,已加入執行溫度表,�
 mynethersdelight:deviled_egg,0.5,已加入執行溫度表,已核對 JAR 語言鍵與物品模型（非可食用性證明）,待驗證,待驗證,待驗證
 mynethersdelight:toasts,0.5,已加入執行溫度表,已核對 JAR 語言鍵與物品模型（非可食用性證明）,待驗證,待驗證,待驗證
 mynethersdelight:dried_ghast_with_milk,0.5,已加入執行溫度表,已核對 JAR 語言鍵與物品模型（非可食用性證明）,待驗證,待驗證,待驗證
+alexscavesdelight:cooked_heart_of_iron,0.9,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cooked_ferrouslime_ball,0.9,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:heart_of_iron_humburger,0.7,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:ferrouslime_ball_sandwich,0.7,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:toxic_sauce,0.3,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:toxic_hamburger,0.7,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:acid_radgill_stew,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:pure_darkness_shake,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:acid_juice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:magma_jem,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:bioluminesscence_jem,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:tremorzilla_maet,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_cooked_lanternfish,0.6,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_cooked_radgill,0.6,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_cooked_trilocararis,0.6,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_cooked_tripodfish,0.6,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_dinosaur_chop_cooked,0.6,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_dinosaur_chop_raw,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_lanternfish,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_radgill,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_sea_pig,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_sweetish_fish_blue,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_sweetish_fish_green,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_sweetish_fish_pink,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_sweetish_fish_red,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_sweetish_fish_yellow,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_trilocaris_tail,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cut_tripodfish,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:acid_pasta,1.2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:bioluminesscence_custard,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:caramel_cookie,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:caramel_jem,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:chocolate_cookie,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:chocolate_ice_cream,-2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cooked_relicheirus_egg,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cooked_tremorsaurus_egg,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:cooked_tremorzilla_egg,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:ferrouslime_shake,-1,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:fiddlehead_roll,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:fiddlehead_roll_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:lanternfish_roll,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:lanternfish_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:licoroot_juice,-0.5,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:licoroot_roll,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:licoroot_roll_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:meat_stick,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:mussel_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:pewen_sap_dough,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:pewen_shake,-1,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:pine_nuts_cookie,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:primal_noodle_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:radgill_roll,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:relicheirus_noodle_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:sea_pig_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:spelunkie_shake,-1,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:sulfur_cookie,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:sulfur_jem,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:sulfur_shake,-1,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:sweet_puff_jem,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:sweetberry_ice_cream,-2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:toxic_jem,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:toxic_noodle_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:tree_star_juice,-0.5,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:trilocararis_roll,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:tripodfish_roll,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:tripodfish_soup,2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:vanilla_ice_cream,-2,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:ferrouslime_pie,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:honey_glazed_dinosaur_chop,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:mix_gelatin_pumpkin,-0.5,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:pure_darkness_pie_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:toxic_pie_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:caramel_pie_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:meat_pie_slice,0.5,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:uranium_pie_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:bioluminesscence_pie_slice,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:bioluminesscence_glazed_sea_pig,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:tectonic_roll,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:extra_sugar_rush,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:toxic_glazed_tremorzilla,0.8,已加入執行溫度表,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
+alexscavesdelight:pure_darkness_something,0,已核對 JAR；維持中性,已核對 JAR ModItems 註冊與 ModFoods 食物元件,已核對 JAR FoodProperties（未實機）,待驗證,待驗證
