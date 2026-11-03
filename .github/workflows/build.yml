@@ -25,6 +25,7 @@ jobs:
         run: |
           python3 tools/check_progress_consistency.py
           python3 tools/check_thirst_tags.py
+          python3 tools/check_alexscavesdelight.py
           python3 tools/check_compat_mod_ledger.py
           python3 tools/check_full_food_static_audit.py
           python3 tools/test_scan_food_candidates.py
