@@ -52,6 +52,26 @@ def main():
         and row["可食用性驗證"] not in ("", "待驗證")
     }
     known |= allowed_review_ids
+    # Verified fruit juices use TAN thirst +6 while retaining their existing
+    # hydration/50 saturation bonus. Never assign a second thirst value.
+    boosted_path = ROOT / "thirst/6_thirst_drinks.json"
+    boosted_data = json.loads(boosted_path.read_text(encoding="utf-8"))
+    if boosted_data.get("replace") is not False:
+        errors.append(f"{boosted_path}: replace 必須為 false")
+    boosted_ids_list = []
+    for entry in boosted_data["values"]:
+        if not isinstance(entry, dict) or entry.get("required") is not False:
+            errors.append(f"{boosted_path}: 必須使用 required=false：{entry}")
+            continue
+        item = entry.get("id", "")
+        if not PATTERN.fullmatch(item) or item not in known:
+            errors.append(f"{boosted_path}: 無效或未知 ID：{item}")
+        boosted_ids_list.append(item)
+    if len(boosted_ids_list) != len(set(boosted_ids_list)):
+        errors.append(f"{boosted_path}: 存在重複 ID")
+    boosted_ids = set(boosted_ids_list)
+    if len(boosted_ids) != 5:
+        errors.append(f"{boosted_path}: 首批已核對果汁應為 5 筆，實際 {len(boosted_ids)} 筆")
     all_ids = set()
     assigned_groups = {}
     for group, paths in GROUPS.items():
@@ -73,15 +93,23 @@ def main():
                     errors.append(f"{path}: 重複 ID：{item}")
                 ids.append(item)
             members.append(set(ids))
-        if members[0] != members[1]:
-            errors.append(f"{group}: thirst 與 hydration 物品不一致")
-        overlap = all_ids & members[0]
+        if group == "drink":
+            if members[0] & boosted_ids:
+                errors.append("升級 +6 的果汁不得仍留在 thirst/4")
+            if (members[0] | boosted_ids) != members[1]:
+                errors.append("drink: thirst/4 + thirst/6 應與 hydration/50 完全一致")
+            group_items = members[1]
+        else:
+            if members[0] != members[1]:
+                errors.append(f"{group}: thirst 與 hydration 物品不一致")
+            group_items = members[0]
+        overlap = all_ids & group_items
         if overlap:
             errors.append(f"{group}: 跨分類重複：{sorted(overlap)}")
-        all_ids |= members[0]
-        for item in members[0]:
+        all_ids |= group_items
+        for item in group_items:
             assigned_groups[item] = group
-        print(f"{group}: {len(members[0])} 個補水物品")
+        print(f"{group}: {len(group_items)} 個補水物品")
     # TAN 1.21.1 的 LivingEntityUseItemEvent.Finish 只處理
     # toughasnails:drinks 標籤；單獨列入 thirst/hydration 不會恢復口渴。
     drinks_path = ROOT / "drinks.json"

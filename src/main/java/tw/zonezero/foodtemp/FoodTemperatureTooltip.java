@@ -21,6 +21,8 @@ public final class FoodTemperatureTooltip {
         String id = BuiltInRegistries.ITEM.getKey(event.getItemStack().getItem()).toString();
         // Tough As Nails 自帶提示；不重複標示其原生物品。
         if (id.startsWith("toughasnails:")) return;
+        // Avoid displaying our custom effect on foods handled natively by TAN.
+        if (TanNativeConsumptionGuard.hasNativeTemperature(event.getItemStack())) return;
         double tier = registry.tier(id);
         if (tier == 0.0) return;
         String value = java.math.BigDecimal.valueOf(Math.abs(tier)).stripTrailingZeros().toPlainString();

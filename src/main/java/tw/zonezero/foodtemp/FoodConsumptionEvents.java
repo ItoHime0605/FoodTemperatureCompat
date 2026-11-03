@@ -84,6 +84,8 @@ public final class FoodConsumptionEvents {
         UseAnim animation = event.getItem().getUseAnimation();
         boolean consumingAnimation = animation == UseAnim.EAT || animation == UseAnim.DRINK;
         if (!food && !consumingAnimation) return;
+        // TAN's native consumed-food tags already apply temperature effects.
+        if (TanNativeConsumptionGuard.hasNativeTemperature(event.getItem())) return;
         // Detached/fake server players may complete item use without a server.
         // Match the TAN modifier guard and avoid dereferencing a null server.
         var server = player.getServer();
