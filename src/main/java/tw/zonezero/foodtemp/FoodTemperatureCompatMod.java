@@ -15,7 +15,6 @@ public final class FoodTemperatureCompatMod {
             if (resource == null) throw new IllegalStateException("Missing food_temperature_tiers.txt");
             REGISTRY.load(new InputStreamReader(resource, StandardCharsets.UTF_8));
         } catch (IOException ex) { throw new IllegalStateException("Failed to load food tiers", ex); }
-        TanTemperatureAdapter.register(BRIDGE);
         NeoForge.EVENT_BUS.register(new FoodConsumptionEvents(BRIDGE, REGISTRY));
         NeoForge.EVENT_BUS.register(new FoodTemperatureTooltip(REGISTRY));
     }
