@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "modid": "alexscavesdelight",
+  "jar_version": "1.0.28",
+  "minecraft": "1.21.1",
+  "status": "JAR bytecode verified; gameplay not tested",
+  "count": 81,
+  "items": [
+    {
+      "id": "alexscavesdelight:cooked_heart_of_iron",
+      "temperature": 0.9,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cooked_ferrouslime_ball",
+      "temperature": 0.9,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:heart_of_iron_humburger",
+      "temperature": 0.7,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:ferrouslime_ball_sandwich",
+      "temperature": 0.7,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:toxic_sauce",
+      "temperature": 0.3,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:toxic_hamburger",
+      "temperature": 0.7,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:acid_radgill_stew",
+      "temperature": 2,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "燉煮料理，但配方以毒醬為主，升溫而不額外補水"
+    },
+    {
+      "id": "alexscavesdelight:pure_darkness_shake",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "配方僅純粹黑暗與玻璃瓶，不能當作牛奶冰飲，自動補水與降溫均停用"
+    },
+    {
+      "id": "alexscavesdelight:acid_juice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "實際配方包含酸液桶與毒醬，非一般補水飲料，保留中性且不補水"
+    },
+    {
+      "id": "alexscavesdelight:magma_jem",
+      "temperature": 2,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "配方含岩漿方塊與地殼碎片，屬高溫食物"
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_jem",
+      "temperature": 0,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:tremorzilla_maet",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_cooked_lanternfish",
+      "temperature": 0.6,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cut_cooked_radgill",
+      "temperature": 0.6,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cut_cooked_trilocararis",
+      "temperature": 0.6,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cut_cooked_tripodfish",
+      "temperature": 0.6,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cut_dinosaur_chop_cooked",
+      "temperature": 0.6,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cut_dinosaur_chop_raw",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_lanternfish",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_radgill",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_sea_pig",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_sweetish_fish_blue",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_sweetish_fish_green",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_sweetish_fish_pink",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_sweetish_fish_red",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_sweetish_fish_yellow",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_trilocaris_tail",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:cut_tripodfish",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:acid_pasta",
+      "temperature": 1.2,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_custard",
+      "temperature": 0,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:caramel_cookie",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:caramel_jem",
+      "temperature": 0,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:chocolate_cookie",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:chocolate_ice_cream",
+      "temperature": -2,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:cooked_relicheirus_egg",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cooked_tremorsaurus_egg",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:cooked_tremorzilla_egg",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:ferrouslime_shake",
+      "temperature": -1,
+      "hydration_group": "drink",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水"
+    },
+    {
+      "id": "alexscavesdelight:fiddlehead_roll",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:fiddlehead_roll_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:lanternfish_roll",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:lanternfish_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:licoroot_juice",
+      "temperature": -0.5,
+      "hydration_group": "drink",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水"
+    },
+    {
+      "id": "alexscavesdelight:licoroot_roll",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:licoroot_roll_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:meat_stick",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:mussel_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:pewen_sap_dough",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:pewen_shake",
+      "temperature": -1,
+      "hydration_group": "drink",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水"
+    },
+    {
+      "id": "alexscavesdelight:pine_nuts_cookie",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:primal_noodle_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:radgill_roll",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:relicheirus_noodle_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:sea_pig_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:spelunkie_shake",
+      "temperature": -1,
+      "hydration_group": "drink",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水"
+    },
+    {
+      "id": "alexscavesdelight:sulfur_cookie",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:sulfur_jem",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:sulfur_shake",
+      "temperature": -1,
+      "hydration_group": "drink",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水"
+    },
+    {
+      "id": "alexscavesdelight:sweet_puff_jem",
+      "temperature": 0,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:sweetberry_ice_cream",
+      "temperature": -2,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:toxic_jem",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:toxic_noodle_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:tree_star_juice",
+      "temperature": -0.5,
+      "hydration_group": "drink",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水"
+    },
+    {
+      "id": "alexscavesdelight:trilocararis_roll",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:tripodfish_roll",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:tripodfish_soup",
+      "temperature": 2,
+      "hydration_group": "soup",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "湯麵／湯品，視為熱食並有適量湯汁"
+    },
+    {
+      "id": "alexscavesdelight:vanilla_ice_cream",
+      "temperature": -2,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:ferrouslime_pie",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:honey_glazed_dinosaur_chop",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:mix_gelatin_pumpkin",
+      "temperature": -0.5,
+      "hydration_group": "low_hydration",
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "冰品、布丁、濕潤果凍或糖漿，含水但少於飲品"
+    },
+    {
+      "id": "alexscavesdelight:pure_darkness_pie_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:toxic_pie_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:caramel_pie_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:meat_pie_slice",
+      "temperature": 0.5,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:uranium_pie_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_pie_slice",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_glazed_sea_pig",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:tectonic_roll",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:extra_sugar_rush",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    },
+    {
+      "id": "alexscavesdelight:toxic_glazed_tremorzilla",
+      "temperature": 0.8,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫"
+    },
+    {
+      "id": "alexscavesdelight:pure_darkness_something",
+      "temperature": 0,
+      "hydration_group": null,
+      "evidence": "Alex's Caves Delight 1.0.28 JAR：ModFoods.FoodProperties、ModItems 註冊字串及配方靜態核對；Minecraft 實機待測",
+      "reason": "生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水"
+    }
+  ]
+}
