@@ -184,6 +184,38 @@
     {
       "id": "extradelight:glazed_carrot",
       "required": false
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_custard",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:caramel_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:chocolate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sweet_puff_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sweetberry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:vanilla_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:mix_gelatin_pumpkin",
+      "required": false
     }
   ]
 }
