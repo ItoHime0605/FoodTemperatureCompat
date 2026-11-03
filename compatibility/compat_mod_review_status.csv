@@ -22,3 +22,4 @@ Rustic Delight,rusticdelight,1.7.1,已取得 1.7.1 JAR；ModItems 位元碼核�
 starcatcher_delight,starcatcher_delight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,10,3,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最近確認 main CI 成功（5fdf3c07）,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
 vegandelight,vegandelight,待核對,部分來源曾核對；本輪未取得完整原始 JAR,2,0,0,0,需逐項比對 TAN 10.1.0.13 原生 JAR,最近確認 main CI 成功（5fdf3c07）,進行中,需完整核對物品註冊、FOOD 元件及原生補水標籤；已設定不等於可食用性驗證,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
 Veggies Delight,veggiesdelight,待核對,已從 1.9.3 JAR 位元碼核對 11 項食物註冊與 FoodProperties；其餘待核對,14,17,11,11,需逐項比對 TAN 10.1.0.13 原生 JAR,最近確認 main CI 成功（5fdf3c07）,進行中,已確認 11 項可食用性；仍需確認其餘物品及實機補水,ccc6ab058887c36b7966d78c2b3db16eaf71ef62,2026-11-02
+Alex's Caves Delight,alexscavesdelight,1.0.28,已核對上傳 JAR ModItems 91 項註冊與 ModFoods 81 項 FoodProperties 及選定配方,40,21,41,81,已核對 TAN 10.1.0.13 JAR 原生標籤無本模組 ID,等待 GitHub Actions,已核對食物屬性與註冊 ID；待實機,需實機測試特殊飲品與成品食用事件及 TAN 狀態同步,JAR-SHA256-1f0921f198cf,2026-11-03
