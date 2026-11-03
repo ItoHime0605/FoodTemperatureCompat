@@ -89,3 +89,44 @@ extradelight:jelly_brown,依原材料與製程判斷,已設定少量補水,官�
 extradelight:jelly_green,依原材料與製程判斷,已設定少量補水,官方 1.21 原始碼註冊碗裝果凍食物；對應冰鎮配方含 250 單位打發鮮奶油、明膠、甜味料及甜莓果；各色配方差異為染料，設定 thirst3 hydration20,已核對 Extra Delight 官方 1.21 分支食物註冊及相關配方（指定版本 JAR／實機待驗證）,官方 1.21 分支 TAN thirst 標籤未涵蓋（實際安裝 JAR 待核對）
 extradelight:jelly_red,依原材料與製程判斷,已設定少量補水,官方 1.21 原始碼註冊碗裝果凍食物；對應冰鎮配方含 250 單位打發鮮奶油、明膠、甜味料及甜莓果；各色配方差異為染料，設定 thirst3 hydration20,已核對 Extra Delight 官方 1.21 分支食物註冊及相關配方（指定版本 JAR／實機待驗證）,官方 1.21 分支 TAN thirst 標籤未涵蓋（實際安裝 JAR 待核對）
 extradelight:jelly_black,依原材料與製程判斷,已設定少量補水,官方 1.21 原始碼註冊碗裝果凍食物；對應冰鎮配方含 250 單位打發鮮奶油、明膠、甜味料及甜莓果；各色配方差異為染料，設定 thirst3 hydration20,已核對 Extra Delight 官方 1.21 分支食物註冊及相關配方（指定版本 JAR／實機待驗證）,官方 1.21 分支 TAN thirst 標籤未涵蓋（實際安裝 JAR 待核對）
+alexscavesdelight:pure_darkness_shake,中性,暫不補水,配方僅純粹黑暗與玻璃瓶，不能當作牛奶冰飲，自動補水與降溫均停用,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:acid_juice,中性,暫不補水,實際配方包含酸液桶與毒醬，非一般補水飲料，保留中性且不補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:bioluminesscence_jem,中性,已設定少量補水,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:tremorzilla_maet,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_dinosaur_chop_raw,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_lanternfish,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_radgill,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_sea_pig,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_sweetish_fish_blue,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_sweetish_fish_green,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_sweetish_fish_pink,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_sweetish_fish_red,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_sweetish_fish_yellow,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_trilocaris_tail,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:cut_tripodfish,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:bioluminesscence_custard,中性,已設定少量補水,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:caramel_cookie,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:caramel_jem,中性,已設定少量補水,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:chocolate_cookie,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:fiddlehead_roll,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:fiddlehead_roll_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:lanternfish_roll,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:licoroot_roll,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:licoroot_roll_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:pewen_sap_dough,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:pine_nuts_cookie,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:radgill_roll,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:sulfur_cookie,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:sulfur_jem,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:sweet_puff_jem,中性,已設定少量補水,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:toxic_jem,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:trilocararis_roll,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:tripodfish_roll,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:ferrouslime_pie,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:pure_darkness_pie_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:toxic_pie_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:caramel_pie_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:uranium_pie_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:bioluminesscence_pie_slice,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:extra_sugar_rush,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID
+alexscavesdelight:pure_darkness_something,中性,暫不補水,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水,已核對 JAR ModItems 與 ModFoods（未實機）,已核對 TAN 10.1.0.13 JAR 未包含本模組 ID

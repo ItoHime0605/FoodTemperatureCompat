@@ -436,6 +436,34 @@
     {
       "id": "extradelight:congee",
       "required": false
+    },
+    {
+      "id": "alexscavesdelight:lanternfish_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:mussel_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:primal_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:relicheirus_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sea_pig_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:toxic_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:tripodfish_soup",
+      "required": false
     }
   ]
 }

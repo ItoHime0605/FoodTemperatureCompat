@@ -908,3 +908,84 @@ veggiesdelight:vegan_pizza_slice,專案既有追蹤,0.5,已有數值；依原料
 veggiesdelight:vegetarian_burger,專案既有追蹤,0.5,已有數值；依原料與烹調方式覆核,,,其他料理／食材,暫不新增補水，視原始配方複核,,,,實際安裝 JAR 與實機效果尚未逐項驗證,尚無明確補水證據，不應直接一律增加補水
 veggiesdelight:zucchini,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,3,20,鮮果蔬／濕潤沙拉候選,已列入補水，待 JAR/TAN 重疊與實機核驗,,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
 veggiesdelight:zucchini_slice,專案既有追蹤,,未另設非零冷熱（不一定是缺漏）,3,20,鮮果蔬／濕潤沙拉候選,已列入補水，待 JAR/TAN 重疊與實機核驗,,,,實際安裝 JAR 與實機效果尚未逐項驗證,新鮮多汁水果與蔬菜可能補水；加工後是否仍多汁需查證
+alexscavesdelight:cooked_heart_of_iron,專案既有追蹤,0.9,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cooked_ferrouslime_ball,專案既有追蹤,0.9,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:heart_of_iron_humburger,專案既有追蹤,0.7,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:ferrouslime_ball_sandwich,專案既有追蹤,0.7,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:toxic_sauce,專案既有追蹤,0.3,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:toxic_hamburger,專案既有追蹤,0.7,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:acid_radgill_stew,專案既有追蹤,2,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,燉煮料理，但配方以毒醬為主，升溫而不額外補水
+alexscavesdelight:pure_darkness_shake,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,配方僅純粹黑暗與玻璃瓶，不能當作牛奶冰飲，自動補水與降溫均停用
+alexscavesdelight:acid_juice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,實際配方包含酸液桶與毒醬，非一般補水飲料，保留中性且不補水
+alexscavesdelight:magma_jem,專案既有追蹤,2,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,配方含岩漿方塊與地殼碎片，屬高溫食物
+alexscavesdelight:bioluminesscence_jem,專案既有追蹤,,中性食物；已核對註冊與食物元件,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:tremorzilla_maet,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_cooked_lanternfish,專案既有追蹤,0.6,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cut_cooked_radgill,專案既有追蹤,0.6,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cut_cooked_trilocararis,專案既有追蹤,0.6,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cut_cooked_tripodfish,專案既有追蹤,0.6,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cut_dinosaur_chop_cooked,專案既有追蹤,0.6,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cut_dinosaur_chop_raw,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_lanternfish,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_radgill,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_sea_pig,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_sweetish_fish_blue,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_sweetish_fish_green,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_sweetish_fish_pink,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_sweetish_fish_red,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_sweetish_fish_yellow,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_trilocaris_tail,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:cut_tripodfish,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:acid_pasta,專案既有追蹤,1.2,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:bioluminesscence_custard,專案既有追蹤,,中性食物；已核對註冊與食物元件,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:caramel_cookie,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:caramel_jem,專案既有追蹤,,中性食物；已核對註冊與食物元件,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:chocolate_cookie,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:chocolate_ice_cream,專案既有追蹤,-2,已有固定數值；待實機驗證,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:cooked_relicheirus_egg,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cooked_tremorsaurus_egg,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:cooked_tremorzilla_egg,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:ferrouslime_shake,專案既有追蹤,-1,已有固定數值；待實機驗證,4,50,飲料／乳製品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水
+alexscavesdelight:fiddlehead_roll,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:fiddlehead_roll_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:lanternfish_roll,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:lanternfish_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:licoroot_juice,專案既有追蹤,-0.5,已有固定數值；待實機驗證,4,50,飲料／乳製品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水
+alexscavesdelight:licoroot_roll,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:licoroot_roll_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:meat_stick,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:mussel_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:pewen_sap_dough,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:pewen_shake,專案既有追蹤,-1,已有固定數值；待實機驗證,4,50,飲料／乳製品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水
+alexscavesdelight:pine_nuts_cookie,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:primal_noodle_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:radgill_roll,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:relicheirus_noodle_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:sea_pig_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:spelunkie_shake,專案既有追蹤,-1,已有固定數值；待實機驗證,4,50,飲料／乳製品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水
+alexscavesdelight:sulfur_cookie,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:sulfur_jem,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:sulfur_shake,專案既有追蹤,-1,已有固定數值；待實機驗證,4,50,飲料／乳製品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水
+alexscavesdelight:sweet_puff_jem,專案既有追蹤,,中性食物；已核對註冊與食物元件,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:sweetberry_ice_cream,專案既有追蹤,-2,已有固定數值；待實機驗證,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:toxic_jem,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:toxic_noodle_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:tree_star_juice,專案既有追蹤,-0.5,已有固定數值；待實機驗證,4,50,飲料／乳製品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,已核對原料，奶昔含牛奶或甜飲含汁液；採冷飲及飲料補水
+alexscavesdelight:trilocararis_roll,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:tripodfish_roll,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:tripodfish_soup,專案既有追蹤,2,已有固定數值；待實機驗證,2,30,湯品／高含水料理,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,湯麵／湯品，視為熱食並有適量湯汁
+alexscavesdelight:vanilla_ice_cream,專案既有追蹤,-2,已有固定數值；待實機驗證,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:ferrouslime_pie,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:honey_glazed_dinosaur_chop,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:mix_gelatin_pumpkin,專案既有追蹤,-0.5,已有固定數值；待實機驗證,1,10,濕潤甜點／冰品,已加入 TAN 補水標籤；待實機確認,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,冰品、布丁、濕潤果凍或糖漿，含水但少於飲品
+alexscavesdelight:pure_darkness_pie_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:toxic_pie_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:caramel_pie_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:meat_pie_slice,專案既有追蹤,0.5,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:uranium_pie_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:bioluminesscence_pie_slice,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:bioluminesscence_glazed_sea_pig,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:tectonic_roll,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:extra_sugar_rush,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
+alexscavesdelight:toxic_glazed_tremorzilla,專案既有追蹤,0.8,已有固定數值；待實機驗證,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,烤熟、煎製、燉煮或熱食，食用後增加少量至中等體溫
+alexscavesdelight:pure_darkness_something,專案既有追蹤,,中性食物；已核對註冊與食物元件,,,非飲品或未見水分依據,不額外補水,,,,已核對 Alex's Caves Delight 1.0.28 JAR；未實機,生鮮原料、常溫甜點或無明確熱冷性質，保留中性且不強制補水
