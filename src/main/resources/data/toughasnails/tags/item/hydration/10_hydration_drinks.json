@@ -2,71 +2,55 @@
   "replace": false,
   "values": [
     {
-      "id": "extradelight:apple_ice_cream",
+      "id": "alexscavesdelight:bioluminesscence_custard",
       "required": false
     },
     {
-      "id": "extradelight:caramel_popsicle",
+      "id": "alexscavesdelight:bioluminesscence_jem",
       "required": false
     },
     {
-      "id": "extradelight:chocolate_ice_cream",
+      "id": "alexscavesdelight:caramel_jem",
       "required": false
     },
     {
-      "id": "extradelight:cinnamon_popsicle",
+      "id": "alexscavesdelight:chocolate_ice_cream",
       "required": false
     },
     {
-      "id": "extradelight:cookie_dough_ice_cream",
+      "id": "alexscavesdelight:mix_gelatin_pumpkin",
       "required": false
     },
     {
-      "id": "extradelight:fudge_popsicle",
+      "id": "alexscavesdelight:sweet_puff_jem",
       "required": false
     },
     {
-      "id": "extradelight:glow_berry_ice_cream",
+      "id": "alexscavesdelight:sweetberry_ice_cream",
       "required": false
     },
     {
-      "id": "extradelight:glow_berry_popsicle",
+      "id": "alexscavesdelight:vanilla_ice_cream",
       "required": false
     },
     {
-      "id": "extradelight:grapefruit_sorbet",
+      "id": "alexsmobsdelight:acacia_blossom_ice_cream",
       "required": false
     },
     {
-      "id": "extradelight:honey_ice_cream",
+      "id": "alexsmobsdelight:banana_slug_slime_popsicle",
       "required": false
     },
     {
-      "id": "extradelight:honey_popsicle",
+      "id": "alexsmobsdelight:mungal_spores_ice_cream",
       "required": false
     },
     {
-      "id": "extradelight:ice_cream",
+      "id": "alexsmobsdelight:rainbow_popsicle",
       "required": false
     },
     {
-      "id": "extradelight:mint_chip_ice_cream",
-      "required": false
-    },
-    {
-      "id": "extradelight:nut_butter_ice_cream",
-      "required": false
-    },
-    {
-      "id": "extradelight:pumpkin_ice_cream",
-      "required": false
-    },
-    {
-      "id": "fruitsdelight:hamimelon_popsicle",
-      "required": false
-    },
-    {
-      "id": "fruitsdelight:kiwi_popsicle",
+      "id": "alexsmobsdelight:spit_popsicle",
       "required": false
     },
     {
@@ -94,31 +78,7 @@
       "required": false
     },
     {
-      "id": "pineapple_delight:pineapple_ice_cream",
-      "required": false
-    },
-    {
       "id": "corn_delight:corn_popsicle",
-      "required": false
-    },
-    {
-      "id": "alexsmobsdelight:acacia_blossom_ice_cream",
-      "required": false
-    },
-    {
-      "id": "alexsmobsdelight:banana_slug_slime_popsicle",
-      "required": false
-    },
-    {
-      "id": "alexsmobsdelight:mungal_spores_ice_cream",
-      "required": false
-    },
-    {
-      "id": "alexsmobsdelight:rainbow_popsicle",
-      "required": false
-    },
-    {
-      "id": "alexsmobsdelight:spit_popsicle",
       "required": false
     },
     {
@@ -134,39 +94,63 @@
       "required": false
     },
     {
+      "id": "dungeonsdelight:aurora_ice_cream",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:breeze_cream_cone",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:rotgourd_slice",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:rotpop",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sculk_apple",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sculk_catblueberry",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sculk_dogapple",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:soft_serve_sniffer_egg",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:caramel_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:chocolate_ice_cream",
+      "required": false
+    },
+    {
       "id": "extradelight:chocolate_mousse",
       "required": false
     },
     {
-      "id": "mynethersdelight:tear_popsicle",
+      "id": "extradelight:cinnamon_popsicle",
       "required": false
     },
     {
-      "id": "minecraft:sweet_berries",
+      "id": "extradelight:cooked_cactus",
       "required": false
     },
     {
-      "id": "minecraft:glow_berries",
-      "required": false
-    },
-    {
-      "id": "minecraft:chorus_fruit",
-      "required": false
-    },
-    {
-      "id": "extradelight:roasted_apple",
-      "required": false
-    },
-    {
-      "id": "extradelight:potato_salad",
-      "required": false
-    },
-    {
-      "id": "extradelight:sliced_onion",
-      "required": false
-    },
-    {
-      "id": "extradelight:grated_carrot",
+      "id": "extradelight:cookie_dough_ice_cream",
       "required": false
     },
     {
@@ -178,7 +162,7 @@
       "required": false
     },
     {
-      "id": "extradelight:cooked_cactus",
+      "id": "extradelight:fudge_popsicle",
       "required": false
     },
     {
@@ -186,35 +170,103 @@
       "required": false
     },
     {
-      "id": "alexscavesdelight:bioluminesscence_jem",
+      "id": "extradelight:glow_berry_ice_cream",
       "required": false
     },
     {
-      "id": "alexscavesdelight:bioluminesscence_custard",
+      "id": "extradelight:glow_berry_popsicle",
       "required": false
     },
     {
-      "id": "alexscavesdelight:caramel_jem",
+      "id": "extradelight:grapefruit_sorbet",
       "required": false
     },
     {
-      "id": "alexscavesdelight:chocolate_ice_cream",
+      "id": "extradelight:grated_carrot",
       "required": false
     },
     {
-      "id": "alexscavesdelight:sweet_puff_jem",
+      "id": "extradelight:honey_ice_cream",
       "required": false
     },
     {
-      "id": "alexscavesdelight:sweetberry_ice_cream",
+      "id": "extradelight:honey_popsicle",
       "required": false
     },
     {
-      "id": "alexscavesdelight:vanilla_ice_cream",
+      "id": "extradelight:ice_cream",
       "required": false
     },
     {
-      "id": "alexscavesdelight:mix_gelatin_pumpkin",
+      "id": "extradelight:mint_chip_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:nut_butter_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:potato_salad",
+      "required": false
+    },
+    {
+      "id": "extradelight:pumpkin_ice_cream",
+      "required": false
+    },
+    {
+      "id": "extradelight:roasted_apple",
+      "required": false
+    },
+    {
+      "id": "extradelight:sliced_onion",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hamimelon_popsicle",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:kiwi_popsicle",
+      "required": false
+    },
+    {
+      "id": "minecraft:chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "minecraft:glow_berries",
+      "required": false
+    },
+    {
+      "id": "minecraft:sweet_berries",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:tear_popsicle",
+      "required": false
+    },
+    {
+      "id": "pineapple_delight:pineapple_ice_cream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:chocolateicecream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:melonicecream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:milk_ice_cream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:snowy_ice_cream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:sweetberryicecream",
       "required": false
     }
   ]

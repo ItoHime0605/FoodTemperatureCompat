@@ -2,6 +2,90 @@
   "replace": false,
   "values": [
     {
+      "id": "alexscavesdelight:bioluminesscence_custard",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:bioluminesscence_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:caramel_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:chocolate_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:ferrouslime_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:lanternfish_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:licoroot_juice",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:mix_gelatin_pumpkin",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:mussel_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:pewen_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:primal_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:relicheirus_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sea_pig_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:spelunkie_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sulfur_shake",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sweet_puff_jem",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:sweetberry_ice_cream",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:toxic_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:tree_star_juice",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:tripodfish_soup",
+      "required": false
+    },
+    {
+      "id": "alexscavesdelight:vanilla_ice_cream",
+      "required": false
+    },
+    {
       "id": "alexsmobsdelight:acacia_blossom_ice_cream",
       "required": false
     },
@@ -319,6 +403,90 @@
     },
     {
       "id": "delightful:venison_stew_cup",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:aurora_ice_cream",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:breeze_cream_cone",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:ghoulash",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:hydra_fricassee",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:ossobuco",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:putrid_spice_latte",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:rotgourd_slice",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:rotpop",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:rubaboo_cup",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:salt_soaked_stew_cup",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sculk_apple",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sculk_catblueberry",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sculk_dogapple",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:sinigang",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:skyberry_brew",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:soft_serve_sniffer_egg",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:spider_bisque",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:spider_bubble_tea",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:spider_salmagundi_cup",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:taro_milk_tea",
+      "required": false
+    },
+    {
+      "id": "dungeonsdelight:trial_freakshake",
       "required": false
     },
     {
@@ -1066,6 +1234,26 @@
       "required": false
     },
     {
+      "id": "sweet_delight:chocolateicecream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:melonicecream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:milk_ice_cream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:snowy_ice_cream",
+      "required": false
+    },
+    {
+      "id": "sweet_delight:sweetberryicecream",
+      "required": false
+    },
+    {
       "id": "veggiesdelight:bellpepper",
       "required": false
     },
@@ -1131,90 +1319,6 @@
     },
     {
       "id": "veggiesdelight:zucchini_slice",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:bioluminesscence_jem",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:bioluminesscence_custard",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:caramel_jem",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:chocolate_ice_cream",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:ferrouslime_shake",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:lanternfish_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:licoroot_juice",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:mussel_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:pewen_shake",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:primal_noodle_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:relicheirus_noodle_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:sea_pig_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:spelunkie_shake",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:sulfur_shake",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:sweet_puff_jem",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:sweetberry_ice_cream",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:toxic_noodle_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:tree_star_juice",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:tripodfish_soup",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:vanilla_ice_cream",
-      "required": false
-    },
-    {
-      "id": "alexscavesdelight:mix_gelatin_pumpkin",
       "required": false
     }
   ]

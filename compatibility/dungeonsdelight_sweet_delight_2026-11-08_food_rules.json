@@ -1,0 +1,436 @@
+{
+  "target_mod_version": "0.1.16-alpha",
+  "minecraft": "1.21.1",
+  "loader": "NeoForge",
+  "source_jars": [
+    "neoforge-dungeonsdelight-1.21.1-1.5.2-Zh_TW(1).jar",
+    "sweet_delight-1.1.0-neoforge-1.21.1-Zh_TW(1).jar"
+  ],
+  "identification": "English language item keys and per-item models in supplied JARs; items with no selected rule remain neutral",
+  "food_properties_review": "Sweet Delight 13 thermal items checked by javap bytecode; Dungeons Delight requires additional bytecode/in-game checks",
+  "native_TAN_hydration": "Only tags in toughasnails namespace; optional required:false; verify no overlap with installed TAN JAR",
+  "no_inventory_temperature_decay": true,
+  "in_game_verified": false,
+  "reviewed": [
+    {
+      "id": "dungeonsdelight:amber_e_olio",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:arcane_chili",
+      "temperature": 2,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:au_rotten_potatoes",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:aurora_ice_cream",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:blazing_blood_sausage",
+      "temperature": 2,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:bloated_baked_potato",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:bloody_mary",
+      "temperature": -1,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:breeze_cream_cone",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:chicken_jockey_sandwich",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:chloropasta",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:cooked_marbled_meat",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:cooked_sniffer_shank",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:cooked_snifferwurst",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:devilish_eggs",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:fried_bug_chops",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:fried_ghast_calamari",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:ghoulash",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:gyudon",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:haggis",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:hydra_fricassee",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:liveroot_beer",
+      "temperature": -1,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:meef_wellington",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:monster_burger",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:necronog",
+      "temperature": -1,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:ossobuco",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:poisonous_poutine",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:polterghast_pizza_slice",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:putrid_spice_latte",
+      "temperature": 1.5,
+      "thirst": 4,
+      "hydration": 50
+    },
+    {
+      "id": "dungeonsdelight:rot_roast",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:rotgourd_slice",
+      "temperature": 0,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:rotpop",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:rubaboo",
+      "temperature": 2,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:rubaboo_cup",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:salt_soaked_stew",
+      "temperature": 2,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:salt_soaked_stew_cup",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:scaly_fiddlehead_risotto",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:sculk_apple",
+      "temperature": 0,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:sculk_catblueberry",
+      "temperature": 0,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:sculk_dogapple",
+      "temperature": 0,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:silverfish_and_chips",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:silverfish_fried_rice",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:sinigang",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:skyberry_brew",
+      "temperature": 0,
+      "thirst": 4,
+      "hydration": 50
+    },
+    {
+      "id": "dungeonsdelight:slime_noodles",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:smoked_spider_meat",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:snuffledog",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:soft_serve_sniffer_egg",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "dungeonsdelight:spider_bisque",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:spider_bubble_tea",
+      "temperature": -1,
+      "thirst": 4,
+      "hydration": 50
+    },
+    {
+      "id": "dungeonsdelight:spider_salmagundi",
+      "temperature": 2,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:spider_salmagundi_cup",
+      "temperature": 2,
+      "thirst": 2,
+      "hydration": 30
+    },
+    {
+      "id": "dungeonsdelight:takoyaki",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:taro_milk_tea",
+      "temperature": -1,
+      "thirst": 4,
+      "hydration": 50
+    },
+    {
+      "id": "dungeonsdelight:tower_boreito",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:trial_freakshake",
+      "temperature": -1,
+      "thirst": 4,
+      "hydration": 50
+    },
+    {
+      "id": "dungeonsdelight:volaille",
+      "temperature": 0.8,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "dungeonsdelight:wilderness_luncheon",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:chocolatecroussant",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:chocolateicecream",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "sweet_delight:crousant",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:flatbread",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:honeypancakes",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:melonicecream",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "sweet_delight:milk_ice_cream",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "sweet_delight:pancakes",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:snowy_ice_cream",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "sweet_delight:sweetberrycroussant",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:sweetberryicecream",
+      "temperature": -2,
+      "thirst": 1,
+      "hydration": 10
+    },
+    {
+      "id": "sweet_delight:sweetberrypancakes",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    },
+    {
+      "id": "sweet_delight:wafle",
+      "temperature": 0.5,
+      "thirst": 0,
+      "hydration": 0
+    }
+  ]
+}

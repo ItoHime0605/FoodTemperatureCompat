@@ -2,207 +2,31 @@
   "replace": false,
   "values": [
     {
-      "id": "farmersdelight:beef_stew",
+      "id": "alexscavesdelight:lanternfish_soup",
       "required": false
     },
     {
-      "id": "farmersdelight:chicken_soup",
+      "id": "alexscavesdelight:mussel_soup",
       "required": false
     },
     {
-      "id": "farmersdelight:vegetable_soup",
+      "id": "alexscavesdelight:primal_noodle_soup",
       "required": false
     },
     {
-      "id": "farmersdelight:fish_stew",
+      "id": "alexscavesdelight:relicheirus_noodle_soup",
       "required": false
     },
     {
-      "id": "farmersdelight:pumpkin_soup",
+      "id": "alexscavesdelight:sea_pig_soup",
       "required": false
     },
     {
-      "id": "farmersdelight:baked_cod_stew",
+      "id": "alexscavesdelight:toxic_noodle_soup",
       "required": false
     },
     {
-      "id": "farmersdelight:noodle_soup",
-      "required": false
-    },
-    {
-      "id": "farmersdelight:onion_soup",
-      "required": false
-    },
-    {
-      "id": "farmersdelight:bone_broth",
-      "required": false
-    },
-    {
-      "id": "brewinandchewin:creamy_onion_soup",
-      "required": false
-    },
-    {
-      "id": "oceansdelight:bowl_of_guardian_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:cactus_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:carrot_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:chicken_stew",
-      "required": false
-    },
-    {
-      "id": "extradelight:fish_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:hazelnut_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:lamb_stew",
-      "required": false
-    },
-    {
-      "id": "extradelight:miso_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:mulligatawny_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:onion_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:oxtail_soup",
-      "required": false
-    },
-    {
-      "id": "extradelight:pork_stew",
-      "required": false
-    },
-    {
-      "id": "extradelight:potato_soup",
-      "required": false
-    },
-    {
-      "id": "fruitsdelight:bayberry_soup",
-      "required": false
-    },
-    {
-      "id": "fruitsdelight:fig_chicken_stew",
-      "required": false
-    },
-    {
-      "id": "veggiesdelight:broccoli_soup",
-      "required": false
-    },
-    {
-      "id": "veggiesdelight:cauliflower_soup",
-      "required": false
-    },
-    {
-      "id": "veggiesdelight:garlic_chicken_stew",
-      "required": false
-    },
-    {
-      "id": "veggiesdelight:turnip_beef_stew",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:clam_meatball_stew",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:clam_meatball_stew_cup",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:dragon_stew",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:dragon_stew_cup",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:platinum_bass_stew",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:platinum_bass_stew_cup",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:portobello_rice_soup",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:portobello_rice_soup_cup",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:prawn_stew",
-      "required": false
-    },
-    {
-      "id": "collectorsreap:prawn_stew_cup",
-      "required": false
-    },
-    {
-      "id": "corn_delight:corn_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:beef_meatball_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:pork_bone_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:spicy_blood_stew",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:seafood_miso_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:four_joy_meatball_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:chicken_and_mushroom_stew",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:pufferfish_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:fearsome_thick_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:lamb_and_radish_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:wild_mushroom_rabbit_soup",
-      "required": false
-    },
-    {
-      "id": "kaleidoscope_cookery:dough_drop_soup",
+      "id": "alexscavesdelight:tripodfish_soup",
       "required": false
     },
     {
@@ -231,6 +55,10 @@
     },
     {
       "id": "alexsmobsdelight:cockroach_protein_soup_cup",
+      "required": false
+    },
+    {
+      "id": "alexsmobsdelight:cod_and_turtle_meat_congee",
       "required": false
     },
     {
@@ -334,6 +162,54 @@
       "required": false
     },
     {
+      "id": "brewinandchewin:creamy_onion_soup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:clam_meatball_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:clam_meatball_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:dragon_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:dragon_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:platinum_bass_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:platinum_bass_stew_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:portobello_rice_soup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:portobello_rice_soup_cup",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:prawn_stew",
+      "required": false
+    },
+    {
+      "id": "collectorsreap:prawn_stew_cup",
+      "required": false
+    },
+    {
+      "id": "corn_delight:corn_soup",
+      "required": false
+    },
+    {
       "id": "delightful:cactus_soup",
       "required": false
     },
@@ -350,55 +226,191 @@
       "required": false
     },
     {
-      "id": "starcatcher_delight:cactifish_stew",
+      "id": "dungeonsdelight:ghoulash",
       "required": false
     },
     {
-      "id": "starcatcher_delight:sludge_stew",
+      "id": "dungeonsdelight:hydra_fricassee",
       "required": false
     },
     {
-      "id": "starcatcher_delight:weather_soup",
+      "id": "dungeonsdelight:ossobuco",
       "required": false
     },
     {
-      "id": "alexsmobsdelight:cod_and_turtle_meat_congee",
+      "id": "dungeonsdelight:rubaboo_cup",
       "required": false
     },
     {
-      "id": "nomads_delight:kespe_kozhe",
+      "id": "dungeonsdelight:salt_soaked_stew_cup",
       "required": false
     },
     {
-      "id": "nomads_delight:sorpa",
+      "id": "dungeonsdelight:sinigang",
       "required": false
     },
     {
-      "id": "rusticdelight:bell_pepper_soup",
+      "id": "dungeonsdelight:spider_bisque",
       "required": false
     },
     {
-      "id": "rusticdelight:calamari_soup",
+      "id": "dungeonsdelight:spider_salmagundi_cup",
       "required": false
     },
     {
-      "id": "mynethersdelight:egg_soup",
+      "id": "extradelight:apple_popsicle",
       "required": false
     },
     {
-      "id": "mynethersdelight:rock_soup",
+      "id": "extradelight:borscht",
       "required": false
     },
     {
-      "id": "mynethersdelight:spicy_noodle_soup",
+      "id": "extradelight:cactus_soup",
       "required": false
     },
     {
-      "id": "mynethersdelight:spicy_hoglin_stew",
+      "id": "extradelight:carrot_soup",
       "required": false
     },
     {
-      "id": "mynethersdelight:strider_stew",
+      "id": "extradelight:chicken_stew",
+      "required": false
+    },
+    {
+      "id": "extradelight:congee",
+      "required": false
+    },
+    {
+      "id": "extradelight:fish_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:hazelnut_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:lamb_stew",
+      "required": false
+    },
+    {
+      "id": "extradelight:miso_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:mulligatawny_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:onion_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:oxtail_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:pork_stew",
+      "required": false
+    },
+    {
+      "id": "extradelight:potato_soup",
+      "required": false
+    },
+    {
+      "id": "extradelight:sweet_berry_popsicle",
+      "required": false
+    },
+    {
+      "id": "extradelight:tomato_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:baked_cod_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:beef_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bone_broth",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chicken_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:fish_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:noodle_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onion_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pumpkin_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:vegetable_soup",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:bayberry_soup",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:fig_chicken_stew",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:beef_meatball_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:chicken_and_mushroom_stew",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:dough_drop_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:fearsome_thick_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:four_joy_meatball_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:lamb_and_radish_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:pork_bone_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:pufferfish_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:seafood_miso_soup",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:spicy_blood_stew",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:wild_mushroom_rabbit_soup",
       "required": false
     },
     {
@@ -418,51 +430,71 @@
       "required": false
     },
     {
-      "id": "extradelight:tomato_soup",
+      "id": "mynethersdelight:egg_soup",
       "required": false
     },
     {
-      "id": "extradelight:borscht",
+      "id": "mynethersdelight:rock_soup",
       "required": false
     },
     {
-      "id": "extradelight:apple_popsicle",
+      "id": "mynethersdelight:spicy_hoglin_stew",
       "required": false
     },
     {
-      "id": "extradelight:sweet_berry_popsicle",
+      "id": "mynethersdelight:spicy_noodle_soup",
       "required": false
     },
     {
-      "id": "extradelight:congee",
+      "id": "mynethersdelight:strider_stew",
       "required": false
     },
     {
-      "id": "alexscavesdelight:lanternfish_soup",
+      "id": "nomads_delight:kespe_kozhe",
       "required": false
     },
     {
-      "id": "alexscavesdelight:mussel_soup",
+      "id": "nomads_delight:sorpa",
       "required": false
     },
     {
-      "id": "alexscavesdelight:primal_noodle_soup",
+      "id": "oceansdelight:bowl_of_guardian_soup",
       "required": false
     },
     {
-      "id": "alexscavesdelight:relicheirus_noodle_soup",
+      "id": "rusticdelight:bell_pepper_soup",
       "required": false
     },
     {
-      "id": "alexscavesdelight:sea_pig_soup",
+      "id": "rusticdelight:calamari_soup",
       "required": false
     },
     {
-      "id": "alexscavesdelight:toxic_noodle_soup",
+      "id": "starcatcher_delight:cactifish_stew",
       "required": false
     },
     {
-      "id": "alexscavesdelight:tripodfish_soup",
+      "id": "starcatcher_delight:sludge_stew",
+      "required": false
+    },
+    {
+      "id": "starcatcher_delight:weather_soup",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:broccoli_soup",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:cauliflower_soup",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:garlic_chicken_stew",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:turnip_beef_stew",
       "required": false
     }
   ]
